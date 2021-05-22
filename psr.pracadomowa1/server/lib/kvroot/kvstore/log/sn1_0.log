@@ -1,0 +1,79 @@
+2021-05-21 18:16:29.190 UTC INFO [sn1] Starting StorageNodeAgent for kvstore NoSQL version:20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community JE version:20.3.17 Java version:1.8.0_251
+2021-05-21 18:16:29.247 UTC INFO [sn1] Create collector service and register parameter listeners successfully.
+2021-05-21 18:16:29.255 UTC INFO [sn1] Started MasterRebalanceThread
+2021-05-21 18:16:29.269 UTC INFO [sn1] Starting MonitorAgent.  Server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync> Client socket factory:<ClientSocketFactory name=kvstore|sn|monitor id=-1073569379 connectMs=10000 readMs=5000 clientId=none localAddr=none>
+2021-05-21 18:16:29.281 UTC INFO [sn1] kvstore:sn1:MONITOR service port: 53195
+2021-05-21 18:16:29.285 UTC INFO [sn1] Successfully created secure proxy for the storage node agent
+2021-05-21 18:16:29.293 UTC INFO [sn1] kvstore:sn1:MAIN service port: 53195
+2021-05-21 18:16:29.293 UTC INFO [sn1] Rebound to registry port 5000 using name sn1 with SSF:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2021-05-21 18:16:29.293 UTC INFO [sn1] Service status changed from STARTING to RUNNING
+2021-05-21 18:16:29.293 UTC INFO [sn1] Started StorageNodeAgent for kvstore
+2021-05-21 18:16:29.407 UTC INFO [sn1] admin1: Creating AdminService
+2021-05-21 18:16:29.698 UTC INFO [sn1] admin1: Created AdminService
+2021-05-21 18:16:29.741 UTC INFO [sn1] admin1: newAdminParameters called
+2021-05-21 18:16:30.158 UTC INFO [sn1] rg1-rn1: Creating RepNode
+2021-05-21 18:16:30.396 UTC INFO [sn1] rg1-rn1: Starting RepNode
+2021-05-21 18:16:30.407 UTC INFO [sn1] rg1-rn1: Started RepNode
+2021-05-21 18:16:30.407 UTC INFO [sn1] rg1-rn1: Configuring RepNode
+2021-05-21 18:16:30.980 UTC INFO [sn1] Thread returning for service rg1-rn1
+2021-05-21 18:16:31.614 UTC INFO [sn1] rg1-rn1: Created RepNode
+2021-05-21 18:16:31.675 UTC INFO [sn1] rg1-rn1: newRepNodeParameters called
+2021-05-21 18:16:31.693 UTC INFO [sn1] noteState called
+2021-05-21 18:16:31.694 UTC INFO [sn1] added:State RN:rg1-rn1 state: MASTER top seq num: 4
+2021-05-21 18:16:31.694 UTC INFO [sn1] sn: sn1 state transition: State RN:rg1-rn1 state: MASTER top seq num: 4 active masters:[rg1-rn1] active replicas:0 replica leases:0
+2021-05-21 18:16:31.694 UTC INFO [sn1] Acquiring initial topology from RNs
+2021-05-21 18:16:31.699 UTC INFO [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 4
+2021-05-21 18:17:31.708 UTC INFO [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 14
+2021-05-21 18:18:48.373 UTC INFO [sn1] Starting StorageNodeAgent for kvstore NoSQL version:20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community JE version:20.3.17 Java version:1.8.0_251
+2021-05-21 18:18:48.408 UTC INFO [sn1] Creating a Registry on port DESKTOP-P7OHHRP:5000 server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2021-05-21 18:18:48.862 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2021-05-21 18:18:48.900 UTC INFO [sn1] findManagedProcesses exception: Cannot run program "jps": CreateProcess error=2, Nie mo¿na odnaleŸæ okreœlonego pliku
+2021-05-21 18:18:48.906 UTC INFO [sn1] findManagedProcesses exception: Cannot run program "jps": CreateProcess error=2, Nie mo¿na odnaleŸæ okreœlonego pliku
+2021-05-21 18:18:48.929 UTC INFO [sn1] findManagedProcesses exception: Cannot run program "jps": CreateProcess error=2, Nie mo¿na odnaleŸæ okreœlonego pliku
+2021-05-21 18:18:49.057 UTC INFO [sn1] Create collector service and register parameter listeners successfully.
+2021-05-21 18:18:49.066 UTC INFO [sn1] Started MasterRebalanceThread
+2021-05-21 18:18:49.071 UTC INFO [sn1] admin1: Starting AdminService
+2021-05-21 18:18:49.072 UTC INFO [sn1] admin1: Started AdminService
+2021-05-21 18:18:49.077 UTC INFO [sn1] rg1-rn1: Starting RepNode
+2021-05-21 18:18:49.082 UTC INFO [sn1] rg1-rn1: Started RepNode
+2021-05-21 18:18:49.159 UTC INFO [sn1] Starting MonitorAgent.  Server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync> Client socket factory:<ClientSocketFactory name=kvstore|sn|monitor id=-1218145091 connectMs=10000 readMs=5000 clientId=none localAddr=none>
+2021-05-21 18:18:49.232 UTC INFO [sn1] kvstore:sn1:MONITOR service port: 53264
+2021-05-21 18:18:49.257 UTC INFO [sn1] Successfully created secure proxy for the storage node agent
+2021-05-21 18:18:49.289 UTC INFO [sn1] kvstore:sn1:MAIN service port: 53264
+2021-05-21 18:18:49.290 UTC INFO [sn1] Rebound to registry port 5000 using name sn1 with SSF:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2021-05-21 18:18:49.290 UTC INFO [sn1] Service status changed from STARTING to RUNNING
+2021-05-21 18:18:49.290 UTC INFO [sn1] Started StorageNodeAgent for kvstore
+2021-05-21 18:18:51.723 UTC INFO [sn1] noteState called
+2021-05-21 18:18:51.723 UTC INFO [sn1] added:State RN:rg1-rn1 state: MASTER top seq num: 14
+2021-05-21 18:18:51.729 UTC INFO [sn1] sn: sn1 state transition: State RN:rg1-rn1 state: MASTER top seq num: 14 active masters:[rg1-rn1] active replicas:0 replica leases:0
+2021-05-21 18:18:51.729 UTC INFO [sn1] Acquiring initial topology from RNs
+2021-05-21 18:18:51.790 UTC INFO [sn1] Thread returning for service rg1-rn1
+2021-05-21 18:18:52.093 UTC INFO [sn1] Thread returning for service admin1
+2021-05-21 18:19:51.740 UTC INFO [sn1] Acquiring initial topology from RNs
+2021-05-21 18:19:51.757 UTC INFO [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 14
+2021-05-21 18:22:16.771 UTC INFO [sn1] Starting StorageNodeAgent for kvstore NoSQL version:20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community JE version:20.3.17 Java version:1.8.0_251
+2021-05-21 18:22:16.791 UTC INFO [sn1] Creating a Registry on port DESKTOP-P7OHHRP:5000 server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2021-05-21 18:22:17.168 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2021-05-21 18:22:17.196 UTC INFO [sn1] findManagedProcesses exception: Cannot run program "jps": CreateProcess error=2, Nie mo¿na odnaleŸæ okreœlonego pliku
+2021-05-21 18:22:17.200 UTC INFO [sn1] findManagedProcesses exception: Cannot run program "jps": CreateProcess error=2, Nie mo¿na odnaleŸæ okreœlonego pliku
+2021-05-21 18:22:17.221 UTC INFO [sn1] findManagedProcesses exception: Cannot run program "jps": CreateProcess error=2, Nie mo¿na odnaleŸæ okreœlonego pliku
+2021-05-21 18:22:17.352 UTC INFO [sn1] Create collector service and register parameter listeners successfully.
+2021-05-21 18:22:17.359 UTC INFO [sn1] Started MasterRebalanceThread
+2021-05-21 18:22:17.362 UTC INFO [sn1] admin1: Starting AdminService
+2021-05-21 18:22:17.363 UTC INFO [sn1] admin1: Started AdminService
+2021-05-21 18:22:17.367 UTC INFO [sn1] rg1-rn1: Starting RepNode
+2021-05-21 18:22:17.373 UTC INFO [sn1] rg1-rn1: Started RepNode
+2021-05-21 18:22:17.450 UTC INFO [sn1] Starting MonitorAgent.  Server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync> Client socket factory:<ClientSocketFactory name=kvstore|sn|monitor id=-517951875 connectMs=10000 readMs=5000 clientId=none localAddr=none>
+2021-05-21 18:22:17.495 UTC INFO [sn1] kvstore:sn1:MONITOR service port: 53401
+2021-05-21 18:22:17.565 UTC INFO [sn1] Successfully created secure proxy for the storage node agent
+2021-05-21 18:22:17.587 UTC INFO [sn1] kvstore:sn1:MAIN service port: 53401
+2021-05-21 18:22:17.587 UTC INFO [sn1] Rebound to registry port 5000 using name sn1 with SSF:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2021-05-21 18:22:17.588 UTC INFO [sn1] Service status changed from STARTING to RUNNING
+2021-05-21 18:22:17.588 UTC INFO [sn1] Started StorageNodeAgent for kvstore
+2021-05-21 18:22:19.994 UTC INFO [sn1] Thread returning for service rg1-rn1
+2021-05-21 18:22:20.038 UTC INFO [sn1] noteState called
+2021-05-21 18:22:20.038 UTC INFO [sn1] added:State RN:rg1-rn1 state: MASTER top seq num: 14
+2021-05-21 18:22:20.049 UTC INFO [sn1] sn: sn1 state transition: State RN:rg1-rn1 state: MASTER top seq num: 14 active masters:[rg1-rn1] active replicas:0 replica leases:0
+2021-05-21 18:22:20.049 UTC INFO [sn1] Acquiring initial topology from RNs
+2021-05-21 18:22:20.088 UTC INFO [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 14
+2021-05-21 18:22:20.333 UTC INFO [sn1] Thread returning for service admin1

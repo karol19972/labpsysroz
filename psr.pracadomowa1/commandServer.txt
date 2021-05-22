@@ -1,0 +1,2 @@
+kv-ce-20.3.18
+java -Xmx256m -Xms256m -jar server/lib/kvstore.jar kvlite -secure-config disable

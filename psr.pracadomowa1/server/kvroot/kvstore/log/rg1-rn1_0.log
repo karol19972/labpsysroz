@@ -1,0 +1,103 @@
+2021-05-21 18:51:20.091 UTC INFO [rg1-rn1] Thread[ rg1-rn1 RepNodeStateUpdateThread,5,RMI Runtime] started
+2021-05-21 18:51:20.111 UTC INFO [rg1-rn1] NoSQL version:20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community JE version:20.3.17 Java version:1.8.0_201
+2021-05-21 18:51:20.113 UTC INFO [rg1-rn1] Created new environment dir: C:\kv-ce-20.3.18\kv-20.3.18\.\kvroot\kvstore\sn1\rg1-rn1\env
+2021-05-21 18:51:20.114 UTC INFO [rg1-rn1] Storage type of: C:\kv-ce-20.3.18\kv-20.3.18\.\kvroot\kvstore\sn1\rg1-rn1\env is UNKNOWN
+2021-05-21 18:51:20.115 UTC INFO [rg1-rn1] Can't get SN memory size. No memory allocation log.
+2021-05-21 18:51:20.116 UTC INFO [rg1-rn1] JVM Runtime maxMemory:251 392 kB JE cache size:0 kB Max Offheap cache size:0 kB
+2021-05-21 18:51:20.117 UTC INFO [rg1-rn1] Non-default JE properties for environment: {je.rep.vlsn.logCacheSize=128, je.rep.envUnknownStateTimeout=10 s, je.env.runVerifier=false, je.log.faultReadSize=4096, je.rep.vlsn.distance=1000000, je.rep.replicaTimeout=10 s, je.env.runEvictor=true, je.cleaner.minUtilization=40, je.rep.replicaAckTimeout=5 s, je.lock.nLockTables=97, je.cleaner.threads=2, je.rep.replayMaxOpenDbHandles=100, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.log.iteratorReadSize=1048576, je.log.numBuffers=16, je.rep.feederTimeout=10 s, je.nodeMaxEntries=128, je.lock.timeout=10 s, je.rep.preHeartbeatTimeoutMs=5000000000, je.rep.consistencyPolicy=NoConsistencyRequiredPolicy, je.cleaner.minFileUtilization=5, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.cleaner.readSize=1048576, je.rep.ignoreSecondaryNodeId=true, je.rep.txnRollbackLimit=10, je.log.fileCacheSize=2000, je.log.fileMax=1073741824}
+2021-05-21 18:51:20.117 UTC INFO [rg1-rn1] DataChannelFactory: basic
+2021-05-21 18:51:20.123 UTC INFO [rg1-rn1] Table manager created (max change history=1 000)
+2021-05-21 18:51:20.132 UTC INFO [rg1-rn1] Partition database cache mode: EVICT_LN
+2021-05-21 18:51:20.144 UTC INFO [rg1-rn1] Starting task: interval is 20 SECONDS, delay is 19856(ms)
+2021-05-21 18:51:20.186 UTC INFO [rg1-rn1] Request type ALL is enabled
+2021-05-21 18:51:20.198 UTC INFO [rg1-rn1] Thread[ rg1-rn1 MetadataUpdateThread,5,RMI Runtime] started
+2021-05-21 18:51:20.199 UTC INFO [rg1-rn1] Registering GC listener with PS Scavenge
+2021-05-21 18:51:20.200 UTC INFO [rg1-rn1] Registering GC listener with PS MarkSweep
+2021-05-21 18:51:20.219 UTC INFO [rg1-rn1] Coordinating tasks:KVStorageStats, JEBackupManagerCopyLogFile, KVIndexCreationMax real permits:3
+2021-05-21 18:51:20.221 UTC INFO [rg1-rn1] Starting RepNodeService
+2021-05-21 18:51:20.222 UTC INFO [rg1-rn1] Starting RN MonitorAgent.  Server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=8192 useAsync> Client socket connect factory: <ClientSocketFactory name=kvstore|rn|monitor id=201333182 connectMs=10000 readMs=10000 clientId=none localAddr=none>
+2021-05-21 18:51:20.242 UTC INFO [rg1-rn1] kvstore:rg1-rn1:MONITOR service port: 54230
+2021-05-21 18:51:20.242 UTC INFO [rg1-rn1] Starting MonitorAgent
+2021-05-21 18:51:20.266 UTC INFO [rg1-rn1] Successfully created secure proxy for the repnode admin
+2021-05-21 18:51:20.293 UTC INFO [rg1-rn1] kvstore:rg1-rn1:ADMIN service port: 54230
+2021-05-21 18:51:20.293 UTC INFO [rg1-rn1] RepNodeAdmin registered
+2021-05-21 18:51:20.310 UTC INFO [rg1-rn1] JE: Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2021-05-21 18:51:20.328 UTC INFO [rg1-rn1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2021-05-21 18:51:20.330 UTC INFO [rg1-rn1] JE recovery: POPULATE_EXPIRATION_PROFILE
+2021-05-21 18:51:20.332 UTC INFO [rg1-rn1] JE recovery: REMOVE_TEMP_DBS
+2021-05-21 18:51:20.332 UTC INFO [rg1-rn1] JE recovery: CKPT
+2021-05-21 18:51:20.333 UTC INFO [rg1-rn1] JE: Checkpoint Start.Checkpoint Id=1
+2021-05-21 18:51:20.341 UTC INFO [rg1-rn1] JE: Checkpoint End. Checkpoint Id=1 success=true
+2021-05-21 18:51:20.347 UTC INFO [rg1-rn1] JE recovery: RECOVERY_FINISHED
+2021-05-21 18:51:20.353 UTC INFO [rg1-rn1] JE: No server auth method
+2021-05-21 18:51:20.359 UTC INFO [rg1-rn1] JE: Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5003
+2021-05-21 18:51:20.360 UTC INFO [rg1-rn1] JE: DTVLSN at start:0
+2021-05-21 18:51:20.361 UTC INFO [rg1-rn1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:51:20.361 UTC INFO [rg1-rn1] JE: node:NullNode(-1) state change from DETACHED to UNKNOWN
+2021-05-21 18:51:20.364 UTC INFO [rg1-rn1] JE: Current group size: 0
+2021-05-21 18:51:20.364 UTC INFO [rg1-rn1] JE: New node rg1-rn1(-1) unknown to rep group
+2021-05-21 18:51:20.365 UTC INFO [rg1-rn1] JE: Learner notified. Proposal:Proposal(00000179904485ad:44b9e1414715331772f52cf14f51e589:00000002) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:51:20.365 UTC INFO [rg1-rn1] JE: Master changed to rg1-rn1
+2021-05-21 18:51:20.365 UTC INFO [rg1-rn1] JE: Nascent group. rg1-rn1 is master by virtue of being the first node.
+2021-05-21 18:51:20.365 UTC INFO [rg1-rn1] JE: node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:51:20.370 UTC INFO [rg1-rn1] JE: Learner started
+2021-05-21 18:51:20.370 UTC INFO [rg1-rn1] JE: Acceptor started
+2021-05-21 18:51:20.380 UTC INFO [rg1-rn1] JE: Successfully added node:rg1-rn1(1) HostPort = DESKTOP-P7OHHRP: 5003 [ELECTABLE]
+2021-05-21 18:51:20.382 UTC INFO [rg1-rn1] JE recovery: BECOME_CONSISTENT
+2021-05-21 18:51:20.384 UTC INFO [rg1-rn1] JE: Node rg1-rn1 started
+2021-05-21 18:51:20.384 UTC INFO [rg1-rn1] JE: node:NullNode(-1) state change from MASTER to UNKNOWN
+2021-05-21 18:51:20.385 UTC INFO [rg1-rn1] JE: node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:51:20.387 UTC INFO [rg1-rn1] JE: Feeder manager accepting requests.
+2021-05-21 18:51:20.387 UTC INFO [rg1-rn1] JE: Joining group as master
+2021-05-21 18:51:20.387 UTC INFO [rg1-rn1] Opened JE environment: 20.3.17 JVM max heap: 257 425 408 JE properties:  nodeName=null allowCreate=true recoveryProgressListener=true classLoader=false customStats=false cacheSize=180197785 offHeapCacheSize=0 cacheMode=EVICT_LN txnNoSync=false txnWriteNoSync=false exceptionListener=false map={je.lock.timeout=10 s, je.cleaner.minFileUtilization=5, je.cleaner.readSize=1048576, je.log.faultReadSize=4096, je.rep.consistencyPolicy=NoConsistencyRequiredPolicy, je.log.fileMax=1073741824, je.rep.feederTimeout=10 s, je.rep.node.priority=1, je.file.logging.prefix=rg1-rn1, je.rep.nodeName=rg1-rn1, je.nodeMaxEntries=128, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.maxDisk=1073741824, je.maxMemoryPercent=70, je.env.runVerifier=false, je.rep.electableGroupSizeOverride=0, je.env.runEvictor=true, je.log.iteratorReadSize=1048576, je.txn.durability=WRITE_NO_SYNC,WRITE_NO_SYNC,SIMPLE_MAJORITY, je.maxOffHeapMemory=0, je.checkpointer.bytesInterval=500000000, je.log.numBuffers=16, je.rep.nodeHostPort=DESKTOP-P7OHHRP:5003, je.rep.vlsn.distance=1000000, je.rep.txnRollbackLimit=10, je.rep.replayMaxOpenDbHandles=100, je.rep.ignoreSecondaryNodeId=true, je.maxMemory=0, je.file.logging.directory=./kvroot/kvstore/log, je.cleaner.minUtilization=40, je.env.isTransactional=true, je.log.fileCacheSize=2000, je.rep.helperHosts=DESKTOP-P7OHHRP:5003, je.rep.preHeartbeatTimeoutMs=5000000000, je.rep.vlsn.logCacheSize=128, je.rep.replicaTimeout=10 s, je.lock.nLockTables=97, je.rep.disableAuthoritativeMaster=false, je.rep.nodeType=ELECTABLE, je.rep.envUnknownStateTimeout=10 s, je.rep.preserveRecordVersion=true, je.rep.groupName=rg1, je.rep.replicaAckTimeout=5 s, je.cleaner.threads=2}
+2021-05-21 18:51:20.391 UTC INFO [rg1-rn1] Local Environment version updated to: 20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community Previous version:  none
+2021-05-21 18:51:20.393 UTC INFO [rg1-rn1] State change event: Fri May 21 20:51:20 CEST 2021, State: MASTER, Type: ELECTABLE, Master: rg1-rn1
+2021-05-21 18:51:20.393 UTC INFO [rg1-rn1] MigrationStateTracker-serviceId-null queue added:MASTER
+2021-05-21 18:51:20.393 UTC INFO [rg1-rn1] TableManagerStateTracker-serviceId-rg1-rn1 queue added:MASTER
+2021-05-21 18:51:20.393 UTC INFO [rg1-rn1] MasterBalanceStateTracker-serviceId-rg1-rn1 queue added:MASTER
+2021-05-21 18:51:20.393 UTC INFO [rg1-rn1] TextIndexFeederStateTracker-serviceId-rg1-rn1 queue added:MASTER
+2021-05-21 18:51:20.394 UTC INFO [rg1-rn1] Replicated environment handle established. Cache size: 180197785, State: MASTER
+2021-05-21 18:51:20.394 UTC INFO [rg1-rn1] Store did not contain a topology
+2021-05-21 18:51:20.396 UTC INFO [rg1-rn1] Topology needs to be pushed to this node.
+2021-05-21 18:51:20.396 UTC INFO [rg1-rn1] MigrationStateTracker-serviceId-null thread start: null
+2021-05-21 18:51:20.397 UTC INFO [rg1-rn1] Migration manager change state to MASTER.
+2021-05-21 18:51:20.396 UTC INFO [rg1-rn1] TextIndexFeederStateTracker-serviceId-rg1-rn1 thread start: rg1-rn1
+2021-05-21 18:51:20.397 UTC INFO [rg1-rn1] TableManagerStateTracker-serviceId-rg1-rn1 thread start: rg1-rn1
+2021-05-21 18:51:20.399 UTC INFO [rg1-rn1] Table manager change state to MASTER
+2021-05-21 18:51:20.397 UTC INFO [rg1-rn1] MasterBalanceStateTracker-serviceId-rg1-rn1 thread start: rg1-rn1
+2021-05-21 18:51:20.398 UTC INFO [rg1-rn1] TIF received state change MASTER
+2021-05-21 18:51:20.402 UTC INFO [rg1-rn1] no text index found, skip starting TIF.
+2021-05-21 18:51:20.410 UTC INFO [rg1-rn1] Starting Thread[KV table maintenance,5,RMI Runtime]
+2021-05-21 18:51:20.420 UTC INFO [rg1-rn1] Migration db opened: MigrationDB, generation db opened: PartitionGenMD
+2021-05-21 18:51:20.427 UTC INFO [rg1-rn1] Migration service accepting requests.
+2021-05-21 18:51:20.433 UTC INFO [rg1-rn1] kvstore:rg1-rn1:MAIN service port: 54230
+2021-05-21 18:51:20.486 UTC INFO [rg1-rn1] No RN Login configured. 
+2021-05-21 18:51:20.486 UTC INFO [rg1-rn1] Service status changed from STARTING to RUNNING
+2021-05-21 18:51:20.491 UTC INFO [rg1-rn1] Start statistics gathering: Thread[Key Stats Gather Thread,5,RMI Runtime]
+2021-05-21 18:51:20.491 UTC INFO [rg1-rn1] Started RepNodeService
+2021-05-21 18:51:20.492 UTC INFO [rg1-rn1] The next key stats scan interval begins at 2021-05-22 00:00:00.000 UTC
+2021-05-21 18:51:21.100 UTC INFO [rg1-rn1] Topology updated from seq#: 0 to 4
+2021-05-21 18:51:21.160 UTC INFO [rg1-rn1] Open SecurityMetadata DB
+2021-05-21 18:51:21.166 UTC INFO [rg1-rn1] Open TableMetadata DB
+2021-05-21 18:51:21.167 UTC INFO [rg1-rn1] Establishing secondary database handles, table seq#: 0
+2021-05-21 18:51:21.163 UTC INFO [rg1-rn1] Established 0 partition database handles, topology seq#: 4
+2021-05-21 18:51:21.172 UTC INFO [rg1-rn1] Topology stored seq#: 4
+2021-05-21 18:51:21.174 UTC INFO [rg1-rn1] Updating table metadata with TableMetadata[9, n:-, t:9, 9]
+2021-05-21 18:51:21.179 UTC INFO [rg1-rn1] Enabling table metadata split, serial version=25
+2021-05-21 18:51:21.182 UTC INFO [rg1-rn1] Established 0 secondary database handles
+2021-05-21 18:51:21.184 UTC INFO [rg1-rn1] Establishing secondary database handles, table seq#: 0
+2021-05-21 18:51:21.203 UTC INFO [rg1-rn1] Metadata stored: TableMetadata[9, n:-, t:9, 9]
+2021-05-21 18:51:21.211 UTC INFO [rg1-rn1] Establishing secondary database handles, table seq#: 9
+2021-05-21 18:51:21.212 UTC INFO [rg1-rn1] Established 0 secondary database handles
+2021-05-21 18:51:21.591 UTC INFO [rg1-rn1] newParameters are identical to old parameters
+2021-05-21 18:51:21.634 UTC INFO [rg1-rn1] Topology incrementally updated from seq#: 4 to 14
+2021-05-21 18:51:21.644 UTC INFO [rg1-rn1] Starting Thread[KV table maintenance,5,RMI Runtime]
+2021-05-21 18:51:21.644 UTC INFO [rg1-rn1] Establishing secondary database handles, table seq#: 9
+2021-05-21 18:51:21.644 UTC INFO [rg1-rn1] Established 0 secondary database handles
+2021-05-21 18:51:21.645 UTC INFO [rg1-rn1] Topology stored seq#: 14
+2021-05-21 18:51:21.658 UTC INFO [rg1-rn1] Established 10 partition database handles, topology seq#: 14
+2021-05-21 18:52:20.611 UTC INFO [rg1-rn1] Establishing RMI connection for admin DDL
+2021-05-21 18:52:20.644 UTC INFO [rg1-rn1] Establishing RMI connection for admin DDL
+2021-05-21 18:52:20.648 UTC INFO [rg1-rn1] Establishing RMI connection for admin DDL
+2021-05-21 18:52:20.729 UTC INFO [rg1-rn1] JE: Updated minimum JE group version to 6.5.0
+2021-05-21 18:52:20.986 UTC INFO [rg1-rn1] Key stats scan took 494ms to scan 46 records

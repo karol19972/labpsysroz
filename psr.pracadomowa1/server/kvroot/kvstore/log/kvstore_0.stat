@@ -1,0 +1,660 @@
+2021-05-21 18:51:41.349 UTC INFO [kvstore] rg1-rn1 (18:51:20.144 UTC -> 18:51:40.001 UTC)
+I/O
+	bufferBytes=11 262 352
+	endOfLog=0x0/0x573f
+	fSync95Ms=8
+	fSync99Ms=8
+	fSyncAvgMs=2
+	fSyncMaxMs=8
+	nFSyncRequests=5
+	nFSyncs=5
+	nFeederWriteBytes=33
+	nFeederWrites=1
+	nFileOpens=4
+	nGroupCommitRequests=24
+	nItemBufferTooSmall=1
+	nLogBuffers=16
+	nLogFSyncs=9
+	nMiscReadBytes=114
+	nMiscReads=3
+	nMiscWriteBytes=21 881
+	nMiscWrites=103
+	nRandomWriteBytes=38
+	nRandomWrites=1
+	nSequentialReadBytes=114
+	nSequentialReads=3
+	nSequentialWriteBytes=22 330
+	nSequentialWrites=25
+Cache
+	adminBytes=589
+	cacheTotalBytes=11 307 782
+	cacheUtilization=6
+	dataBytes=43 152
+	lockBytes=1 680
+	lruMixedSize=7
+	nBINsFetch=91
+	nCachedBINs=7
+	nCachedUpperINs=7
+	nINNoTarget=4
+	nINSparseTarget=8
+	nLNsFetch=11
+Cleaning
+	activeLogSize=1 526
+	availableLogSize=1 073 740 298
+	maxPredictedUtilization=59
+	maxUtilization=59
+	minPredictedUtilization=59
+	minUtilization=59
+	totalLogSize=1 526
+Checkpoints
+	lastCheckpointEnd=0x0/0x5c4
+	lastCheckpointId=1
+	lastCheckpointInterval=798
+	lastCheckpointStart=0x0/0x31e
+	nCheckpoints=1
+	nFullBINFlush=2
+	nFullINFlush=4
+Environment
+	environmentCreationTime=1 621 623 080 303
+Locks
+	nOwners=15
+	nReadLocks=15
+	nRequests=90
+	nTotalLocks=15
+Op
+	priInsert=12
+	priSearchFail=18
+	priUpdate=1
+Eraser
+	eraserCycleEnd=
+	eraserCycleStart=
+
+2021-05-21 18:51:41.349 UTC INFO [kvstore] rg1-rn1 (18:51:20.144 UTC -> 18:51:40.001 UTC)
+FeederTxns
+	lastCommitTimestamp=1 621 623 085 402
+	lastCommitVLSN=50
+	localTxnAvgNs=4 673 535
+	vlsnRate=514
+BinaryProtocol
+	bytesReadPerSecond=0
+	bytesWrittenPerSecond=0
+	messagesReadPerSecond=0
+	messagesWrittenPerSecond=0
+VLSNIndex
+	nBucketsCreated=1
+
+2021-05-21 18:51:41.350 UTC INFO [kvstore] rg1-rn1 (18:51:20.144 UTC -> 18:51:40.001 UTC)
+Replication State: MASTER
+2021-05-21 18:51:41.350 UTC INFO [kvstore] rg1-rn1 (18:51:20.144 UTC -> 18:51:40.001 UTC)
+Memory
+	freeMemory=176082728
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=2902
+	pause95th=4
+	pause99th=8
+	pauseMax=33
+GC PS Scavenge
+	count=3
+	time=30000000
+GC PS MarkSweep
+	count=2
+	time=51000000
+
+2021-05-21 18:51:41.567 UTC INFO [kvstore] rg1-rn1 (18:51:20.144 UTC -> 18:51:40.001 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.10162665142673402,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.10162660443446367,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":2,"min":3400000,"max":19000000,"avg":11200000,"95th":3400000,"99th":3400000},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":2,"min":2,"max":2,"avg":2,"95th":2,"99th":2},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.08008813507052988,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.08008812544936697,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":2,"min":2200000,"max":6700000,"avg":4450000,"95th":2200000,"99th":2200000},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":2,"min":2,"max":2,"avg":2,"95th":2,"99th":2},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]}}}
+2021-05-21 18:51:41.567 UTC INFO [kvstore] rg1-rn1 (18:51:20.144 UTC -> 18:51:40.001 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:52:01.226 UTC INFO [kvstore] rg1-rn1 (18:51:40.001 UTC -> 18:52:00.001 UTC)
+Replication State: MASTER
+2021-05-21 18:52:01.227 UTC INFO [kvstore] rg1-rn1 (18:51:40.001 UTC -> 18:52:00.001 UTC)
+Memory
+	freeMemory=212761888
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=2823
+	pause95th=4
+	pause99th=8
+	pauseMax=120
+GC PS Scavenge
+	count=1
+	time=11000000
+	95th=12
+	99th=12
+	max=12
+GC PS MarkSweep
+	count=1
+	time=99000000
+	95th=100
+	99th=100
+	max=100
+
+2021-05-21 18:52:01.240 UTC INFO [kvstore] rg1-rn1 (18:51:40.001 UTC -> 18:52:00.001 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:52:01.241 UTC INFO [kvstore] rg1-rn1 (18:51:40.001 UTC -> 18:52:00.001 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:52:21.219 UTC INFO [kvstore] rg1-rn1 (18:52:00.001 UTC -> 18:52:20.001 UTC)
+Replication State: MASTER
+2021-05-21 18:52:21.220 UTC INFO [kvstore] rg1-rn1 (18:52:00.001 UTC -> 18:52:20.001 UTC)
+Memory
+	freeMemory=208954664
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=2867
+	pause95th=2
+	pause99th=5
+	pauseMax=25
+
+2021-05-21 18:52:21.221 UTC INFO [kvstore] rg1-rn1 (18:52:00.001 UTC -> 18:52:20.001 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:52:21.221 UTC INFO [kvstore] rg1-rn1 (18:52:00.001 UTC -> 18:52:20.001 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:52:41.261 UTC INFO [kvstore] rg1-rn1 (18:52:20.001 UTC -> 18:52:40.001 UTC)
+I/O
+	bufferBytes=11 262 352
+	endOfLog=0x0/0x95d6
+	fSync95Ms=2
+	fSync99Ms=2
+	fSyncAvgMs=2
+	fSyncMaxMs=2
+	nFSyncRequests=1
+	nFSyncs=1
+	nFeederWriteBytes=35
+	nFeederWrites=1
+	nGroupCommitRequests=2
+	nLogBuffers=16
+	nLogFSyncs=1
+	nMiscWriteBytes=15 990
+	nMiscWrites=262
+	nSequentialWriteBytes=16 025
+	nSequentialWrites=2
+Cache
+	adminBytes=589
+	cacheTotalBytes=11 365 086
+	cacheUtilization=6
+	dataBytes=100 456
+	lockBytes=1 680
+	lruMixedSize=17
+	nBINsFetch=173
+	nCachedBINs=17
+	nCachedUpperINs=17
+	nINNoTarget=14
+	nINSparseTarget=18
+	nLNsFetch=5
+Cleaning
+	activeLogSize=22 368
+	availableLogSize=1 073 719 456
+	maxPredictedUtilization=79
+	maxUtilization=79
+	minPredictedUtilization=79
+	minUtilization=79
+	totalLogSize=22 368
+Checkpoints
+	lastCheckpointEnd=0x0/0x5c4
+	lastCheckpointId=1
+	lastCheckpointInterval=798
+	lastCheckpointStart=0x0/0x31e
+Environment
+	environmentCreationTime=1 621 623 080 303
+Locks
+	nOwners=15
+	nReadLocks=15
+	nRequests=145
+	nTotalLocks=15
+Op
+	priInsert=110
+	priPosition=143
+	priSearch=27
+	priSearchFail=23
+	priUpdate=10
+Eraser
+	eraserCycleEnd=
+	eraserCycleStart=
+
+2021-05-21 18:52:41.262 UTC INFO [kvstore] rg1-rn1 (18:52:20.001 UTC -> 18:52:40.001 UTC)
+FeederManager
+	nTxnAuthNoWait=20
+	nTxnAuthSucceed=20
+FeederTxns
+	lastCommitTimestamp=1 621 623 144 608
+	lastCommitVLSN=293
+	localTxnAvgNs=599 193
+	vlsnRate=40 116
+BinaryProtocol
+	bytesReadPerSecond=0
+	bytesWrittenPerSecond=0
+	messagesReadPerSecond=0
+	messagesWrittenPerSecond=0
+
+2021-05-21 18:52:41.262 UTC INFO [kvstore] rg1-rn1 (18:52:20.001 UTC -> 18:52:40.001 UTC)
+Replication State: MASTER
+2021-05-21 18:52:41.262 UTC INFO [kvstore] rg1-rn1 (18:52:20.001 UTC -> 18:52:40.001 UTC)
+Memory
+	freeMemory=196392456
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=3084
+	pause95th=2
+	pause99th=4
+	pauseMax=27
+
+2021-05-21 18:52:41.264 UTC INFO [kvstore] rg1-rn1 (18:52:20.001 UTC -> 18:52:40.001 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:52:41.264 UTC INFO [kvstore] rg1-rn1 (18:52:20.001 UTC -> 18:52:40.001 UTC)
+Requests
+	activeRequests=0
+	totalRequests=131
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:53:01.215 UTC INFO [kvstore] rg1-rn1 (18:52:40.001 UTC -> 18:53:00.002 UTC)
+Replication State: MASTER
+2021-05-21 18:53:01.216 UTC INFO [kvstore] rg1-rn1 (18:52:40.001 UTC -> 18:53:00.002 UTC)
+Memory
+	freeMemory=193282232
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=2860
+	pause95th=2
+	pause99th=4
+	pauseMax=22
+
+2021-05-21 18:53:01.218 UTC INFO [kvstore] rg1-rn1 (18:52:40.001 UTC -> 18:53:00.002 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:53:01.218 UTC INFO [kvstore] rg1-rn1 (18:52:40.001 UTC -> 18:53:00.002 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:53:21.214 UTC INFO [kvstore] rg1-rn1 (18:53:00.002 UTC -> 18:53:20.009 UTC)
+Replication State: MASTER
+2021-05-21 18:53:21.214 UTC INFO [kvstore] rg1-rn1 (18:53:00.002 UTC -> 18:53:20.009 UTC)
+Memory
+	freeMemory=190915256
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=3088
+	pause95th=2
+	pause99th=4
+	pauseMax=98
+
+2021-05-21 18:53:21.215 UTC INFO [kvstore] rg1-rn1 (18:53:00.002 UTC -> 18:53:20.009 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:53:21.215 UTC INFO [kvstore] rg1-rn1 (18:53:00.002 UTC -> 18:53:20.009 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:53:41.238 UTC INFO [kvstore] rg1-rn1 (18:53:20.009 UTC -> 18:53:40.001 UTC)
+Replication State: MASTER
+2021-05-21 18:53:41.238 UTC INFO [kvstore] rg1-rn1 (18:53:20.009 UTC -> 18:53:40.001 UTC)
+Memory
+	freeMemory=187333440
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=3145
+	pause95th=2
+	pause99th=4
+	pauseMax=18
+
+2021-05-21 18:53:41.241 UTC INFO [kvstore] rg1-rn1 (18:53:20.009 UTC -> 18:53:40.001 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:53:41.241 UTC INFO [kvstore] rg1-rn1 (18:53:20.009 UTC -> 18:53:40.001 UTC)
+Requests
+	activeRequests=0
+	totalRequests=11
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:54:01.260 UTC INFO [kvstore] rg1-rn1 (18:53:40.001 UTC -> 18:54:00.014 UTC)
+Replication State: MASTER
+2021-05-21 18:54:01.260 UTC INFO [kvstore] rg1-rn1 (18:53:40.001 UTC -> 18:54:00.014 UTC)
+Memory
+	freeMemory=185802688
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=4101
+	pause95th=4
+	pause99th=11
+	pauseMax=47
+
+2021-05-21 18:54:01.262 UTC INFO [kvstore] rg1-rn1 (18:53:40.001 UTC -> 18:54:00.014 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:54:01.262 UTC INFO [kvstore] rg1-rn1 (18:53:40.001 UTC -> 18:54:00.014 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:54:21.247 UTC INFO [kvstore] rg1-rn1 (18:54:00.014 UTC -> 18:54:20.001 UTC)
+Replication State: MASTER
+2021-05-21 18:54:21.247 UTC INFO [kvstore] rg1-rn1 (18:54:00.014 UTC -> 18:54:20.001 UTC)
+Memory
+	freeMemory=183599248
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=4117
+	pause95th=4
+	pause99th=11
+	pauseMax=120
+
+2021-05-21 18:54:21.248 UTC INFO [kvstore] rg1-rn1 (18:54:00.014 UTC -> 18:54:20.001 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:54:21.248 UTC INFO [kvstore] rg1-rn1 (18:54:00.014 UTC -> 18:54:20.001 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:54:41.217 UTC INFO [kvstore] rg1-rn1 (18:54:20.001 UTC -> 18:54:40.004 UTC)
+Replication State: MASTER
+2021-05-21 18:54:41.217 UTC INFO [kvstore] rg1-rn1 (18:54:20.001 UTC -> 18:54:40.004 UTC)
+Memory
+	freeMemory=180181976
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=2982
+	pause95th=6
+	pause99th=17
+	pauseMax=62
+
+2021-05-21 18:54:41.218 UTC INFO [kvstore] rg1-rn1 (18:54:20.001 UTC -> 18:54:40.004 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:54:41.218 UTC INFO [kvstore] rg1-rn1 (18:54:20.001 UTC -> 18:54:40.004 UTC)
+Requests
+	activeRequests=0
+	totalRequests=11
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:55:01.250 UTC INFO [kvstore] rg1-rn1 (18:54:40.004 UTC -> 18:55:00.012 UTC)
+Replication State: MASTER
+2021-05-21 18:55:01.250 UTC INFO [kvstore] rg1-rn1 (18:54:40.004 UTC -> 18:55:00.012 UTC)
+Memory
+	freeMemory=178566976
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=2855
+	pause95th=10
+	pause99th=21
+	pauseMax=110
+
+2021-05-21 18:55:01.253 UTC INFO [kvstore] rg1-rn1 (18:54:40.004 UTC -> 18:55:00.012 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:55:01.253 UTC INFO [kvstore] rg1-rn1 (18:54:40.004 UTC -> 18:55:00.012 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:55:21.227 UTC INFO [kvstore] rg1-rn1 (18:55:00.012 UTC -> 18:55:20.001 UTC)
+Replication State: MASTER
+2021-05-21 18:55:21.227 UTC INFO [kvstore] rg1-rn1 (18:55:00.012 UTC -> 18:55:20.001 UTC)
+Memory
+	freeMemory=176099896
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=2798
+	pause95th=14
+	pause99th=39
+	pauseMax=110
+
+2021-05-21 18:55:21.230 UTC INFO [kvstore] rg1-rn1 (18:55:00.012 UTC -> 18:55:20.001 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:55:21.231 UTC INFO [kvstore] rg1-rn1 (18:55:00.012 UTC -> 18:55:20.001 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:55:41.244 UTC INFO [kvstore] rg1-rn1 (18:55:20.001 UTC -> 18:55:40.002 UTC)
+Replication State: MASTER
+2021-05-21 18:55:41.244 UTC INFO [kvstore] rg1-rn1 (18:55:20.001 UTC -> 18:55:40.002 UTC)
+Memory
+	freeMemory=172863056
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=3171
+	pause95th=4
+	pause99th=8
+	pauseMax=29
+
+2021-05-21 18:55:41.250 UTC INFO [kvstore] rg1-rn1 (18:55:20.001 UTC -> 18:55:40.002 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:55:41.253 UTC INFO [kvstore] rg1-rn1 (18:55:20.001 UTC -> 18:55:40.002 UTC)
+Requests
+	activeRequests=0
+	totalRequests=11
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:56:01.216 UTC INFO [kvstore] rg1-rn1 (18:55:40.002 UTC -> 18:56:00.021 UTC)
+Replication State: MASTER
+2021-05-21 18:56:01.216 UTC INFO [kvstore] rg1-rn1 (18:55:40.002 UTC -> 18:56:00.021 UTC)
+Memory
+	freeMemory=170982616
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=3346
+	pause95th=3
+	pause99th=5
+	pauseMax=23
+
+2021-05-21 18:56:01.218 UTC INFO [kvstore] rg1-rn1 (18:55:40.002 UTC -> 18:56:00.021 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:56:01.218 UTC INFO [kvstore] rg1-rn1 (18:55:40.002 UTC -> 18:56:00.021 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:56:21.229 UTC INFO [kvstore] rg1-rn1 (18:56:00.021 UTC -> 18:56:20.002 UTC)
+Replication State: MASTER
+2021-05-21 18:56:21.230 UTC INFO [kvstore] rg1-rn1 (18:56:00.021 UTC -> 18:56:20.002 UTC)
+Memory
+	freeMemory=166734400
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=3202
+	pause95th=6
+	pause99th=14
+	pauseMax=77
+
+2021-05-21 18:56:21.231 UTC INFO [kvstore] rg1-rn1 (18:56:00.021 UTC -> 18:56:20.002 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:56:21.231 UTC INFO [kvstore] rg1-rn1 (18:56:00.021 UTC -> 18:56:20.002 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:56:41.228 UTC INFO [kvstore] rg1-rn1 (18:56:20.002 UTC -> 18:56:40.001 UTC)
+Replication State: MASTER
+2021-05-21 18:56:41.228 UTC INFO [kvstore] rg1-rn1 (18:56:20.002 UTC -> 18:56:40.001 UTC)
+Memory
+	freeMemory=163410112
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=3024
+	pause95th=9
+	pause99th=29
+	pauseMax=230
+
+2021-05-21 18:56:41.230 UTC INFO [kvstore] rg1-rn1 (18:56:20.002 UTC -> 18:56:40.001 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:56:41.230 UTC INFO [kvstore] rg1-rn1 (18:56:20.002 UTC -> 18:56:40.001 UTC)
+Requests
+	activeRequests=0
+	totalRequests=11
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:57:01.359 UTC INFO [kvstore] rg1-rn1 (18:56:40.001 UTC -> 18:57:00.009 UTC)
+Replication State: MASTER
+2021-05-21 18:57:01.359 UTC INFO [kvstore] rg1-rn1 (18:56:40.001 UTC -> 18:57:00.009 UTC)
+Memory
+	freeMemory=161735320
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=4217
+	pause95th=5
+	pause99th=9
+	pauseMax=33
+
+2021-05-21 18:57:01.361 UTC INFO [kvstore] rg1-rn1 (18:56:40.001 UTC -> 18:57:00.009 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:57:01.361 UTC INFO [kvstore] rg1-rn1 (18:56:40.001 UTC -> 18:57:00.009 UTC)
+Requests
+	activeRequests=0
+	totalRequests=2
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0
+2021-05-21 18:57:21.240 UTC INFO [kvstore] rg1-rn1 (18:57:00.009 UTC -> 18:57:20.002 UTC)
+I/O
+	bufferBytes=11 262 352
+	endOfLog=0x0/0x9659
+	nFeederWriteBytes=35
+	nFeederWrites=1
+	nGroupCommitRequests=1
+	nLogBuffers=16
+	nMiscWriteBytes=96
+	nMiscWrites=2
+	nSequentialWriteBytes=131
+	nSequentialWrites=2
+Cache
+	adminBytes=589
+	cacheTotalBytes=11 367 150
+	cacheUtilization=6
+	dataBytes=102 520
+	lockBytes=1 680
+	lruMixedSize=17
+	nBINsFetch=2
+	nCachedBINs=17
+	nCachedUpperINs=17
+	nINNoTarget=14
+	nINSparseTarget=18
+Cleaning
+	activeLogSize=38 393
+	availableLogSize=1 073 703 431
+	maxPredictedUtilization=53
+	maxUtilization=53
+	minPredictedUtilization=53
+	minUtilization=53
+	totalLogSize=38 393
+Checkpoints
+	lastCheckpointEnd=0x0/0x5c4
+	lastCheckpointId=1
+	lastCheckpointInterval=798
+	lastCheckpointStart=0x0/0x31e
+Environment
+	environmentCreationTime=1 621 623 080 303
+Locks
+	nOwners=15
+	nReadLocks=15
+	nRequests=2
+	nTotalLocks=15
+Op
+	priInsert=1
+	priSearch=1
+Eraser
+	eraserCycleEnd=
+	eraserCycleStart=
+
+2021-05-21 18:57:21.241 UTC INFO [kvstore] rg1-rn1 (18:57:00.009 UTC -> 18:57:20.002 UTC)
+FeederManager
+	nTxnAuthNoWait=80
+	nTxnAuthSucceed=80
+FeederTxns
+	lastCommitTimestamp=1 621 623 429 210
+	lastCommitVLSN=296
+	localTxnAvgNs=394 950
+	vlsnRate=16
+BinaryProtocol
+	bytesReadPerSecond=0
+	bytesWrittenPerSecond=0
+	messagesReadPerSecond=0
+	messagesWrittenPerSecond=0
+
+2021-05-21 18:57:21.241 UTC INFO [kvstore] rg1-rn1 (18:57:00.009 UTC -> 18:57:20.002 UTC)
+Replication State: MASTER
+2021-05-21 18:57:21.241 UTC INFO [kvstore] rg1-rn1 (18:57:00.009 UTC -> 18:57:20.002 UTC)
+Memory
+	freeMemory=158534160
+	maxMemory=257425408
+	totalMemory=257425408
+	pauseCount=3045
+	pause95th=6
+	pause99th=22
+	pauseMax=130
+
+2021-05-21 18:57:21.242 UTC INFO [kvstore] rg1-rn1 (18:57:00.009 UTC -> 18:57:20.002 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:54214":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54225":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54230":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-21 18:57:21.242 UTC INFO [kvstore] rg1-rn1 (18:57:00.009 UTC -> 18:57:20.002 UTC)
+Requests
+	activeRequests=0
+	totalRequests=5
+	avgAsyncQueuedRequests=0
+	maxAsyncQueuedRequests=0
+	asyncRequestQueueTimeAvgMicros=0
+	asyncRequestQueueTime95thMicros=0
+	asyncRequestQueueTime99thMicros=0

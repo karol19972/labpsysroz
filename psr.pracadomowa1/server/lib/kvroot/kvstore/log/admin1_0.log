@@ -1,0 +1,412 @@
+2021-05-21 18:16:27.680 UTC INFO [admin1] Initializing PRIMARY Admin for store: kvstore
+2021-05-21 18:16:27.685 UTC INFO [admin1] Created new admin environment dir: .\kvroot\kvstore\sn1\admin1\env
+2021-05-21 18:16:27.695 UTC INFO [admin1] JVM Runtime maxMemory (bytes): 257425408
+2021-05-21 18:16:27.696 UTC INFO [admin1] Non-default JE properties for environment: {je.env.runVerifier=false, je.log.faultReadSize=4096, je.env.runEvictor=true, je.cleaner.minUtilization=40, je.maxDisk=3221225472, je.lock.nLockTables=97, je.cleaner.threads=2, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.log.iteratorReadSize=1048576, je.log.numBuffers=16, je.nodeMaxEntries=128, je.lock.timeout=10 s, je.cleaner.minFileUtilization=5, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.cleaner.readSize=1048576, je.log.fileCacheSize=2000, je.log.fileMax=52428800}
+2021-05-21 18:16:27.720 UTC INFO [admin1] DataChannelFactory: basic
+2021-05-21 18:16:27.738 UTC INFO [admin1] AdminStateTracker-serviceId-admin1 thread start: admin1
+2021-05-21 18:16:27.791 UTC INFO [admin1] JE: Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2021-05-21 18:16:28.239 UTC INFO [admin1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2021-05-21 18:16:28.268 UTC INFO [admin1] JE recovery: POPULATE_EXPIRATION_PROFILE
+2021-05-21 18:16:28.272 UTC INFO [admin1] JE recovery: REMOVE_TEMP_DBS
+2021-05-21 18:16:28.285 UTC INFO [admin1] JE recovery: CKPT
+2021-05-21 18:16:28.285 UTC INFO [admin1] JE: Checkpoint Start.Checkpoint Id=1
+2021-05-21 18:16:28.301 UTC INFO [admin1] JE: Checkpoint End. Checkpoint Id=1 success=true
+2021-05-21 18:16:28.314 UTC INFO [admin1] JE recovery: RECOVERY_FINISHED
+2021-05-21 18:16:28.341 UTC INFO [admin1] JE: No server auth method
+2021-05-21 18:16:28.342 UTC INFO [admin1] JE: Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5002
+2021-05-21 18:16:28.343 UTC INFO [admin1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:16:28.386 UTC INFO [admin1] JE: DTVLSN at start:0
+2021-05-21 18:16:28.388 UTC INFO [admin1] JE: node:NullNode(-1) state change from DETACHED to UNKNOWN
+2021-05-21 18:16:28.407 UTC INFO [admin1] JE: Learner started
+2021-05-21 18:16:28.411 UTC INFO [admin1] JE: Acceptor started
+2021-05-21 18:16:28.411 UTC INFO [admin1] JE: Current group size: 0
+2021-05-21 18:16:28.412 UTC INFO [admin1] JE: New node 1(-1) unknown to rep group
+2021-05-21 18:16:28.412 UTC INFO [admin1] JE: Learner notified. Proposal:Proposal(00000179902499fc:22f6bd09b93613af4ffbc683d6514455:00000001) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:16:28.413 UTC INFO [admin1] JE: Master changed to 1
+2021-05-21 18:16:28.413 UTC INFO [admin1] JE: Nascent group. 1 is master by virtue of being the first node.
+2021-05-21 18:16:28.413 UTC INFO [admin1] JE: node:1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:16:28.435 UTC INFO [admin1] JE: Successfully added node:1(1) HostPort = DESKTOP-P7OHHRP: 5002 [ELECTABLE]
+2021-05-21 18:16:28.437 UTC INFO [admin1] JE recovery: BECOME_CONSISTENT
+2021-05-21 18:16:28.437 UTC INFO [admin1] JE: Node 1 started
+2021-05-21 18:16:28.438 UTC INFO [admin1] JE: node:NullNode(-1) state change from MASTER to UNKNOWN
+2021-05-21 18:16:28.473 UTC INFO [admin1] JE: node:1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:16:28.474 UTC INFO [admin1] JE: Feeder manager accepting requests.
+2021-05-21 18:16:28.474 UTC INFO [admin1] JE: Joining group as master
+2021-05-21 18:16:28.477 UTC INFO [admin1] State change event: Fri May 21 20:16:28 CEST 2021, State: MASTER, Type: PRIMARY, Master: 1
+2021-05-21 18:16:28.478 UTC INFO [admin1] AdminStateTracker-serviceId-admin1 queue added:MASTER
+2021-05-21 18:16:28.479 UTC INFO [admin1] Shutting down monitor collector
+2021-05-21 18:16:28.483 UTC INFO [admin1] Initializing Admin Schema to schema version 5/NoSQL DB 20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community
+2021-05-21 18:16:28.498 UTC INFO [admin1] Initialize stores at schema version 5, readOnly=false
+2021-05-21 18:16:28.502 UTC INFO [admin1] Open: AdminCriticalEventsDatabase
+2021-05-21 18:16:28.505 UTC INFO [admin1] Open: AdminParametersDatabase
+2021-05-21 18:16:28.506 UTC INFO [admin1] Open: AdminMemoDatabase
+2021-05-21 18:16:28.509 UTC INFO [admin1] Open: AdminPlanDatabase
+2021-05-21 18:16:28.509 UTC INFO [admin1] Open: AdminSecurityDatabase
+2021-05-21 18:16:28.511 UTC INFO [admin1] Open: AdminTableDatabase
+2021-05-21 18:16:28.513 UTC INFO [admin1] Open: AdminTopologyHistoryDatabase
+2021-05-21 18:16:28.515 UTC INFO [admin1] Open: AdminTopologyCandidateDatabase
+2021-05-21 18:16:28.520 UTC INFO [admin1] Initializing Admin database
+2021-05-21 18:16:28.560 UTC INFO [admin1] Admin database initialized
+2021-05-21 18:16:28.562 UTC INFO [admin1] statusListener service port: 53185
+2021-05-21 18:16:28.562 UTC INFO [admin1] perfListener service port: 53185
+2021-05-21 18:16:28.562 UTC INFO [admin1] logListener service port: 53185
+2021-05-21 18:16:28.575 UTC INFO [admin1] Starting Thread[System table monitor,5,RMI Runtime]
+2021-05-21 18:16:28.576 UTC INFO [admin1] Checking status of system tables
+2021-05-21 18:16:28.580 UTC INFO [admin1] Replicated environment handle established. Cache size: 154455244, State: MASTER
+2021-05-21 18:16:28.598 UTC INFO [admin1] Starting task: interval is 20 SECONDS, delay is 11402(ms)
+2021-05-21 18:16:28.599 UTC INFO [admin1] Configured Admin for store: kvstore
+2021-05-21 18:16:28.601 UTC INFO [admin1] Admin web service is not starting up, web port: -1
+2021-05-21 18:16:28.659 UTC INFO [admin1] Plan 1 [Deploy KVLite] approved
+2021-05-21 18:16:28.670 UTC INFO [admin1] Plan 1 [Deploy KVLite] started, 1 tasks
+2021-05-21 18:16:28.699 UTC INFO [admin1] Plan 1 [Deploy KVLite] task [DeployDatacenter zone=KVLite] [1] started
+2021-05-21 18:16:28.709 UTC INFO [admin1] Plan 1 [Deploy KVLite] task [DeployDatacenter zone=KVLite] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:28.711 UTC INFO [admin1] Plan 2 [SYS$Create system table SYS$SGAttributesTable] approved
+2021-05-21 18:16:28.712 UTC INFO [admin1] Plan 2 [SYS$Create system table SYS$SGAttributesTable] started, 1 tasks
+2021-05-21 18:16:28.715 UTC INFO [admin1] Plan 1 [Deploy KVLite] ended, state=SUCCEEDED
+2021-05-21 18:16:28.733 UTC INFO [admin1] Plan 2 [SYS$Create system table SYS$SGAttributesTable] task [AddTable SYS$SGAttributesTable] [1] started
+2021-05-21 18:16:28.774 UTC INFO [admin1] Plan 3 [SYS$Create system table SYS$TableStatsPartition] approved
+2021-05-21 18:16:28.776 UTC INFO [admin1] Plan 3 [SYS$Create system table SYS$TableStatsPartition] started, 1 tasks
+2021-05-21 18:16:28.783 UTC INFO [admin1] Plan 3 [SYS$Create system table SYS$TableStatsPartition] task [AddTable SYS$TableStatsPartition] [1] started
+2021-05-21 18:16:28.785 UTC INFO [admin1] Plan 4 [Deploy Storage Node] approved
+2021-05-21 18:16:28.800 UTC INFO [admin1] Plan 4 [Deploy Storage Node] started, 1 tasks
+2021-05-21 18:16:28.812 UTC INFO [admin1] Plan 4 [Deploy Storage Node] task [DeploySN sn1(DESKTOP-P7OHHRP:5000)] [1] started
+2021-05-21 18:16:28.829 UTC INFO [admin1] Plan 2 [SYS$Create system table SYS$SGAttributesTable] task [AddTable SYS$SGAttributesTable] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:28.848 UTC INFO [admin1] Plan 5 [SYS$Create system table SYS$IndexStatsLease] approved
+2021-05-21 18:16:28.849 UTC INFO [admin1] Plan 2 [SYS$Create system table SYS$SGAttributesTable] ended, state=SUCCEEDED
+2021-05-21 18:16:28.860 UTC INFO [admin1] Plan 5 [SYS$Create system table SYS$IndexStatsLease] started, 1 tasks
+2021-05-21 18:16:28.871 UTC INFO [admin1] Plan 3 [SYS$Create system table SYS$TableStatsPartition] task [AddTable SYS$TableStatsPartition] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:28.872 UTC INFO [admin1] Plan 5 [SYS$Create system table SYS$IndexStatsLease] task [AddTable SYS$IndexStatsLease] [1] started
+2021-05-21 18:16:28.890 UTC INFO [admin1] Plan 3 [SYS$Create system table SYS$TableStatsPartition] ended, state=SUCCEEDED
+2021-05-21 18:16:28.896 UTC INFO [admin1] Plan 6 [SYS$Create system table SYS$PartitionStatsLease] approved
+2021-05-21 18:16:28.897 UTC INFO [admin1] Plan 6 [SYS$Create system table SYS$PartitionStatsLease] started, 1 tasks
+2021-05-21 18:16:28.904 UTC INFO [admin1] Plan 6 [SYS$Create system table SYS$PartitionStatsLease] task [AddTable SYS$PartitionStatsLease] [1] started
+2021-05-21 18:16:28.921 UTC INFO [admin1] Plan 5 [SYS$Create system table SYS$IndexStatsLease] task [AddTable SYS$IndexStatsLease] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:28.928 UTC INFO [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] approved
+2021-05-21 18:16:28.930 UTC INFO [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] started, 1 tasks
+2021-05-21 18:16:28.931 UTC INFO [admin1] Plan 5 [SYS$Create system table SYS$IndexStatsLease] ended, state=SUCCEEDED
+2021-05-21 18:16:28.937 UTC INFO [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] task [AddTable SYS$StreamRequest] [1] started
+2021-05-21 18:16:28.939 UTC INFO [admin1] Plan 6 [SYS$Create system table SYS$PartitionStatsLease] task [AddTable SYS$PartitionStatsLease] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:28.947 UTC INFO [admin1] Plan 6 [SYS$Create system table SYS$PartitionStatsLease] ended, state=SUCCEEDED
+2021-05-21 18:16:28.949 UTC INFO [admin1] Plan 8 [SYS$Create system table SYS$MRTableInitCheckpoint] approved
+2021-05-21 18:16:28.951 UTC INFO [admin1] Plan 8 [SYS$Create system table SYS$MRTableInitCheckpoint] started, 1 tasks
+2021-05-21 18:16:28.956 UTC INFO [admin1] Plan 8 [SYS$Create system table SYS$MRTableInitCheckpoint] task [AddTable SYS$MRTableInitCheckpoint] [1] started
+2021-05-21 18:16:28.972 UTC INFO [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] task [AddTable SYS$StreamRequest] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:28.980 UTC INFO [admin1] Plan 7 [SYS$Create system table SYS$StreamRequest] ended, state=SUCCEEDED
+2021-05-21 18:16:28.982 UTC INFO [admin1] Plan 9 [SYS$Create system table SYS$MRTableAgentStat] approved
+2021-05-21 18:16:28.988 UTC INFO [admin1] Plan 9 [SYS$Create system table SYS$MRTableAgentStat] started, 1 tasks
+2021-05-21 18:16:28.996 UTC INFO [admin1] Plan 9 [SYS$Create system table SYS$MRTableAgentStat] task [AddTable SYS$MRTableAgentStat] [1] started
+2021-05-21 18:16:29.001 UTC INFO [admin1] Plan 8 [SYS$Create system table SYS$MRTableInitCheckpoint] task [AddTable SYS$MRTableInitCheckpoint] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:29.012 UTC INFO [admin1] Plan 10 [SYS$Create system table SYS$TableStatsIndex] approved
+2021-05-21 18:16:29.015 UTC INFO [admin1] Plan 10 [SYS$Create system table SYS$TableStatsIndex] started, 1 tasks
+2021-05-21 18:16:29.020 UTC INFO [admin1] Plan 8 [SYS$Create system table SYS$MRTableInitCheckpoint] ended, state=SUCCEEDED
+2021-05-21 18:16:29.022 UTC INFO [admin1] Plan 10 [SYS$Create system table SYS$TableStatsIndex] task [AddTable SYS$TableStatsIndex] [1] started
+2021-05-21 18:16:29.047 UTC INFO [admin1] Plan 11 [SYS$Create system table SYS$StreamResponse] approved
+2021-05-21 18:16:29.048 UTC INFO [admin1] Plan 9 [SYS$Create system table SYS$MRTableAgentStat] task [AddTable SYS$MRTableAgentStat] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:29.050 UTC INFO [admin1] Plan 11 [SYS$Create system table SYS$StreamResponse] started, 1 tasks
+2021-05-21 18:16:29.059 UTC INFO [admin1] Plan 9 [SYS$Create system table SYS$MRTableAgentStat] ended, state=SUCCEEDED
+2021-05-21 18:16:29.062 UTC INFO [admin1] Plan 11 [SYS$Create system table SYS$StreamResponse] task [AddTable SYS$StreamResponse] [1] started
+2021-05-21 18:16:29.081 UTC INFO [admin1] Plan 10 [SYS$Create system table SYS$TableStatsIndex] task [AddTable SYS$TableStatsIndex] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:29.109 UTC INFO [admin1] Plan 10 [SYS$Create system table SYS$TableStatsIndex] ended, state=SUCCEEDED
+2021-05-21 18:16:29.110 UTC INFO [admin1] Plan 11 [SYS$Create system table SYS$StreamResponse] task [AddTable SYS$StreamResponse] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:29.116 UTC INFO [admin1] Plan 11 [SYS$Create system table SYS$StreamResponse] ended, state=SUCCEEDED
+2021-05-21 18:16:29.303 UTC INFO [admin1] Monitor collector: adding sn1 to monitoring
+2021-05-21 18:16:29.318 UTC INFO [admin1] Plan 4 [Deploy Storage Node] task [DeploySN sn1(DESKTOP-P7OHHRP:5000)] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:29.327 UTC INFO [admin1] [sn1] Service status: RUNNING 2021-05-21 18:16:29 UTC
+2021-05-21 18:16:29.329 UTC INFO [admin1] Plan 4 [Deploy Storage Node] ended, state=SUCCEEDED
+2021-05-21 18:16:29.372 UTC INFO [admin1] Plan 12 [Deploy Admin Service] approved
+2021-05-21 18:16:29.379 UTC INFO [admin1] Plan 12 [Deploy Admin Service] started, 3 tasks
+2021-05-21 18:16:29.388 UTC INFO [admin1] Plan 12 [Deploy Admin Service] task [DeployAdmin admin1 on sn1] [1] started
+2021-05-21 18:16:29.640 UTC INFO [admin1] SoftwareVersionUpdater: resetting interval to: 3600000 milliseconds (1 agents)
+2021-05-21 18:16:29.689 UTC INFO [admin1] newParameters called for Monitor
+2021-05-21 18:16:29.697 UTC INFO [admin1] newGlobalParameters are identical to old global parameters
+2021-05-21 18:16:29.711 UTC INFO [admin1] Plan 12 [Deploy Admin Service] task [DeployAdmin admin1 on sn1] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:29.713 UTC INFO [admin1] Plan 12 [Deploy Admin Service] task [WaitForAdminState admin1 to reach RUNNING] [2] started
+2021-05-21 18:16:29.722 UTC INFO [admin1] Plan 12 [Deploy Admin Service] task [WaitForAdminState admin1 to reach RUNNING] [2] ended, state=SUCCEEDED
+2021-05-21 18:16:29.727 UTC INFO [admin1] Plan 12 [Deploy Admin Service] task [UpdateAdminHelperHost null] [3] started
+2021-05-21 18:16:29.737 UTC INFO [admin1] oracle.kv.impl.admin.param.Parameters@504a07ea changed helperHost to DESKTOP-P7OHHRP:5002
+2021-05-21 18:16:29.968 UTC INFO [admin1] Plan 12 [Deploy Admin Service] task [UpdateAdminHelperHost null] [3] ended, state=SUCCEEDED
+2021-05-21 18:16:29.971 UTC INFO [admin1] Plan 12 [Deploy Admin Service] ended, state=SUCCEEDED
+2021-05-21 18:16:29.978 UTC INFO [admin1] Created Storage Node Pool: KVLitePool
+2021-05-21 18:16:29.983 UTC INFO [admin1] Added Storage Node sn1 to pool: KVLitePool
+2021-05-21 18:16:30.014 UTC INFO [admin1] KVLite has nothing to rebalance
+2021-05-21 18:16:30.070 UTC INFO [admin1] Plan 13 [Deploy KVStore] approved
+2021-05-21 18:16:30.076 UTC INFO [admin1] Plan 13 [Deploy KVStore] deploying topology candidate KVLite.
+2021-05-21 18:16:30.081 UTC INFO [admin1] Current topology: store=kvstore  numPartitions=0 sequence=2
+  zn: id=zn1 name=KVLite repFactor=1 type=PRIMARY allowArbiters=false masterAffinity=false
+
+  sn=[sn1] zn:[id=zn1 name=KVLite] DESKTOP-P7OHHRP:5000
+
+  numShards=0
+
+2021-05-21 18:16:30.081 UTC INFO [admin1] Preview of changes to be executed by Plan 13 [Deploy KVStore]:
+Topology transformation from current deployed topology to KVLite:
+Create 1 shard 
+Create 1 RN 
+Create 10 partitions 
+
+shard rg1
+  1 new RN : rg1-rn1 
+  10 new partitions 
+
+2021-05-21 18:16:30.081 UTC INFO [admin1] Target topology candidate: KVLite
+store=kvstore  numPartitions=10 sequence=14
+  zn: id=zn1 name=KVLite repFactor=1 type=PRIMARY allowArbiters=false masterAffinity=false
+
+  sn=[sn1] zn:[id=zn1 name=KVLite] DESKTOP-P7OHHRP:5000
+    [rg1-rn1]
+
+  numShards=1
+  shard=[rg1] num partitions=10
+    [rg1-rn1] sn=sn1
+
+2021-05-21 18:16:30.083 UTC INFO [admin1] Plan 13 [Deploy KVStore] started, 9 tasks
+2021-05-21 18:16:30.088 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [UpdateDatacenterV2 zone=zn1] [1] started
+2021-05-21 18:16:30.098 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [UpdateDatacenterV2 zone=zn1] [1] ended, state=SUCCEEDED
+2021-05-21 18:16:30.099 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [DeployShard on [sn1] zn:[id=zn1 name=KVLite] DESKTOP-P7OHHRP:5000 ] [2] started
+2021-05-21 18:16:30.124 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [DeployShard rg1 on [sn1] zn:[id=zn1 name=KVLite] DESKTOP-P7OHHRP:5000 ] [2] ended, state=SUCCEEDED
+2021-05-21 18:16:30.124 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [DeployNewRN on sn1(DESKTOP-P7OHHRP:5000)] [3] started
+2021-05-21 18:16:30.131 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [DeployNewRN rg1-rn1 on sn1(DESKTOP-P7OHHRP:5000)] creating rg1-rn1 on sn1 haPort=DESKTOP-P7OHHRP:5 003 helpers=DESKTOP-P7OHHRP:5003 storage directory path=C:\kv-ce-20.3.18\kv-20.3.18\lib\.\kvroot\kvstore\sn1 directory size=1 073 741 824 log directory path =null log directory size = 0 heapMB=unspecified cachePercent=70 cacheSize=unspecified -XX:ParallelGCThreads=70
+2021-05-21 18:16:31.627 UTC INFO [admin1] Monitor collector: adding rg1-rn1 to monitoring
+2021-05-21 18:16:31.643 UTC INFO [admin1] [rg1-rn1] Service status: RUNNING 2021-05-21 18:16:30 UTC
+2021-05-21 18:16:31.652 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [DeployNewRN rg1-rn1 on sn1(DESKTOP-P7OHHRP:5000)] [3] ended, state=SUCCEEDED
+2021-05-21 18:16:31.652 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [UpdateNthRNHelperHost] [4] started
+2021-05-21 18:16:31.660 UTC INFO [admin1] Changing helperHost for rg1-rn1 in metadata database  to DESKTOP-P7OHHRP:5003
+2021-05-21 18:16:31.894 UTC INFO [admin1] Changed helperHost for rg1-rn1 on sn1 to DESKTOP-P7OHHRP:5003
+2021-05-21 18:16:31.901 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [UpdateNthRNHelperHost] [4] ended, state=SUCCEEDED
+2021-05-21 18:16:31.901 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [NewNthRNParameters] [5] started
+2021-05-21 18:16:31.917 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [NewNthRNParameters] [5] ended, state=SUCCEEDED
+2021-05-21 18:16:31.918 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [6] started
+2021-05-21 18:16:31.919 UTC INFO [admin1] Broadcasting topology seq# 4, changes for plan 13
+2021-05-21 18:16:31.928 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [6] ended, state=SUCCEEDED
+2021-05-21 18:16:31.928 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastMetadata] [7] started
+2021-05-21 18:16:31.934 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastMetadata] [7] ended, state=SUCCEEDED
+2021-05-21 18:16:31.934 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [AddPartitions totalPartitions=10] [8] started
+2021-05-21 18:16:31.948 UTC INFO [admin1] Broadcasting topology seq# 14, changes for Initializing new partitions
+2021-05-21 18:16:31.969 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [AddPartitions totalPartitions=10] [8] ended, state=SUCCEEDED
+2021-05-21 18:16:31.969 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [9] started
+2021-05-21 18:16:31.971 UTC INFO [admin1] Broadcasting topology seq# 14, changes for plan 13
+2021-05-21 18:16:31.978 UTC INFO [admin1] Plan 13 [Deploy KVStore] task [BroadcastTopo] [9] ended, state=SUCCEEDED
+2021-05-21 18:16:31.981 UTC INFO [admin1] Plan 13 [Deploy KVStore] ended, state=SUCCEEDED
+2021-05-21 18:16:39.049 UTC INFO [admin1] Checking status of system tables
+2021-05-21 18:16:39.084 UTC INFO [admin1] Exit Thread[System table monitor,5,RMI Runtime]
+2021-05-21 18:18:49.126 UTC INFO [admin1] Starting AdminService
+2021-05-21 18:18:49.228 UTC INFO [admin1] Initializing PRIMARY Admin for store: kvstore
+2021-05-21 18:18:49.233 UTC INFO [admin1] JVM Runtime maxMemory (bytes): 257425408
+2021-05-21 18:18:49.233 UTC INFO [admin1] Non-default JE properties for environment: {je.env.runVerifier=false, je.log.faultReadSize=4096, je.env.runEvictor=true, je.cleaner.minUtilization=40, je.maxDisk=3221225472, je.lock.nLockTables=97, je.cleaner.threads=2, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.log.iteratorReadSize=1048576, je.log.numBuffers=16, je.nodeMaxEntries=128, je.lock.timeout=10 s, je.cleaner.minFileUtilization=5, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.cleaner.readSize=1048576, je.log.fileCacheSize=2000, je.log.fileMax=52428800}
+2021-05-21 18:18:49.270 UTC INFO [admin1] DataChannelFactory: basic
+2021-05-21 18:18:49.279 UTC INFO [admin1] AdminStateTracker-serviceId-admin1 thread start: admin1
+2021-05-21 18:18:49.381 UTC INFO [admin1] JE: Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2021-05-21 18:18:49.718 UTC INFO [admin1] JE recovery: FIND_END_OF_LOG
+2021-05-21 18:18:49.769 UTC INFO [admin1] JE recovery: FIND_LAST_CKPT
+2021-05-21 18:18:49.774 UTC INFO [admin1] JE recovery: READ_DBMAP_INFO
+2021-05-21 18:18:49.829 UTC INFO [admin1] JE recovery: REDO_DBMAP_INFO
+2021-05-21 18:18:49.831 UTC INFO [admin1] JE recovery: BUILD_TXN_STATUS_INFO
+2021-05-21 18:18:49.835 UTC INFO [admin1] JE recovery: REDO_DBMAP_RECORDS
+2021-05-21 18:18:49.839 UTC INFO [admin1] JE recovery: READ_DATA_INFO
+2021-05-21 18:18:49.852 UTC INFO [admin1] JE recovery: REDO_DATA_INFO
+2021-05-21 18:18:49.855 UTC INFO [admin1] JE recovery: UNDO_DATA_RECORDS
+2021-05-21 18:18:49.858 UTC INFO [admin1] JE recovery: REDO_DATA_RECORDS
+2021-05-21 18:18:49.887 UTC INFO [admin1] JE recovery: FINISH_VERIFICATION
+2021-05-21 18:18:49.887 UTC INFO [admin1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2021-05-21 18:18:49.900 UTC INFO [admin1] JE recovery: POPULATE_EXPIRATION_PROFILE
+2021-05-21 18:18:49.926 UTC INFO [admin1] JE recovery: REMOVE_TEMP_DBS
+2021-05-21 18:18:49.942 UTC INFO [admin1] JE recovery: CKPT
+2021-05-21 18:18:49.945 UTC INFO [admin1] JE: Checkpoint Start.Checkpoint Id=2
+2021-05-21 18:18:49.960 UTC INFO [admin1] JE: Checkpoint End. Checkpoint Id=2 success=true
+2021-05-21 18:18:49.967 UTC INFO [admin1] JE recovery: RECOVERY_FINISHED
+2021-05-21 18:18:49.999 UTC INFO [admin1] JE: No server auth method
+2021-05-21 18:18:49.999 UTC INFO [admin1] JE: No server auth method
+2021-05-21 18:18:50.000 UTC INFO [admin1] JE: Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5002
+2021-05-21 18:18:50.000 UTC INFO [admin1] JE: Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5002
+2021-05-21 18:18:50.000 UTC INFO [admin1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:18:50.001 UTC INFO [admin1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:18:50.047 UTC INFO [admin1] JE: DTVLSN at start:318
+2021-05-21 18:18:50.047 UTC INFO [admin1] JE: DTVLSN at start:318
+2021-05-21 18:18:50.049 UTC INFO [admin1] JE: node:NullNode(-1) state change from DETACHED to UNKNOWN
+2021-05-21 18:18:50.070 UTC INFO [admin1] JE: Learner started
+2021-05-21 18:18:50.070 UTC INFO [admin1] JE: Learner started
+2021-05-21 18:18:50.078 UTC INFO [admin1] JE: Current group size: 1
+2021-05-21 18:18:50.078 UTC INFO [admin1] JE: Current group size: 1
+2021-05-21 18:18:50.078 UTC INFO [admin1] JE: Existing node 1 querying for a current master.
+2021-05-21 18:18:50.079 UTC INFO [admin1] JE: Existing node 1 querying for a current master.
+2021-05-21 18:18:50.082 UTC INFO [admin1] JE: Acceptor started
+2021-05-21 18:18:50.093 UTC INFO [admin1] JE: learner request: MQ sender: -2147483648
+2021-05-21 18:18:50.093 UTC INFO [admin1] JE: learner request: MQ sender: -2147483648
+2021-05-21 18:18:50.095 UTC INFO [admin1] JE recovery: BECOME_CONSISTENT
+2021-05-21 18:18:50.096 UTC INFO [admin1] JE: Node 1 started
+2021-05-21 18:18:50.096 UTC INFO [admin1] JE: Node 1 started
+2021-05-21 18:18:50.096 UTC INFO [admin1] JE: Election initiated; election #1
+2021-05-21 18:18:50.096 UTC INFO [admin1] JE: Election initiated; election #1
+2021-05-21 18:18:50.098 UTC INFO [admin1] JE: Started election thread Fri May 21 20:18:50 CEST 2021
+2021-05-21 18:18:50.099 UTC INFO [admin1] JE: Started election thread Fri May 21 20:18:50 CEST 2021
+2021-05-21 18:18:50.099 UTC INFO [admin1] JE: Phase 1 proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002)
+2021-05-21 18:18:50.099 UTC INFO [admin1] JE: Phase 1 proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002)
+2021-05-21 18:18:50.105 UTC INFO [admin1] JE: Promised: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002) Suggested Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1 Suggestion Ranking: Ranking major:318 minor:318id:1
+2021-05-21 18:18:50.107 UTC INFO [admin1] JE: Phase 2 proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:18:50.107 UTC INFO [admin1] JE: Phase 2 proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:18:50.110 UTC INFO [admin1] JE: Promised: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002) Accepted: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:18:50.111 UTC INFO [admin1] JE: Winning proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:18:50.111 UTC INFO [admin1] JE: Winning proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:18:50.111 UTC INFO [admin1] JE: Informing 1 learners.
+2021-05-21 18:18:50.111 UTC INFO [admin1] JE: Informing 1 learners.
+2021-05-21 18:18:50.114 UTC INFO [admin1] JE: learner request: RE sender: 1
+2021-05-21 18:18:50.114 UTC INFO [admin1] JE: learner request: RE sender: 1
+2021-05-21 18:18:50.114 UTC INFO [admin1] JE: Learner notified. Proposal:Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:18:50.114 UTC INFO [admin1] JE: Learner notified. Proposal:Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:18:50.114 UTC INFO [admin1] JE: Master changed to 1
+2021-05-21 18:18:50.115 UTC INFO [admin1] JE: Master changed to 1
+2021-05-21 18:18:50.116 UTC INFO [admin1] JE: Election finished. Elapsed time: 20ms
+2021-05-21 18:18:50.116 UTC INFO [admin1] JE: Election finished. Elapsed time: 20ms
+2021-05-21 18:18:50.117 UTC INFO [admin1] JE: Informed learners: 1
+2021-05-21 18:18:50.117 UTC INFO [admin1] JE: Informed learners: 1
+2021-05-21 18:18:50.117 UTC INFO [admin1] JE: Election thread exited. Group master: 1(1)
+2021-05-21 18:18:50.117 UTC INFO [admin1] JE: Election thread exited. Group master: 1(1)
+2021-05-21 18:18:50.132 UTC INFO [admin1] JE: node:1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:18:50.132 UTC INFO [admin1] JE: Election took less than 1000, waiting 980 milliseconds to pad election time.
+2021-05-21 18:18:50.132 UTC INFO [admin1] JE: Election took less than 1000, waiting 980 milliseconds to pad election time.
+2021-05-21 18:18:51.112 UTC INFO [admin1] JE: Feeder manager accepting requests.
+2021-05-21 18:18:51.113 UTC INFO [admin1] JE: Feeder manager accepting requests.
+2021-05-21 18:18:51.116 UTC INFO [admin1] JE: Joining group as master
+2021-05-21 18:18:51.116 UTC INFO [admin1] JE: Joining group as master
+2021-05-21 18:18:51.122 UTC INFO [admin1] State change event: Fri May 21 20:18:50 CEST 2021, State: MASTER, Type: PRIMARY, Master: 1
+2021-05-21 18:18:51.123 UTC INFO [admin1] AdminStateTracker-serviceId-admin1 queue added:MASTER
+2021-05-21 18:18:51.126 UTC INFO [admin1] Shutting down monitor collector
+2021-05-21 18:18:51.172 UTC INFO [admin1] Initialize stores at schema version 5, readOnly=false
+2021-05-21 18:18:51.186 UTC INFO [admin1] Open: AdminCriticalEventsDatabase
+2021-05-21 18:18:51.192 UTC INFO [admin1] Open: AdminParametersDatabase
+2021-05-21 18:18:51.194 UTC INFO [admin1] Open: AdminMemoDatabase
+2021-05-21 18:18:51.204 UTC INFO [admin1] Open: AdminPlanDatabase
+2021-05-21 18:18:51.206 UTC INFO [admin1] Open: AdminSecurityDatabase
+2021-05-21 18:18:51.207 UTC INFO [admin1] Open: AdminTableDatabase
+2021-05-21 18:18:51.210 UTC INFO [admin1] Open: AdminTopologyHistoryDatabase
+2021-05-21 18:18:51.211 UTC INFO [admin1] Open: AdminTopologyCandidateDatabase
+2021-05-21 18:18:51.296 UTC INFO [admin1] Using existing Admin database
+2021-05-21 18:18:51.296 UTC INFO [admin1] statusListener service port: 53270
+2021-05-21 18:18:51.297 UTC INFO [admin1] perfListener service port: 53270
+2021-05-21 18:18:51.297 UTC INFO [admin1] logListener service port: 53270
+2021-05-21 18:18:51.304 UTC INFO [admin1] Monitor collector: adding sn1 to monitoring
+2021-05-21 18:18:51.308 UTC INFO [admin1] Monitor collector: adding rg1-rn1 to monitoring
+2021-05-21 18:18:51.338 UTC INFO [admin1] [sn1] Service status: RUNNING 2021-05-21 18:18:49 UTC
+2021-05-21 18:18:51.352 UTC INFO [admin1] [rg1-rn1] Service status: STARTING 2021-05-21 18:18:51 UTC
+2021-05-21 18:18:51.613 UTC INFO [admin1] Replicated environment handle established. Cache size: 154455244, State: MASTER
+2021-05-21 18:18:51.622 UTC INFO [admin1] Starting task: interval is 20 SECONDS, delay is 8378(ms)
+2021-05-21 18:18:51.639 UTC INFO [admin1] Starting commandService on rmi://DESKTOP-P7OHHRP:5000/commandService
+2021-05-21 18:18:51.751 UTC INFO [admin1] Starting Thread[System table monitor,5,main]
+2021-05-21 18:18:51.752 UTC INFO [admin1] Checking status of system tables
+2021-05-21 18:18:51.773 UTC INFO [admin1] Exit Thread[System table monitor,5,main]
+2021-05-21 18:18:51.827 UTC INFO [admin1] Successfully created a secure proxy for commandService
+2021-05-21 18:18:51.867 UTC INFO [admin1] commandService service port: 53270
+2021-05-21 18:18:51.867 UTC INFO [admin1] Starting admin:CLIENT_ADMIN on rmi://DESKTOP-P7OHHRP:5000/admin:CLIENT_ADMIN
+2021-05-21 18:18:52.070 UTC INFO [admin1] Successfully created a secure proxy for admin:CLIENT_ADMIN
+2021-05-21 18:18:52.092 UTC INFO [admin1] admin:CLIENT_ADMIN service port: 53270
+2021-05-21 18:18:52.093 UTC INFO [admin1] Admin web service is not starting up, web port: -1
+2021-05-21 18:18:52.093 UTC INFO [admin1] Started AdminService
+2021-05-21 18:18:52.665 UTC INFO [admin1] SoftwareVersionUpdater: resetting interval to: 3600000 milliseconds (1 agents)
+2021-05-21 18:19:11.415 UTC INFO [admin1] [rg1-rn1] Service status: RUNNING 2021-05-21 18:18:51 UTC
+2021-05-21 18:22:17.399 UTC INFO [admin1] Starting AdminService
+2021-05-21 18:22:17.547 UTC INFO [admin1] Initializing PRIMARY Admin for store: kvstore
+2021-05-21 18:22:17.554 UTC INFO [admin1] JVM Runtime maxMemory (bytes): 257425408
+2021-05-21 18:22:17.554 UTC INFO [admin1] Non-default JE properties for environment: {je.env.runVerifier=false, je.log.faultReadSize=4096, je.env.runEvictor=true, je.cleaner.minUtilization=40, je.maxDisk=3221225472, je.lock.nLockTables=97, je.cleaner.threads=2, je.log.writeQueueSize=2097152, je.evictor.criticalPercentage=20, je.log.iteratorReadSize=1048576, je.log.numBuffers=16, je.nodeMaxEntries=128, je.lock.timeout=10 s, je.cleaner.minFileUtilization=5, je.txn.durability=write_no_sync,write_no_sync,simple_majority, je.cleaner.readSize=1048576, je.log.fileCacheSize=2000, je.log.fileMax=52428800}
+2021-05-21 18:22:17.570 UTC INFO [admin1] DataChannelFactory: basic
+2021-05-21 18:22:17.577 UTC INFO [admin1] AdminStateTracker-serviceId-admin1 thread start: admin1
+2021-05-21 18:22:17.646 UTC INFO [admin1] JE: Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2021-05-21 18:22:17.997 UTC INFO [admin1] JE recovery: FIND_END_OF_LOG
+2021-05-21 18:22:18.063 UTC INFO [admin1] JE recovery: FIND_LAST_CKPT
+2021-05-21 18:22:18.068 UTC INFO [admin1] JE recovery: READ_DBMAP_INFO
+2021-05-21 18:22:18.097 UTC INFO [admin1] JE recovery: REDO_DBMAP_INFO
+2021-05-21 18:22:18.098 UTC INFO [admin1] JE recovery: BUILD_TXN_STATUS_INFO
+2021-05-21 18:22:18.104 UTC INFO [admin1] JE recovery: REDO_DBMAP_RECORDS
+2021-05-21 18:22:18.109 UTC INFO [admin1] JE recovery: READ_DATA_INFO
+2021-05-21 18:22:18.128 UTC INFO [admin1] JE recovery: REDO_DATA_INFO
+2021-05-21 18:22:18.130 UTC INFO [admin1] JE recovery: UNDO_DATA_RECORDS
+2021-05-21 18:22:18.132 UTC INFO [admin1] JE recovery: REDO_DATA_RECORDS
+2021-05-21 18:22:18.136 UTC INFO [admin1] JE recovery: FINISH_VERIFICATION
+2021-05-21 18:22:18.137 UTC INFO [admin1] JE recovery: POPULATE_UTILIZATION_PROFILE
+2021-05-21 18:22:18.150 UTC INFO [admin1] JE recovery: POPULATE_EXPIRATION_PROFILE
+2021-05-21 18:22:18.165 UTC INFO [admin1] JE recovery: REMOVE_TEMP_DBS
+2021-05-21 18:22:18.188 UTC INFO [admin1] JE recovery: CKPT
+2021-05-21 18:22:18.189 UTC INFO [admin1] JE: Checkpoint Start.Checkpoint Id=3
+2021-05-21 18:22:18.202 UTC INFO [admin1] JE: Checkpoint End. Checkpoint Id=3 success=true
+2021-05-21 18:22:18.209 UTC INFO [admin1] JE recovery: RECOVERY_FINISHED
+2021-05-21 18:22:18.240 UTC INFO [admin1] JE: No server auth method
+2021-05-21 18:22:18.240 UTC INFO [admin1] JE: No server auth method
+2021-05-21 18:22:18.241 UTC INFO [admin1] JE: Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5002
+2021-05-21 18:22:18.242 UTC INFO [admin1] JE: Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5002
+2021-05-21 18:22:18.242 UTC INFO [admin1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:22:18.242 UTC INFO [admin1] JE: DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:22:18.296 UTC INFO [admin1] JE: DTVLSN at start:329
+2021-05-21 18:22:18.297 UTC INFO [admin1] JE: DTVLSN at start:329
+2021-05-21 18:22:18.297 UTC INFO [admin1] JE: node:NullNode(-1) state change from DETACHED to UNKNOWN
+2021-05-21 18:22:18.322 UTC INFO [admin1] JE: Current group size: 1
+2021-05-21 18:22:18.323 UTC INFO [admin1] JE: Current group size: 1
+2021-05-21 18:22:18.323 UTC INFO [admin1] JE: Existing node 1 querying for a current master.
+2021-05-21 18:22:18.323 UTC INFO [admin1] JE: Existing node 1 querying for a current master.
+2021-05-21 18:22:18.332 UTC INFO [admin1] JE: Learner started
+2021-05-21 18:22:18.334 UTC INFO [admin1] JE: Acceptor started
+2021-05-21 18:22:18.349 UTC INFO [admin1] JE: learner request: MQ sender: -2147483648
+2021-05-21 18:22:18.350 UTC INFO [admin1] JE recovery: BECOME_CONSISTENT
+2021-05-21 18:22:18.351 UTC INFO [admin1] JE: Node 1 started
+2021-05-21 18:22:18.351 UTC INFO [admin1] JE: Node 1 started
+2021-05-21 18:22:18.352 UTC INFO [admin1] JE: Election initiated; election #1
+2021-05-21 18:22:18.352 UTC INFO [admin1] JE: Election initiated; election #1
+2021-05-21 18:22:18.355 UTC INFO [admin1] JE: Started election thread Fri May 21 20:22:18 CEST 2021
+2021-05-21 18:22:18.355 UTC INFO [admin1] JE: Started election thread Fri May 21 20:22:18 CEST 2021
+2021-05-21 18:22:18.355 UTC INFO [admin1] JE: Phase 1 proposal: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000002)
+2021-05-21 18:22:18.362 UTC INFO [admin1] JE: Promised: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000002) Suggested Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1 Suggestion Ranking: Ranking major:329 minor:329id:1
+2021-05-21 18:22:18.367 UTC INFO [admin1] JE: Phase 2 proposal: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:22:18.371 UTC INFO [admin1] JE: Promised: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000002) Accepted: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:22:18.372 UTC INFO [admin1] JE: Winning proposal: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:22:18.373 UTC INFO [admin1] JE: Informing 1 learners.
+2021-05-21 18:22:18.373 UTC INFO [admin1] JE: Informing 1 learners.
+2021-05-21 18:22:18.376 UTC INFO [admin1] JE: learner request: RE sender: 1
+2021-05-21 18:22:18.376 UTC INFO [admin1] JE: Learner notified. Proposal:Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000002) Value: Value:DESKTOP-P7OHHRP$$$5002$$$1$$$1
+2021-05-21 18:22:18.377 UTC INFO [admin1] JE: Master changed to 1
+2021-05-21 18:22:18.377 UTC INFO [admin1] JE: Master changed to 1
+2021-05-21 18:22:18.377 UTC INFO [admin1] JE: Election finished. Elapsed time: 26ms
+2021-05-21 18:22:18.377 UTC INFO [admin1] JE: Election finished. Elapsed time: 26ms
+2021-05-21 18:22:18.378 UTC INFO [admin1] JE: Informed learners: 1
+2021-05-21 18:22:18.378 UTC INFO [admin1] JE: Informed learners: 1
+2021-05-21 18:22:18.378 UTC INFO [admin1] JE: Election thread exited. Group master: 1(1)
+2021-05-21 18:22:18.378 UTC INFO [admin1] JE: Election thread exited. Group master: 1(1)
+2021-05-21 18:22:18.449 UTC INFO [admin1] JE: node:1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:22:18.449 UTC INFO [admin1] JE: Election took less than 1000, waiting 974 milliseconds to pad election time.
+2021-05-21 18:22:18.450 UTC INFO [admin1] JE: Election took less than 1000, waiting 974 milliseconds to pad election time.
+2021-05-21 18:22:19.425 UTC INFO [admin1] JE: Feeder manager accepting requests.
+2021-05-21 18:22:19.425 UTC INFO [admin1] JE: Feeder manager accepting requests.
+2021-05-21 18:22:19.425 UTC INFO [admin1] JE: Joining group as master
+2021-05-21 18:22:19.426 UTC INFO [admin1] JE: Joining group as master
+2021-05-21 18:22:19.427 UTC INFO [admin1] State change event: Fri May 21 20:22:18 CEST 2021, State: MASTER, Type: PRIMARY, Master: 1
+2021-05-21 18:22:19.428 UTC INFO [admin1] AdminStateTracker-serviceId-admin1 queue added:MASTER
+2021-05-21 18:22:19.428 UTC INFO [admin1] Shutting down monitor collector
+2021-05-21 18:22:19.438 UTC INFO [admin1] Initialize stores at schema version 5, readOnly=false
+2021-05-21 18:22:19.442 UTC INFO [admin1] Open: AdminCriticalEventsDatabase
+2021-05-21 18:22:19.444 UTC INFO [admin1] Open: AdminParametersDatabase
+2021-05-21 18:22:19.444 UTC INFO [admin1] Open: AdminMemoDatabase
+2021-05-21 18:22:19.446 UTC INFO [admin1] Open: AdminPlanDatabase
+2021-05-21 18:22:19.448 UTC INFO [admin1] Open: AdminSecurityDatabase
+2021-05-21 18:22:19.449 UTC INFO [admin1] Open: AdminTableDatabase
+2021-05-21 18:22:19.451 UTC INFO [admin1] Open: AdminTopologyHistoryDatabase
+2021-05-21 18:22:19.451 UTC INFO [admin1] Open: AdminTopologyCandidateDatabase
+2021-05-21 18:22:19.511 UTC INFO [admin1] Using existing Admin database
+2021-05-21 18:22:19.512 UTC INFO [admin1] statusListener service port: 53407
+2021-05-21 18:22:19.512 UTC INFO [admin1] perfListener service port: 53407
+2021-05-21 18:22:19.513 UTC INFO [admin1] logListener service port: 53407
+2021-05-21 18:22:19.521 UTC INFO [admin1] Monitor collector: adding sn1 to monitoring
+2021-05-21 18:22:19.523 UTC INFO [admin1] Monitor collector: adding rg1-rn1 to monitoring
+2021-05-21 18:22:19.549 UTC INFO [admin1] [sn1] Service status: RUNNING 2021-05-21 18:22:17 UTC
+2021-05-21 18:22:19.577 UTC INFO [admin1] [rg1-rn1] Service status: STARTING 2021-05-21 18:22:19 UTC
+2021-05-21 18:22:19.728 UTC INFO [admin1] Replicated environment handle established. Cache size: 154455244, State: MASTER
+2021-05-21 18:22:19.735 UTC INFO [admin1] Starting task: interval is 20 SECONDS, delay is 265(ms)
+2021-05-21 18:22:19.736 UTC INFO [admin1] Starting commandService on rmi://DESKTOP-P7OHHRP:5000/commandService
+2021-05-21 18:22:19.784 UTC INFO [admin1] Starting Thread[System table monitor,5,main]
+2021-05-21 18:22:19.784 UTC INFO [admin1] Checking status of system tables
+2021-05-21 18:22:19.819 UTC INFO [admin1] Exit Thread[System table monitor,5,main]
+2021-05-21 18:22:19.826 UTC INFO [admin1] Successfully created a secure proxy for commandService
+2021-05-21 18:22:20.070 UTC INFO [admin1] commandService service port: 53407
+2021-05-21 18:22:20.070 UTC INFO [admin1] Starting admin:CLIENT_ADMIN on rmi://DESKTOP-P7OHHRP:5000/admin:CLIENT_ADMIN
+2021-05-21 18:22:20.321 UTC INFO [admin1] Successfully created a secure proxy for admin:CLIENT_ADMIN
+2021-05-21 18:22:20.333 UTC INFO [admin1] admin:CLIENT_ADMIN service port: 53407
+2021-05-21 18:22:20.333 UTC INFO [admin1] Admin web service is not starting up, web port: -1
+2021-05-21 18:22:20.333 UTC INFO [admin1] Started AdminService
+2021-05-21 18:22:20.739 UTC INFO [admin1] SoftwareVersionUpdater: resetting interval to: 3600000 milliseconds (1 agents)
+2021-05-21 18:22:39.595 UTC INFO [admin1] [rg1-rn1] Service status: RUNNING 2021-05-21 18:22:19 UTC

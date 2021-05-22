@@ -1,0 +1,127 @@
+2021-05-21 18:51:18.793 UTC INFO [sn1] Starting StorageNodeAgent for kvstore NoSQL version:20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community JE version:20.3.17 Java version:1.8.0_201
+2021-05-21 18:51:18.846 UTC INFO [sn1] Create collector service and register parameter listeners successfully.
+2021-05-21 18:51:18.853 UTC INFO [sn1] Started MasterRebalanceThread
+2021-05-21 18:51:18.866 UTC INFO [sn1] Starting MonitorAgent.  Server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync> Client socket factory:<ClientSocketFactory name=kvstore|sn|monitor id=1559929929 connectMs=10000 readMs=5000 clientId=none localAddr=none>
+2021-05-21 18:51:18.881 UTC INFO [sn1] kvstore:sn1:MONITOR service port: 54225
+2021-05-21 18:51:18.884 UTC INFO [sn1] Successfully created secure proxy for the storage node agent
+2021-05-21 18:51:18.895 UTC INFO [sn1] kvstore:sn1:MAIN service port: 54225
+2021-05-21 18:51:18.895 UTC INFO [sn1] Rebound to registry port 5000 using name sn1 with SSF:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2021-05-21 18:51:18.895 UTC INFO [sn1] Service status changed from STARTING to RUNNING
+2021-05-21 18:51:18.895 UTC INFO [sn1] Started StorageNodeAgent for kvstore
+2021-05-21 18:51:19.016 UTC INFO [sn1] admin1: Creating AdminService
+2021-05-21 18:51:19.262 UTC INFO [sn1] admin1: Created AdminService
+2021-05-21 18:51:19.296 UTC INFO [sn1] admin1: newAdminParameters called
+2021-05-21 18:51:19.719 UTC INFO [sn1] rg1-rn1: Creating RepNode
+2021-05-21 18:51:19.967 UTC INFO [sn1] rg1-rn1: Starting RepNode
+2021-05-21 18:51:19.979 UTC INFO [sn1] rg1-rn1: Started RepNode
+2021-05-21 18:51:19.979 UTC INFO [sn1] rg1-rn1: Configuring RepNode
+2021-05-21 18:51:20.491 UTC INFO [sn1] Thread returning for service rg1-rn1
+2021-05-21 18:51:21.207 UTC INFO [sn1] rg1-rn1: Created RepNode
+2021-05-21 18:51:21.267 UTC INFO [sn1] noteState called
+2021-05-21 18:51:21.267 UTC INFO [sn1] added:State RN:rg1-rn1 state: MASTER top seq num: 4
+2021-05-21 18:51:21.268 UTC INFO [sn1] sn: sn1 state transition: State RN:rg1-rn1 state: MASTER top seq num: 4 active masters:[rg1-rn1] active replicas:0 replica leases:0
+2021-05-21 18:51:21.268 UTC INFO [sn1] Acquiring initial topology from RNs
+2021-05-21 18:51:21.322 UTC INFO [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 4
+2021-05-21 18:51:21.347 UTC INFO [sn1] rg1-rn1: newRepNodeParameters called
+2021-05-21 18:52:21.329 UTC INFO [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 14
+2021-05-21 19:02:08.611 UTC INFO [sn1] Starting StorageNodeAgent for kvstore NoSQL version:20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community JE version:20.3.17 Java version:1.8.0_201
+2021-05-21 19:02:08.633 UTC INFO [sn1] Creating a Registry on port DESKTOP-P7OHHRP:5000 server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2021-05-21 19:02:08.989 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2021-05-21 19:02:10.271 UTC INFO [sn1] Create collector service and register parameter listeners successfully.
+2021-05-21 19:02:10.280 UTC INFO [sn1] Started MasterRebalanceThread
+2021-05-21 19:02:10.284 UTC INFO [sn1] admin1: Starting AdminService
+2021-05-21 19:02:10.285 UTC INFO [sn1] admin1: Started AdminService
+2021-05-21 19:02:10.291 UTC INFO [sn1] rg1-rn1: Starting RepNode
+2021-05-21 19:02:10.291 UTC INFO [sn1] Directory specified for rg1-rn1 C:\kv-ce-20.3.18\kv-20.3.18\.\kvroot\kvstore\sn1 does not exist
+2021-05-21 19:02:10.291 UTC SEVERE [sn1] rg1-rn1: Runtime Exception starting RepNode
+java.lang.IllegalArgumentException: Directory specified for rg1-rn1 C:\kv-ce-20.3.18\kv-20.3.18\.\kvroot\kvstore\sn1 does not exist
+	at oracle.kv.impl.sna.StorageNodeAgent.validateDirectory(StorageNodeAgent.java:2153)
+	at oracle.kv.impl.sna.StorageNodeAgent.validateRepNodeDirectory(StorageNodeAgent.java:2124)
+	at oracle.kv.impl.sna.StorageNodeAgent.startRepNodeInternal(StorageNodeAgent.java:2175)
+	at oracle.kv.impl.sna.StorageNodeAgent.startComponents(StorageNodeAgent.java:1849)
+	at oracle.kv.impl.sna.StorageNodeAgent.startupRegistered(StorageNodeAgent.java:1137)
+	at oracle.kv.impl.sna.StorageNodeAgent.start(StorageNodeAgent.java:765)
+	at oracle.kv.impl.sna.StorageNodeAgentImpl.start(StorageNodeAgentImpl.java:132)
+	at oracle.kv.util.kvlite.KVLite.startSNA(KVLite.java:880)
+	at oracle.kv.util.kvlite.KVLite.initStorageNodes(KVLite.java:760)
+	at oracle.kv.util.kvlite.KVLite.start(KVLite.java:929)
+	at oracle.kv.util.kvlite.KVLite.start(KVLite.java:907)
+	at oracle.kv.util.kvlite.KVLite.main(KVLite.java:1094)
+	at oracle.kv.impl.util.KVStoreMain$1.run(KVStoreMain.java:214)
+	at oracle.kv.impl.util.KVStoreMain.main(KVStoreMain.java:566)
+2021-05-21 19:02:10.293 UTC SEVERE [sn1] rg1-rn1: Unable to start a RepNode on sn1
+java.lang.IllegalArgumentException: Directory specified for rg1-rn1 C:\kv-ce-20.3.18\kv-20.3.18\.\kvroot\kvstore\sn1 does not exist
+	at oracle.kv.impl.sna.StorageNodeAgent.validateDirectory(StorageNodeAgent.java:2153)
+	at oracle.kv.impl.sna.StorageNodeAgent.validateRepNodeDirectory(StorageNodeAgent.java:2124)
+	at oracle.kv.impl.sna.StorageNodeAgent.startRepNodeInternal(StorageNodeAgent.java:2175)
+	at oracle.kv.impl.sna.StorageNodeAgent.startComponents(StorageNodeAgent.java:1849)
+	at oracle.kv.impl.sna.StorageNodeAgent.startupRegistered(StorageNodeAgent.java:1137)
+	at oracle.kv.impl.sna.StorageNodeAgent.start(StorageNodeAgent.java:765)
+	at oracle.kv.impl.sna.StorageNodeAgentImpl.start(StorageNodeAgentImpl.java:132)
+	at oracle.kv.util.kvlite.KVLite.startSNA(KVLite.java:880)
+	at oracle.kv.util.kvlite.KVLite.initStorageNodes(KVLite.java:760)
+	at oracle.kv.util.kvlite.KVLite.start(KVLite.java:929)
+	at oracle.kv.util.kvlite.KVLite.start(KVLite.java:907)
+	at oracle.kv.util.kvlite.KVLite.main(KVLite.java:1094)
+	at oracle.kv.impl.util.KVStoreMain$1.run(KVStoreMain.java:214)
+	at oracle.kv.impl.util.KVStoreMain.main(KVStoreMain.java:566)
+2021-05-21 19:02:10.352 UTC INFO [sn1] Starting MonitorAgent.  Server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync> Client socket factory:<ClientSocketFactory name=kvstore|sn|monitor id=-1720549619 connectMs=10000 readMs=5000 clientId=none localAddr=none>
+2021-05-21 19:02:10.425 UTC INFO [sn1] kvstore:sn1:MONITOR service port: 54519
+2021-05-21 19:02:10.458 UTC INFO [sn1] Successfully created secure proxy for the storage node agent
+2021-05-21 19:02:10.475 UTC INFO [sn1] kvstore:sn1:MAIN service port: 54519
+2021-05-21 19:02:10.475 UTC INFO [sn1] Rebound to registry port 5000 using name sn1 with SSF:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2021-05-21 19:02:10.475 UTC INFO [sn1] Service status changed from STARTING to RUNNING
+2021-05-21 19:02:10.475 UTC INFO [sn1] Started StorageNodeAgent for kvstore
+2021-05-21 19:02:12.735 UTC INFO [sn1] Thread returning for service admin1
+2021-05-21 19:03:10.289 UTC INFO [sn1] Acquiring initial topology from RNs
+2021-05-21 19:04:10.290 UTC INFO [sn1] Acquiring initial topology from RNs
+2021-05-21 19:16:25.069 UTC INFO [sn1] Starting StorageNodeAgent for kvstore NoSQL version:20.3.18 2021-05-05 05:19:35 UTC  Build id: 8d8b7830ce8d Edition: Community JE version:20.3.17 Java version:1.8.0_201
+2021-05-21 19:16:25.099 UTC INFO [sn1] Creating a Registry on port DESKTOP-P7OHHRP:5000 server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2021-05-21 19:16:25.490 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2021-05-21 19:16:26.616 UTC INFO [sn1] Create collector service and register parameter listeners successfully.
+2021-05-21 19:16:26.625 UTC INFO [sn1] Started MasterRebalanceThread
+2021-05-21 19:16:26.629 UTC INFO [sn1] admin1: Starting AdminService
+2021-05-21 19:16:26.629 UTC INFO [sn1] admin1: Started AdminService
+2021-05-21 19:16:26.634 UTC INFO [sn1] rg1-rn1: Starting RepNode
+2021-05-21 19:16:26.634 UTC INFO [sn1] Directory specified for rg1-rn1 C:\kv-ce-20.3.18\kv-20.3.18\.\kvroot\kvstore\sn1 does not exist
+2021-05-21 19:16:26.635 UTC SEVERE [sn1] rg1-rn1: Runtime Exception starting RepNode
+java.lang.IllegalArgumentException: Directory specified for rg1-rn1 C:\kv-ce-20.3.18\kv-20.3.18\.\kvroot\kvstore\sn1 does not exist
+	at oracle.kv.impl.sna.StorageNodeAgent.validateDirectory(StorageNodeAgent.java:2153)
+	at oracle.kv.impl.sna.StorageNodeAgent.validateRepNodeDirectory(StorageNodeAgent.java:2124)
+	at oracle.kv.impl.sna.StorageNodeAgent.startRepNodeInternal(StorageNodeAgent.java:2175)
+	at oracle.kv.impl.sna.StorageNodeAgent.startComponents(StorageNodeAgent.java:1849)
+	at oracle.kv.impl.sna.StorageNodeAgent.startupRegistered(StorageNodeAgent.java:1137)
+	at oracle.kv.impl.sna.StorageNodeAgent.start(StorageNodeAgent.java:765)
+	at oracle.kv.impl.sna.StorageNodeAgentImpl.start(StorageNodeAgentImpl.java:132)
+	at oracle.kv.util.kvlite.KVLite.startSNA(KVLite.java:880)
+	at oracle.kv.util.kvlite.KVLite.initStorageNodes(KVLite.java:760)
+	at oracle.kv.util.kvlite.KVLite.start(KVLite.java:929)
+	at oracle.kv.util.kvlite.KVLite.start(KVLite.java:907)
+	at oracle.kv.util.kvlite.KVLite.main(KVLite.java:1094)
+	at oracle.kv.impl.util.KVStoreMain$1.run(KVStoreMain.java:214)
+	at oracle.kv.impl.util.KVStoreMain.main(KVStoreMain.java:566)
+2021-05-21 19:16:26.637 UTC SEVERE [sn1] rg1-rn1: Unable to start a RepNode on sn1
+java.lang.IllegalArgumentException: Directory specified for rg1-rn1 C:\kv-ce-20.3.18\kv-20.3.18\.\kvroot\kvstore\sn1 does not exist
+	at oracle.kv.impl.sna.StorageNodeAgent.validateDirectory(StorageNodeAgent.java:2153)
+	at oracle.kv.impl.sna.StorageNodeAgent.validateRepNodeDirectory(StorageNodeAgent.java:2124)
+	at oracle.kv.impl.sna.StorageNodeAgent.startRepNodeInternal(StorageNodeAgent.java:2175)
+	at oracle.kv.impl.sna.StorageNodeAgent.startComponents(StorageNodeAgent.java:1849)
+	at oracle.kv.impl.sna.StorageNodeAgent.startupRegistered(StorageNodeAgent.java:1137)
+	at oracle.kv.impl.sna.StorageNodeAgent.start(StorageNodeAgent.java:765)
+	at oracle.kv.impl.sna.StorageNodeAgentImpl.start(StorageNodeAgentImpl.java:132)
+	at oracle.kv.util.kvlite.KVLite.startSNA(KVLite.java:880)
+	at oracle.kv.util.kvlite.KVLite.initStorageNodes(KVLite.java:760)
+	at oracle.kv.util.kvlite.KVLite.start(KVLite.java:929)
+	at oracle.kv.util.kvlite.KVLite.start(KVLite.java:907)
+	at oracle.kv.util.kvlite.KVLite.main(KVLite.java:1094)
+	at oracle.kv.impl.util.KVStoreMain$1.run(KVStoreMain.java:214)
+	at oracle.kv.impl.util.KVStoreMain.main(KVStoreMain.java:566)
+2021-05-21 19:16:26.698 UTC INFO [sn1] Starting MonitorAgent.  Server socket factory:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync> Client socket factory:<ClientSocketFactory name=kvstore|sn|monitor id=1011021905 connectMs=10000 readMs=5000 clientId=none localAddr=none>
+2021-05-21 19:16:26.769 UTC INFO [sn1] kvstore:sn1:MONITOR service port: 55044
+2021-05-21 19:16:26.793 UTC INFO [sn1] Successfully created secure proxy for the storage node agent
+2021-05-21 19:16:26.810 UTC INFO [sn1] kvstore:sn1:MAIN service port: 55044
+2021-05-21 19:16:26.810 UTC INFO [sn1] Rebound to registry port 5000 using name sn1 with SSF:<ClearServerSocketFactory backlog=1024 portRange=0,0 acceptMaxActiveConns=0 useAsync>
+2021-05-21 19:16:26.810 UTC INFO [sn1] Service status changed from STARTING to RUNNING
+2021-05-21 19:16:26.811 UTC INFO [sn1] Started StorageNodeAgent for kvstore
+2021-05-21 19:16:29.165 UTC INFO [sn1] Thread returning for service admin1
+2021-05-21 19:17:26.730 UTC INFO [sn1] Acquiring initial topology from RNs

@@ -1,0 +1,128 @@
+2021-05-21 18:16:30.768 UTC INFO [rg1-rn1] Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2021-05-21 18:16:30.801 UTC INFO [rg1-rn1] Checkpoint Start.Checkpoint Id=1
+2021-05-21 18:16:30.810 UTC INFO [rg1-rn1] Checkpoint End. Checkpoint Id=1 success=true
+2021-05-21 18:16:30.827 UTC INFO [rg1-rn1] No server auth method
+2021-05-21 18:16:30.832 UTC INFO [rg1-rn1] DTVLSN at start:0
+2021-05-21 18:16:30.832 UTC INFO [rg1-rn1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2021-05-21 18:16:30.835 UTC INFO [rg1-rn1] Current group size: 0
+2021-05-21 18:16:30.835 UTC INFO [rg1-rn1] New node rg1-rn1(-1) unknown to rep group
+2021-05-21 18:16:30.835 UTC INFO [rg1-rn1] Learner notified. Proposal:Proposal(000001799024a374:22f6bd09b93613af4ffbc683d6514455:00000002) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:16:30.835 UTC INFO [rg1-rn1] Master changed to rg1-rn1
+2021-05-21 18:16:30.838 UTC INFO [rg1-rn1] Nascent group. rg1-rn1 is master by virtue of being the first node.
+2021-05-21 18:16:30.838 UTC INFO [rg1-rn1] node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:16:30.839 UTC INFO [rg1-rn1] Acceptor started
+2021-05-21 18:16:30.838 UTC INFO [rg1-rn1] Learner started
+2021-05-21 18:16:30.833 UTC INFO [rg1-rn1] Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5003
+2021-05-21 18:16:30.848 UTC INFO [rg1-rn1] Successfully added node:rg1-rn1(1) HostPort = DESKTOP-P7OHHRP: 5003 [ELECTABLE]
+2021-05-21 18:16:30.848 UTC INFO [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:16:30.856 UTC INFO [rg1-rn1] Node rg1-rn1 started
+2021-05-21 18:16:30.856 UTC INFO [rg1-rn1] node:NullNode(-1) state change from MASTER to UNKNOWN
+2021-05-21 18:16:30.857 UTC INFO [rg1-rn1] node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:16:30.857 UTC INFO [rg1-rn1] Feeder manager accepting requests.
+2021-05-21 18:16:30.857 UTC INFO [rg1-rn1] Joining group as master
+2021-05-21 18:17:31.231 UTC INFO [rg1-rn1] Updated minimum JE group version to 6.5.0
+2021-05-21 18:18:49.712 UTC INFO [rg1-rn1] Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2021-05-21 18:18:49.944 UTC INFO [rg1-rn1] Checkpoint Start.Checkpoint Id=2
+2021-05-21 18:18:49.962 UTC INFO [rg1-rn1] Checkpoint End. Checkpoint Id=2 success=true
+2021-05-21 18:18:49.999 UTC INFO [rg1-rn1] No server auth method
+2021-05-21 18:18:49.999 UTC INFO [rg1-rn1] No server auth method
+2021-05-21 18:18:49.999 UTC INFO [rg1-rn1] Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5003
+2021-05-21 18:18:49.999 UTC INFO [rg1-rn1] Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5003
+2021-05-21 18:18:50.000 UTC INFO [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:18:50.000 UTC INFO [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:18:50.047 UTC INFO [rg1-rn1] DTVLSN at start:293
+2021-05-21 18:18:50.047 UTC INFO [rg1-rn1] DTVLSN at start:293
+2021-05-21 18:18:50.048 UTC INFO [rg1-rn1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2021-05-21 18:18:50.072 UTC INFO [rg1-rn1] Learner started
+2021-05-21 18:18:50.072 UTC INFO [rg1-rn1] Learner started
+2021-05-21 18:18:50.078 UTC INFO [rg1-rn1] Current group size: 1
+2021-05-21 18:18:50.078 UTC INFO [rg1-rn1] Current group size: 1
+2021-05-21 18:18:50.078 UTC INFO [rg1-rn1] Existing node rg1-rn1 querying for a current master.
+2021-05-21 18:18:50.078 UTC INFO [rg1-rn1] Existing node rg1-rn1 querying for a current master.
+2021-05-21 18:18:50.082 UTC INFO [rg1-rn1] Acceptor started
+2021-05-21 18:18:50.092 UTC INFO [rg1-rn1] learner request: MQ sender: -2147483648
+2021-05-21 18:18:50.092 UTC INFO [rg1-rn1] learner request: MQ sender: -2147483648
+2021-05-21 18:18:50.095 UTC INFO [rg1-rn1] Node rg1-rn1 started
+2021-05-21 18:18:50.095 UTC INFO [rg1-rn1] Node rg1-rn1 started
+2021-05-21 18:18:50.096 UTC INFO [rg1-rn1] Election initiated; election #1
+2021-05-21 18:18:50.096 UTC INFO [rg1-rn1] Election initiated; election #1
+2021-05-21 18:18:50.098 UTC INFO [rg1-rn1] Started election thread Fri May 21 20:18:50 CEST 2021
+2021-05-21 18:18:50.098 UTC INFO [rg1-rn1] Started election thread Fri May 21 20:18:50 CEST 2021
+2021-05-21 18:18:50.099 UTC INFO [rg1-rn1] Phase 1 proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001)
+2021-05-21 18:18:50.099 UTC INFO [rg1-rn1] Phase 1 proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001)
+2021-05-21 18:18:50.104 UTC INFO [rg1-rn1] Promised: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001) Suggested Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1 Suggestion Ranking: Ranking major:293 minor:293id:1
+2021-05-21 18:18:50.107 UTC INFO [rg1-rn1] Phase 2 proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:18:50.107 UTC INFO [rg1-rn1] Phase 2 proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:18:50.109 UTC INFO [rg1-rn1] Promised: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001) Accepted: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:18:50.110 UTC INFO [rg1-rn1] Winning proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:18:50.110 UTC INFO [rg1-rn1] Winning proposal: Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:18:50.111 UTC INFO [rg1-rn1] Informing 1 learners.
+2021-05-21 18:18:50.111 UTC INFO [rg1-rn1] Informing 1 learners.
+2021-05-21 18:18:50.114 UTC INFO [rg1-rn1] learner request: RE sender: 1
+2021-05-21 18:18:50.114 UTC INFO [rg1-rn1] learner request: RE sender: 1
+2021-05-21 18:18:50.114 UTC INFO [rg1-rn1] Learner notified. Proposal:Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:18:50.114 UTC INFO [rg1-rn1] Learner notified. Proposal:Proposal(000001799026c373:57af57563ff39989c4bf52f6c200f306:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:18:50.114 UTC INFO [rg1-rn1] Master changed to rg1-rn1
+2021-05-21 18:18:50.114 UTC INFO [rg1-rn1] Master changed to rg1-rn1
+2021-05-21 18:18:50.115 UTC INFO [rg1-rn1] Election finished. Elapsed time: 19ms
+2021-05-21 18:18:50.115 UTC INFO [rg1-rn1] Election finished. Elapsed time: 19ms
+2021-05-21 18:18:50.115 UTC INFO [rg1-rn1] Informed learners: 1
+2021-05-21 18:18:50.115 UTC INFO [rg1-rn1] Informed learners: 1
+2021-05-21 18:18:50.116 UTC INFO [rg1-rn1] Election thread exited. Group master: rg1-rn1(1)
+2021-05-21 18:18:50.116 UTC INFO [rg1-rn1] Election thread exited. Group master: rg1-rn1(1)
+2021-05-21 18:18:50.131 UTC INFO [rg1-rn1] node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:18:50.132 UTC INFO [rg1-rn1] Election took less than 1000, waiting 981 milliseconds to pad election time.
+2021-05-21 18:18:50.132 UTC INFO [rg1-rn1] Election took less than 1000, waiting 981 milliseconds to pad election time.
+2021-05-21 18:18:51.113 UTC INFO [rg1-rn1] Feeder manager accepting requests.
+2021-05-21 18:18:51.113 UTC INFO [rg1-rn1] Feeder manager accepting requests.
+2021-05-21 18:18:51.136 UTC INFO [rg1-rn1] Joining group as master
+2021-05-21 18:18:51.136 UTC INFO [rg1-rn1] Joining group as master
+2021-05-21 18:22:17.990 UTC INFO [rg1-rn1] Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2021-05-21 18:22:18.189 UTC INFO [rg1-rn1] Checkpoint Start.Checkpoint Id=3
+2021-05-21 18:22:18.202 UTC INFO [rg1-rn1] Checkpoint End. Checkpoint Id=3 success=true
+2021-05-21 18:22:18.240 UTC INFO [rg1-rn1] No server auth method
+2021-05-21 18:22:18.240 UTC INFO [rg1-rn1] No server auth method
+2021-05-21 18:22:18.245 UTC INFO [rg1-rn1] Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5003
+2021-05-21 18:22:18.245 UTC INFO [rg1-rn1] Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5003
+2021-05-21 18:22:18.246 UTC INFO [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:22:18.246 UTC INFO [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:22:18.293 UTC INFO [rg1-rn1] DTVLSN at start:294
+2021-05-21 18:22:18.293 UTC INFO [rg1-rn1] DTVLSN at start:294
+2021-05-21 18:22:18.295 UTC INFO [rg1-rn1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2021-05-21 18:22:18.321 UTC INFO [rg1-rn1] Acceptor started
+2021-05-21 18:22:18.322 UTC INFO [rg1-rn1] Learner started
+2021-05-21 18:22:18.322 UTC INFO [rg1-rn1] Current group size: 1
+2021-05-21 18:22:18.322 UTC INFO [rg1-rn1] Current group size: 1
+2021-05-21 18:22:18.323 UTC INFO [rg1-rn1] Existing node rg1-rn1 querying for a current master.
+2021-05-21 18:22:18.323 UTC INFO [rg1-rn1] Existing node rg1-rn1 querying for a current master.
+2021-05-21 18:22:18.348 UTC INFO [rg1-rn1] learner request: MQ sender: -2147483648
+2021-05-21 18:22:18.351 UTC INFO [rg1-rn1] Node rg1-rn1 started
+2021-05-21 18:22:18.351 UTC INFO [rg1-rn1] Node rg1-rn1 started
+2021-05-21 18:22:18.352 UTC INFO [rg1-rn1] Election initiated; election #1
+2021-05-21 18:22:18.352 UTC INFO [rg1-rn1] Election initiated; election #1
+2021-05-21 18:22:18.354 UTC INFO [rg1-rn1] Started election thread Fri May 21 20:22:18 CEST 2021
+2021-05-21 18:22:18.354 UTC INFO [rg1-rn1] Started election thread Fri May 21 20:22:18 CEST 2021
+2021-05-21 18:22:18.355 UTC INFO [rg1-rn1] Phase 1 proposal: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000001)
+2021-05-21 18:22:18.360 UTC INFO [rg1-rn1] Promised: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000001) Suggested Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1 Suggestion Ranking: Ranking major:294 minor:294id:1
+2021-05-21 18:22:18.365 UTC INFO [rg1-rn1] Phase 2 proposal: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:22:18.370 UTC INFO [rg1-rn1] Promised: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000001) Accepted: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:22:18.371 UTC INFO [rg1-rn1] Winning proposal: Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:22:18.372 UTC INFO [rg1-rn1] Informing 1 learners.
+2021-05-21 18:22:18.372 UTC INFO [rg1-rn1] Informing 1 learners.
+2021-05-21 18:22:18.375 UTC INFO [rg1-rn1] learner request: RE sender: 1
+2021-05-21 18:22:18.376 UTC INFO [rg1-rn1] Learner notified. Proposal:Proposal(000001799029f0f3:5d50d3d61a61604865346441eb6bae3b:00000001) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:22:18.376 UTC INFO [rg1-rn1] Master changed to rg1-rn1
+2021-05-21 18:22:18.376 UTC INFO [rg1-rn1] Master changed to rg1-rn1
+2021-05-21 18:22:18.377 UTC INFO [rg1-rn1] Election finished. Elapsed time: 26ms
+2021-05-21 18:22:18.377 UTC INFO [rg1-rn1] Informed learners: 1
+2021-05-21 18:22:18.377 UTC INFO [rg1-rn1] Election finished. Elapsed time: 26ms
+2021-05-21 18:22:18.377 UTC INFO [rg1-rn1] Informed learners: 1
+2021-05-21 18:22:18.377 UTC INFO [rg1-rn1] Election thread exited. Group master: rg1-rn1(1)
+2021-05-21 18:22:18.377 UTC INFO [rg1-rn1] Election thread exited. Group master: rg1-rn1(1)
+2021-05-21 18:22:18.449 UTC INFO [rg1-rn1] node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:22:18.449 UTC INFO [rg1-rn1] Election took less than 1000, waiting 974 milliseconds to pad election time.
+2021-05-21 18:22:18.449 UTC INFO [rg1-rn1] Election took less than 1000, waiting 974 milliseconds to pad election time.
+2021-05-21 18:22:19.425 UTC INFO [rg1-rn1] Feeder manager accepting requests.
+2021-05-21 18:22:19.425 UTC INFO [rg1-rn1] Feeder manager accepting requests.
+2021-05-21 18:22:19.425 UTC INFO [rg1-rn1] Joining group as master
+2021-05-21 18:22:19.425 UTC INFO [rg1-rn1] Joining group as master

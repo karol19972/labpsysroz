@@ -1,0 +1,23 @@
+2021-05-21 18:51:20.309 UTC INFO [rg1-rn1] Coordinating tasks:JEBackupManagerCopyLogFileMax real permits:1
+2021-05-21 18:51:20.333 UTC INFO [rg1-rn1] Checkpoint Start.Checkpoint Id=1
+2021-05-21 18:51:20.341 UTC INFO [rg1-rn1] Checkpoint End. Checkpoint Id=1 success=true
+2021-05-21 18:51:20.352 UTC INFO [rg1-rn1] No server auth method
+2021-05-21 18:51:20.356 UTC INFO [rg1-rn1] Started ServiceDispatcher. HostPort=DESKTOP-P7OHHRP:5003
+2021-05-21 18:51:20.360 UTC INFO [rg1-rn1] DTVLSN at start:0
+2021-05-21 18:51:20.360 UTC INFO [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2021-05-21 18:51:20.360 UTC INFO [rg1-rn1] node:NullNode(-1) state change from DETACHED to UNKNOWN
+2021-05-21 18:51:20.364 UTC INFO [rg1-rn1] Current group size: 0
+2021-05-21 18:51:20.364 UTC INFO [rg1-rn1] New node rg1-rn1(-1) unknown to rep group
+2021-05-21 18:51:20.364 UTC INFO [rg1-rn1] Learner notified. Proposal:Proposal(00000179904485ad:44b9e1414715331772f52cf14f51e589:00000002) Value: Value:DESKTOP-P7OHHRP$$$5003$$$rg1-rn1$$$1
+2021-05-21 18:51:20.365 UTC INFO [rg1-rn1] Master changed to rg1-rn1
+2021-05-21 18:51:20.365 UTC INFO [rg1-rn1] Nascent group. rg1-rn1 is master by virtue of being the first node.
+2021-05-21 18:51:20.365 UTC INFO [rg1-rn1] node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:51:20.370 UTC INFO [rg1-rn1] Learner started
+2021-05-21 18:51:20.370 UTC INFO [rg1-rn1] Acceptor started
+2021-05-21 18:51:20.380 UTC INFO [rg1-rn1] Successfully added node:rg1-rn1(1) HostPort = DESKTOP-P7OHHRP: 5003 [ELECTABLE]
+2021-05-21 18:51:20.383 UTC INFO [rg1-rn1] Node rg1-rn1 started
+2021-05-21 18:51:20.384 UTC INFO [rg1-rn1] node:NullNode(-1) state change from MASTER to UNKNOWN
+2021-05-21 18:51:20.385 UTC INFO [rg1-rn1] node:rg1-rn1(1) state change from UNKNOWN to MASTER
+2021-05-21 18:51:20.386 UTC INFO [rg1-rn1] Feeder manager accepting requests.
+2021-05-21 18:51:20.387 UTC INFO [rg1-rn1] Joining group as master
+2021-05-21 18:52:20.729 UTC INFO [rg1-rn1] Updated minimum JE group version to 6.5.0
