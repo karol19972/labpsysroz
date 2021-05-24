@@ -1,1142 +1,80 @@
-2021-05-22 17:27:08.102 UTC INFO [kvstore] rg1-rn1 (17:27:04.843 UTC -> 17:27:04.844 UTC)
-Requests
-	activeRequests=0
-	totalRequests=0
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:27:08.102 UTC INFO [kvstore] rg1-rn1 (17:27:04.844 UTC -> 17:27:04.846 UTC)
-Replication State: MASTER
-2021-05-22 17:27:08.102 UTC INFO [kvstore] rg1-rn1 (17:27:04.844 UTC -> 17:27:04.846 UTC)
-Memory
-	freeMemory=209794848
-	maxMemory=264241152
-	totalMemory=264241152
-
-2021-05-22 17:27:08.102 UTC INFO [kvstore] rg1-rn1 (17:27:04.844 UTC -> 17:27:04.846 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:27:08.102 UTC INFO [kvstore] rg1-rn1 (17:27:04.844 UTC -> 17:27:04.846 UTC)
-Requests
-	activeRequests=0
-	totalRequests=0
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:27:08.102 UTC INFO [kvstore] rg1-rn1 (17:27:04.846 UTC -> 17:27:04.847 UTC)
-Replication State: MASTER
-2021-05-22 17:27:08.102 UTC INFO [kvstore] rg1-rn1 (17:27:04.846 UTC -> 17:27:04.847 UTC)
-Memory
-	freeMemory=209159920
-	maxMemory=264241152
-	totalMemory=264241152
-
-2021-05-22 17:27:08.102 UTC INFO [kvstore] rg1-rn1 (17:27:04.846 UTC -> 17:27:04.847 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:27:08.102 UTC INFO [kvstore] rg1-rn1 (17:27:04.846 UTC -> 17:27:04.847 UTC)
-Requests
-	activeRequests=0
-	totalRequests=0
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:27:08.103 UTC INFO [kvstore] rg1-rn1 (17:27:04.847 UTC -> 17:27:04.847 UTC)
-Replication State: MASTER
-2021-05-22 17:27:08.103 UTC INFO [kvstore] rg1-rn1 (17:27:04.847 UTC -> 17:27:04.847 UTC)
-Memory
-	freeMemory=208524992
-	maxMemory=264241152
-	totalMemory=264241152
-
-2021-05-22 17:27:08.103 UTC INFO [kvstore] rg1-rn1 (17:27:04.847 UTC -> 17:27:04.847 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:27:08.103 UTC INFO [kvstore] rg1-rn1 (17:27:04.847 UTC -> 17:27:04.847 UTC)
-Requests
-	activeRequests=0
-	totalRequests=0
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:27:08.103 UTC INFO [kvstore] rg1-rn1 (17:27:04.847 UTC -> 17:27:04.848 UTC)
-Replication State: MASTER
-2021-05-22 17:27:08.103 UTC INFO [kvstore] rg1-rn1 (17:27:04.847 UTC -> 17:27:04.848 UTC)
-Memory
-	freeMemory=207890064
-	maxMemory=264241152
-	totalMemory=264241152
-
-2021-05-22 17:27:08.103 UTC INFO [kvstore] rg1-rn1 (17:27:04.847 UTC -> 17:27:04.848 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:27:08.103 UTC INFO [kvstore] rg1-rn1 (17:27:04.847 UTC -> 17:27:04.848 UTC)
-Requests
-	activeRequests=0
-	totalRequests=0
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:27:27.774 UTC INFO [kvstore] rg1-rn1 (17:27:04.848 UTC -> 17:27:19.990 UTC)
-Replication State: MASTER
-2021-05-22 17:27:27.774 UTC INFO [kvstore] rg1-rn1 (17:27:04.848 UTC -> 17:27:19.990 UTC)
-Memory
-	freeMemory=191355560
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2216
-	pause95th=2
-	pause99th=4
-	pauseMax=18
-
-2021-05-22 17:27:27.774 UTC INFO [kvstore] rg1-rn1 (17:27:04.848 UTC -> 17:27:19.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:27:27.774 UTC INFO [kvstore] rg1-rn1 (17:27:04.848 UTC -> 17:27:19.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=3
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:27:47.774 UTC INFO [kvstore] rg1-rn1 (17:27:19.990 UTC -> 17:27:39.991 UTC)
-Replication State: MASTER
-2021-05-22 17:27:47.774 UTC INFO [kvstore] rg1-rn1 (17:27:19.990 UTC -> 17:27:39.991 UTC)
-Memory
-	freeMemory=187084368
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2605
-	pause95th=2
-	pause99th=3
-	pauseMax=120
-
-2021-05-22 17:27:47.774 UTC INFO [kvstore] rg1-rn1 (17:27:19.990 UTC -> 17:27:39.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:27:47.774 UTC INFO [kvstore] rg1-rn1 (17:27:19.990 UTC -> 17:27:39.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=16
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:28:07.774 UTC INFO [kvstore] rg1-rn1 (17:27:39.991 UTC -> 17:27:59.990 UTC)
-Replication State: MASTER
-2021-05-22 17:28:07.774 UTC INFO [kvstore] rg1-rn1 (17:27:39.991 UTC -> 17:27:59.990 UTC)
-Memory
-	freeMemory=185371560
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2650
-	pause95th=2
-	pause99th=2
-	pauseMax=54
-
-2021-05-22 17:28:07.774 UTC INFO [kvstore] rg1-rn1 (17:27:39.991 UTC -> 17:27:59.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:28:07.775 UTC INFO [kvstore] rg1-rn1 (17:27:39.991 UTC -> 17:27:59.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:28:27.779 UTC INFO [kvstore] rg1-rn1 (17:27:59.990 UTC -> 17:28:19.990 UTC)
-Replication State: MASTER
-2021-05-22 17:28:27.780 UTC INFO [kvstore] rg1-rn1 (17:27:59.990 UTC -> 17:28:19.990 UTC)
-Memory
-	freeMemory=183703312
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2712
-	pause95th=2
-	pause99th=2
-	pauseMax=74
-
-2021-05-22 17:28:27.780 UTC INFO [kvstore] rg1-rn1 (17:27:59.990 UTC -> 17:28:19.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:28:27.780 UTC INFO [kvstore] rg1-rn1 (17:27:59.990 UTC -> 17:28:19.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:28:47.775 UTC INFO [kvstore] rg1-rn1 (17:28:19.990 UTC -> 17:28:39.992 UTC)
-Replication State: MASTER
-2021-05-22 17:28:47.775 UTC INFO [kvstore] rg1-rn1 (17:28:19.990 UTC -> 17:28:39.992 UTC)
-Memory
-	freeMemory=180369984
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2668
-	pause95th=2
-	pause99th=2
-	pauseMax=5
-
-2021-05-22 17:28:47.775 UTC INFO [kvstore] rg1-rn1 (17:28:19.990 UTC -> 17:28:39.992 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:28:47.775 UTC INFO [kvstore] rg1-rn1 (17:28:19.990 UTC -> 17:28:39.992 UTC)
-Requests
-	activeRequests=0
-	totalRequests=15
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:29:07.810 UTC INFO [kvstore] rg1-rn1 (17:28:39.992 UTC -> 17:28:59.996 UTC)
-Replication State: MASTER
-2021-05-22 17:29:07.810 UTC INFO [kvstore] rg1-rn1 (17:28:39.992 UTC -> 17:28:59.996 UTC)
-Memory
-	freeMemory=177979880
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2749
-	pause95th=2
-	pause99th=2
-	pauseMax=58
-
-2021-05-22 17:29:07.810 UTC INFO [kvstore] rg1-rn1 (17:28:39.992 UTC -> 17:28:59.996 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:29:07.810 UTC INFO [kvstore] rg1-rn1 (17:28:39.992 UTC -> 17:28:59.996 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:29:27.770 UTC INFO [kvstore] rg1-rn1 (17:28:59.996 UTC -> 17:29:19.990 UTC)
-Replication State: MASTER
-2021-05-22 17:29:27.771 UTC INFO [kvstore] rg1-rn1 (17:28:59.996 UTC -> 17:29:19.990 UTC)
-Memory
-	freeMemory=173860664
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2664
-	pause95th=2
-	pause99th=4
-	pauseMax=85
-
-2021-05-22 17:29:27.771 UTC INFO [kvstore] rg1-rn1 (17:28:59.996 UTC -> 17:29:19.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:29:27.771 UTC INFO [kvstore] rg1-rn1 (17:28:59.996 UTC -> 17:29:19.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:29:47.770 UTC INFO [kvstore] rg1-rn1 (17:29:19.990 UTC -> 17:29:39.990 UTC)
-Replication State: MASTER
-2021-05-22 17:29:47.770 UTC INFO [kvstore] rg1-rn1 (17:29:19.990 UTC -> 17:29:39.990 UTC)
-Memory
-	freeMemory=170723224
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2902
-	pause95th=2
-	pause99th=5
-	pauseMax=45
-
-2021-05-22 17:29:47.770 UTC INFO [kvstore] rg1-rn1 (17:29:19.990 UTC -> 17:29:39.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:29:47.770 UTC INFO [kvstore] rg1-rn1 (17:29:19.990 UTC -> 17:29:39.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=14
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:30:07.770 UTC INFO [kvstore] rg1-rn1 (17:29:39.990 UTC -> 17:29:59.991 UTC)
-Replication State: MASTER
-2021-05-22 17:30:07.770 UTC INFO [kvstore] rg1-rn1 (17:29:39.990 UTC -> 17:29:59.991 UTC)
-Memory
-	freeMemory=168739704
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2912
-	pause95th=3
-	pause99th=7
-	pauseMax=72
-
-2021-05-22 17:30:07.770 UTC INFO [kvstore] rg1-rn1 (17:29:39.990 UTC -> 17:29:59.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:30:07.770 UTC INFO [kvstore] rg1-rn1 (17:29:39.990 UTC -> 17:29:59.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=4
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:30:27.804 UTC INFO [kvstore] rg1-rn1 (17:29:59.991 UTC -> 17:30:19.991 UTC)
+2021-05-24 11:28:44.528 UTC INFO [kvstore] rg1-rn1 (11:28:23.388 UTC -> 11:28:40.020 UTC)
 I/O
 	bufferBytes=11 262 352
-	endOfLog=0x0/0x1f4e0
-	fSync95Ms=1
-	fSync99Ms=1
-	fSyncAvgMs=1
-	fSyncMaxMs=1
-	nFeederWriteBytes=37
+	endOfLog=0x0/0x573f
+	fSync95Ms=25
+	fSync99Ms=25
+	fSyncAvgMs=3
+	fSyncMaxMs=25
+	nFSyncRequests=5
+	nFSyncs=5
+	nFeederWriteBytes=33
 	nFeederWrites=1
-	nGroupCommitRequests=1
-	nLogBuffers=16
-	nLogFSyncs=1
-	nMiscWriteBytes=3 128
-	nMiscWrites=54
-	nOpenFiles=1
-	nSequentialWriteBytes=3 165
-	nSequentialWrites=2
-Cache
-	adminBytes=589
-	cacheTotalBytes=11 377 630
-	cacheUtilization=6
-	dataBytes=113 000
-	lockBytes=1 680
-	lruMixedSize=18
-	nBINsFetch=33
-	nCachedBINs=18
-	nCachedUpperINs=18
-	nINCompactKey=2
-	nINNoTarget=14
-	nINSparseTarget=20
-Cleaning
-	activeLogSize=125 096
-	availableLogSize=1 073 616 728
-	maxPredictedUtilization=20
-	maxUtilization=20
-	minPredictedUtilization=20
-	minUtilization=20
-	totalLogSize=125 096
-Checkpoints
-	lastCheckpointEnd=0x0/0x148e0
-	lastCheckpointId=8
-	lastCheckpointInterval=83 139
-	lastCheckpointStart=0x0/0x144c3
-Environment
-	environmentCreationTime=1 621 681 186 079
-Locks
-	nOwners=15
-	nReadLocks=15
-	nRequests=81
-	nTotalLocks=15
-Op
-	priDelete=27
-	priSearch=27
-Eraser
-	eraserCycleEnd=
-	eraserCycleStart=
-
-2021-05-22 17:30:27.804 UTC INFO [kvstore] rg1-rn1 (17:29:59.991 UTC -> 17:30:19.991 UTC)
-FeederManager
-	nTxnAuthNoWait=700
-	nTxnAuthSucceed=700
-FeederTxns
-	lastCommitTimestamp=1 621 704 616 012
-	lastCommitVLSN=986
-	localTxnAvgNs=673 414
-	vlsnRate=814
-BinaryProtocol
-	bytesReadPerSecond=0
-	bytesWrittenPerSecond=0
-	messagesReadPerSecond=0
-	messagesWrittenPerSecond=0
-
-2021-05-22 17:30:27.804 UTC INFO [kvstore] rg1-rn1 (17:29:59.991 UTC -> 17:30:19.991 UTC)
-Replication State: MASTER
-2021-05-22 17:30:27.804 UTC INFO [kvstore] rg1-rn1 (17:29:59.991 UTC -> 17:30:19.991 UTC)
-Memory
-	freeMemory=165125008
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2880
-	pause95th=3
-	pause99th=7
-	pauseMax=27
-
-2021-05-22 17:30:27.804 UTC INFO [kvstore] rg1-rn1 (17:29:59.991 UTC -> 17:30:19.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:30:27.804 UTC INFO [kvstore] rg1-rn1 (17:29:59.991 UTC -> 17:30:19.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=32
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:30:47.781 UTC INFO [kvstore] rg1-rn1 (17:30:19.991 UTC -> 17:30:39.990 UTC)
-I/O
-	bufferBytes=11 262 352
-	endOfLog=0x0/0x1ffa8
-	fSync95Ms=6
-	fSync99Ms=6
-	fSyncAvgMs=6
-	fSyncMaxMs=6
-	nCacheMiss=10
-	nFeederWriteBytes=37
-	nFeederWrites=1
-	nGroupCommitRequests=1
-	nLogBuffers=16
-	nLogFSyncs=1
-	nMiscReadBytes=1 315
-	nMiscReads=10
-	nMiscWriteBytes=2 723
-	nMiscWrites=54
-	nNotResident=10
-	nOpenFiles=1
-	nSequentialReadBytes=1 315
-	nSequentialReads=10
-	nSequentialWriteBytes=2 760
-	nSequentialWrites=2
-Cache
-	adminBytes=589
-	cacheTotalBytes=11 377 630
-	cacheUtilization=6
-	dataBytes=113 000
-	lockBytes=1 680
-	lruMixedSize=18
-	nBINsFetch=89
-	nCachedBINs=18
-	nCachedUpperINs=18
-	nINCompactKey=2
-	nINNoTarget=14
-	nINSparseTarget=20
-	nLNsFetch=10
-	nLNsFetchMiss=10
-Cleaning
-	activeLogSize=128 261
-	availableLogSize=1 073 613 563
-	maxPredictedUtilization=19
-	maxUtilization=19
-	minPredictedUtilization=19
-	minUtilization=19
-	totalLogSize=128 261
-Checkpoints
-	lastCheckpointEnd=0x0/0x148e0
-	lastCheckpointId=8
-	lastCheckpointInterval=83 139
-	lastCheckpointStart=0x0/0x144c3
-Environment
-	environmentCreationTime=1 621 681 186 079
-Locks
-	nOwners=15
-	nReadLocks=15
-	nRequests=37
-	nTotalLocks=15
-Op
-	priInsert=27
-	priPosition=90
-	priSearch=40
-	priSearchFail=12
-Eraser
-	eraserCycleEnd=
-	eraserCycleStart=
-
-2021-05-22 17:30:47.781 UTC INFO [kvstore] rg1-rn1 (17:30:19.991 UTC -> 17:30:39.990 UTC)
-FeederManager
-	nTxnAuthNoWait=20
-	nTxnAuthSucceed=20
-FeederTxns
-	lastCommitTimestamp=1 621 704 637 028
-	lastCommitVLSN=1 041
-	localTxnAvgNs=393 242
-	vlsnRate=904
-BinaryProtocol
-	bytesReadPerSecond=0
-	bytesWrittenPerSecond=0
-	messagesReadPerSecond=0
-	messagesWrittenPerSecond=0
-
-2021-05-22 17:30:47.781 UTC INFO [kvstore] rg1-rn1 (17:30:19.991 UTC -> 17:30:39.990 UTC)
-Replication State: MASTER
-2021-05-22 17:30:47.781 UTC INFO [kvstore] rg1-rn1 (17:30:19.991 UTC -> 17:30:39.990 UTC)
-Memory
-	freeMemory=158094776
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2616
-	pause95th=2
-	pause99th=2
-	pauseMax=6
-
-2021-05-22 17:30:47.781 UTC INFO [kvstore] rg1-rn1 (17:30:19.991 UTC -> 17:30:39.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:30:47.781 UTC INFO [kvstore] rg1-rn1 (17:30:19.991 UTC -> 17:30:39.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=53
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:31:07.773 UTC INFO [kvstore] rg1-rn1 (17:30:39.990 UTC -> 17:30:59.992 UTC)
-Replication State: MASTER
-2021-05-22 17:31:07.773 UTC INFO [kvstore] rg1-rn1 (17:30:39.990 UTC -> 17:30:59.992 UTC)
-Memory
-	freeMemory=155457480
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2614
-	pause95th=2
-	pause99th=2
-	pauseMax=5
-
-2021-05-22 17:31:07.773 UTC INFO [kvstore] rg1-rn1 (17:30:39.990 UTC -> 17:30:59.992 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:31:07.773 UTC INFO [kvstore] rg1-rn1 (17:30:39.990 UTC -> 17:30:59.992 UTC)
-Requests
-	activeRequests=0
-	totalRequests=17
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:31:27.773 UTC INFO [kvstore] rg1-rn1 (17:30:59.992 UTC -> 17:31:19.991 UTC)
-Replication State: MASTER
-2021-05-22 17:31:27.773 UTC INFO [kvstore] rg1-rn1 (17:30:59.992 UTC -> 17:31:19.991 UTC)
-Memory
-	freeMemory=153597224
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2658
-	pause95th=2
-	pause99th=2
-	pauseMax=5
-
-2021-05-22 17:31:27.773 UTC INFO [kvstore] rg1-rn1 (17:30:59.992 UTC -> 17:31:19.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:31:27.774 UTC INFO [kvstore] rg1-rn1 (17:30:59.992 UTC -> 17:31:19.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:31:47.773 UTC INFO [kvstore] rg1-rn1 (17:31:19.991 UTC -> 17:31:39.991 UTC)
-Replication State: MASTER
-2021-05-22 17:31:47.773 UTC INFO [kvstore] rg1-rn1 (17:31:19.991 UTC -> 17:31:39.991 UTC)
-Memory
-	freeMemory=150116144
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2579
-	pause95th=2
-	pause99th=4
-	pauseMax=150
-
-2021-05-22 17:31:47.773 UTC INFO [kvstore] rg1-rn1 (17:31:19.991 UTC -> 17:31:39.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:31:47.773 UTC INFO [kvstore] rg1-rn1 (17:31:19.991 UTC -> 17:31:39.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=15
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:32:07.775 UTC INFO [kvstore] rg1-rn1 (17:31:39.991 UTC -> 17:31:59.991 UTC)
-Replication State: MASTER
-2021-05-22 17:32:07.775 UTC INFO [kvstore] rg1-rn1 (17:31:39.991 UTC -> 17:31:59.991 UTC)
-Memory
-	freeMemory=147821112
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2562
-	pause95th=2
-	pause99th=2
-	pauseMax=5
-
-2021-05-22 17:32:07.775 UTC INFO [kvstore] rg1-rn1 (17:31:39.991 UTC -> 17:31:59.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:32:07.775 UTC INFO [kvstore] rg1-rn1 (17:31:39.991 UTC -> 17:31:59.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:32:27.775 UTC INFO [kvstore] rg1-rn1 (17:31:59.991 UTC -> 17:32:19.990 UTC)
-Replication State: MASTER
-2021-05-22 17:32:27.775 UTC INFO [kvstore] rg1-rn1 (17:31:59.991 UTC -> 17:32:19.990 UTC)
-Memory
-	freeMemory=145839704
-	maxMemory=264241152
-	totalMemory=264241152
-	pauseCount=2636
-	pause95th=2
-	pause99th=3
-	pauseMax=84
-
-2021-05-22 17:32:27.775 UTC INFO [kvstore] rg1-rn1 (17:31:59.991 UTC -> 17:32:19.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:32:27.775 UTC INFO [kvstore] rg1-rn1 (17:31:59.991 UTC -> 17:32:19.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:32:47.773 UTC INFO [kvstore] rg1-rn1 (17:32:19.990 UTC -> 17:32:39.991 UTC)
-Replication State: MASTER
-2021-05-22 17:32:47.773 UTC INFO [kvstore] rg1-rn1 (17:32:19.990 UTC -> 17:32:39.991 UTC)
-Memory
-	freeMemory=223892248
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2594
-	pause95th=2
-	pause99th=3
-	pauseMax=21
-GC PS Scavenge
-	count=1
-	time=3000000
-	95th=3
-	99th=3
-	max=3
-
-2021-05-22 17:32:47.773 UTC INFO [kvstore] rg1-rn1 (17:32:19.990 UTC -> 17:32:39.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:32:47.773 UTC INFO [kvstore] rg1-rn1 (17:32:19.990 UTC -> 17:32:39.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=15
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:33:07.775 UTC INFO [kvstore] rg1-rn1 (17:32:39.991 UTC -> 17:32:59.991 UTC)
-Replication State: MASTER
-2021-05-22 17:33:07.775 UTC INFO [kvstore] rg1-rn1 (17:32:39.991 UTC -> 17:32:59.991 UTC)
-Memory
-	freeMemory=222144744
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2589
-	pause95th=2
-	pause99th=2
-	pauseMax=5
-
-2021-05-22 17:33:07.775 UTC INFO [kvstore] rg1-rn1 (17:32:39.991 UTC -> 17:32:59.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:33:07.775 UTC INFO [kvstore] rg1-rn1 (17:32:39.991 UTC -> 17:32:59.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:33:27.781 UTC INFO [kvstore] rg1-rn1 (17:32:59.991 UTC -> 17:33:19.991 UTC)
-Replication State: MASTER
-2021-05-22 17:33:27.781 UTC INFO [kvstore] rg1-rn1 (17:32:59.991 UTC -> 17:33:19.991 UTC)
-Memory
-	freeMemory=219814424
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2580
-	pause95th=2
-	pause99th=8
-	pauseMax=130
-
-2021-05-22 17:33:27.781 UTC INFO [kvstore] rg1-rn1 (17:32:59.991 UTC -> 17:33:19.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:33:27.781 UTC INFO [kvstore] rg1-rn1 (17:32:59.991 UTC -> 17:33:19.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:33:47.793 UTC INFO [kvstore] rg1-rn1 (17:33:19.991 UTC -> 17:33:39.991 UTC)
-Replication State: MASTER
-2021-05-22 17:33:47.793 UTC INFO [kvstore] rg1-rn1 (17:33:19.991 UTC -> 17:33:39.991 UTC)
-Memory
-	freeMemory=216379712
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2664
-	pause95th=2
-	pause99th=3
-	pauseMax=16
-
-2021-05-22 17:33:47.794 UTC INFO [kvstore] rg1-rn1 (17:33:19.991 UTC -> 17:33:39.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:33:47.794 UTC INFO [kvstore] rg1-rn1 (17:33:19.991 UTC -> 17:33:39.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=15
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:34:07.774 UTC INFO [kvstore] rg1-rn1 (17:33:39.991 UTC -> 17:33:59.990 UTC)
-Replication State: MASTER
-2021-05-22 17:34:07.774 UTC INFO [kvstore] rg1-rn1 (17:33:39.991 UTC -> 17:33:59.990 UTC)
-Memory
-	freeMemory=214745992
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2590
-	pause95th=2
-	pause99th=3
-	pauseMax=7
-
-2021-05-22 17:34:07.774 UTC INFO [kvstore] rg1-rn1 (17:33:39.991 UTC -> 17:33:59.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:34:07.774 UTC INFO [kvstore] rg1-rn1 (17:33:39.991 UTC -> 17:33:59.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:34:27.770 UTC INFO [kvstore] rg1-rn1 (17:33:59.990 UTC -> 17:34:19.990 UTC)
-Replication State: MASTER
-2021-05-22 17:34:27.770 UTC INFO [kvstore] rg1-rn1 (17:33:59.990 UTC -> 17:34:19.990 UTC)
-Memory
-	freeMemory=212761720
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2543
-	pause95th=2
-	pause99th=2
-	pauseMax=4
-
-2021-05-22 17:34:27.770 UTC INFO [kvstore] rg1-rn1 (17:33:59.990 UTC -> 17:34:19.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:34:27.770 UTC INFO [kvstore] rg1-rn1 (17:33:59.990 UTC -> 17:34:19.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:34:47.770 UTC INFO [kvstore] rg1-rn1 (17:34:19.990 UTC -> 17:34:39.994 UTC)
-Replication State: MASTER
-2021-05-22 17:34:47.770 UTC INFO [kvstore] rg1-rn1 (17:34:19.990 UTC -> 17:34:39.994 UTC)
-Memory
-	freeMemory=208930096
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2724
-	pause95th=2
-	pause99th=3
-	pauseMax=8
-
-2021-05-22 17:34:47.770 UTC INFO [kvstore] rg1-rn1 (17:34:19.990 UTC -> 17:34:39.994 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:34:47.770 UTC INFO [kvstore] rg1-rn1 (17:34:19.990 UTC -> 17:34:39.994 UTC)
-Requests
-	activeRequests=0
-	totalRequests=15
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:35:07.770 UTC INFO [kvstore] rg1-rn1 (17:34:39.994 UTC -> 17:34:59.991 UTC)
-Replication State: MASTER
-2021-05-22 17:35:07.770 UTC INFO [kvstore] rg1-rn1 (17:34:39.994 UTC -> 17:34:59.991 UTC)
-Memory
-	freeMemory=206856768
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2582
-	pause95th=2
-	pause99th=2
-	pauseMax=11
-
-2021-05-22 17:35:07.770 UTC INFO [kvstore] rg1-rn1 (17:34:39.994 UTC -> 17:34:59.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:35:07.771 UTC INFO [kvstore] rg1-rn1 (17:34:39.994 UTC -> 17:34:59.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:35:27.774 UTC INFO [kvstore] rg1-rn1 (17:34:59.991 UTC -> 17:35:19.990 UTC)
-Replication State: MASTER
-2021-05-22 17:35:27.774 UTC INFO [kvstore] rg1-rn1 (17:34:59.991 UTC -> 17:35:19.990 UTC)
-Memory
-	freeMemory=204726760
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2662
-	pause95th=2
-	pause99th=3
-	pauseMax=55
-
-2021-05-22 17:35:27.774 UTC INFO [kvstore] rg1-rn1 (17:34:59.991 UTC -> 17:35:19.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:35:27.774 UTC INFO [kvstore] rg1-rn1 (17:34:59.991 UTC -> 17:35:19.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:35:47.784 UTC INFO [kvstore] rg1-rn1 (17:35:19.990 UTC -> 17:35:39.991 UTC)
-Replication State: MASTER
-2021-05-22 17:35:47.784 UTC INFO [kvstore] rg1-rn1 (17:35:19.990 UTC -> 17:35:39.991 UTC)
-Memory
-	freeMemory=201402040
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2617
-	pause95th=2
-	pause99th=2
-	pauseMax=8
-
-2021-05-22 17:35:47.784 UTC INFO [kvstore] rg1-rn1 (17:35:19.990 UTC -> 17:35:39.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:35:47.784 UTC INFO [kvstore] rg1-rn1 (17:35:19.990 UTC -> 17:35:39.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=15
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:36:07.772 UTC INFO [kvstore] rg1-rn1 (17:35:39.991 UTC -> 17:35:59.990 UTC)
-Replication State: MASTER
-2021-05-22 17:36:07.772 UTC INFO [kvstore] rg1-rn1 (17:35:39.991 UTC -> 17:35:59.990 UTC)
-Memory
-	freeMemory=199174480
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2655
-	pause95th=2
-	pause99th=4
-	pauseMax=210
-
-2021-05-22 17:36:07.773 UTC INFO [kvstore] rg1-rn1 (17:35:39.991 UTC -> 17:35:59.990 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:36:07.773 UTC INFO [kvstore] rg1-rn1 (17:35:39.991 UTC -> 17:35:59.990 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:36:27.774 UTC INFO [kvstore] rg1-rn1 (17:35:59.990 UTC -> 17:36:19.991 UTC)
-Replication State: MASTER
-2021-05-22 17:36:27.774 UTC INFO [kvstore] rg1-rn1 (17:35:59.990 UTC -> 17:36:19.991 UTC)
-Memory
-	freeMemory=197366968
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2667
-	pause95th=2
-	pause99th=2
-	pauseMax=4
-
-2021-05-22 17:36:27.774 UTC INFO [kvstore] rg1-rn1 (17:35:59.990 UTC -> 17:36:19.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:36:27.774 UTC INFO [kvstore] rg1-rn1 (17:35:59.990 UTC -> 17:36:19.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=6
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:36:47.774 UTC INFO [kvstore] rg1-rn1 (17:36:19.991 UTC -> 17:36:39.991 UTC)
-Replication State: MASTER
-2021-05-22 17:36:47.774 UTC INFO [kvstore] rg1-rn1 (17:36:19.991 UTC -> 17:36:39.991 UTC)
-Memory
-	freeMemory=193994480
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2762
-	pause95th=3
-	pause99th=7
-	pauseMax=170
-
-2021-05-22 17:36:47.774 UTC INFO [kvstore] rg1-rn1 (17:36:19.991 UTC -> 17:36:39.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:36:47.774 UTC INFO [kvstore] rg1-rn1 (17:36:19.991 UTC -> 17:36:39.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=14
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:37:07.774 UTC INFO [kvstore] rg1-rn1 (17:36:39.991 UTC -> 17:36:59.991 UTC)
-Replication State: MASTER
-2021-05-22 17:37:07.774 UTC INFO [kvstore] rg1-rn1 (17:36:39.991 UTC -> 17:36:59.991 UTC)
-Memory
-	freeMemory=192439728
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2755
-	pause95th=2
-	pause99th=3
-	pauseMax=23
-
-2021-05-22 17:37:07.774 UTC INFO [kvstore] rg1-rn1 (17:36:39.991 UTC -> 17:36:59.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:37:07.774 UTC INFO [kvstore] rg1-rn1 (17:36:39.991 UTC -> 17:36:59.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=4
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:37:27.771 UTC INFO [kvstore] rg1-rn1 (17:36:59.991 UTC -> 17:37:19.991 UTC)
-Replication State: MASTER
-2021-05-22 17:37:27.771 UTC INFO [kvstore] rg1-rn1 (17:36:59.991 UTC -> 17:37:19.991 UTC)
-Memory
-	freeMemory=190412192
-	maxMemory=264765440
-	totalMemory=264765440
-	pauseCount=2889
-	pause95th=2
-	pause99th=5
-	pauseMax=36
-
-2021-05-22 17:37:27.771 UTC INFO [kvstore] rg1-rn1 (17:36:59.991 UTC -> 17:37:19.991 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64111":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64105":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:64119":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:37:27.771 UTC INFO [kvstore] rg1-rn1 (17:36:59.991 UTC -> 17:37:19.991 UTC)
-Requests
-	activeRequests=0
-	totalRequests=4
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:40:18.088 UTC INFO [kvstore] rg1-rn1 (17:39:55.947 UTC -> 17:40:00.001 UTC)
-I/O
-	bufferBytes=11 262 352
-	endOfLog=0x0/0x23ac6
-	fSync95Ms=3
-	fSync99Ms=3
-	fSyncAvgMs=1
-	fSyncMaxMs=3
-	nCacheMiss=112
-	nFSyncRequests=2
-	nFSyncs=2
-	nFileOpens=7
-	nGroupCommitRequests=3
+	nFileOpens=4
+	nGroupCommitRequests=24
 	nItemBufferTooSmall=1
 	nLogBuffers=16
-	nLogFSyncs=4
-	nMiscReadBytes=840 727
-	nMiscReads=148
-	nMiscWriteBytes=15 126
-	nMiscWrites=48
-	nNotResident=112
-	nOpenFiles=1
-	nRandomReadBytes=38
-	nRandomReads=1
-	nRepeatFaultReads=21
-	nSequentialReadBytes=10 515 191
-	nSequentialReads=149
-	nSequentialWriteBytes=15 126
-	nSequentialWrites=3
+	nLogFSyncs=9
+	nMiscReadBytes=114
+	nMiscReads=3
+	nMiscWriteBytes=21 881
+	nMiscWrites=103
+	nRandomWriteBytes=38
+	nRandomWrites=1
+	nSequentialReadBytes=114
+	nSequentialReads=3
+	nSequentialWriteBytes=22 330
+	nSequentialWrites=25
 Cache
 	adminBytes=589
-	cacheTotalBytes=11 381 350
+	cacheTotalBytes=11 307 782
 	cacheUtilization=6
-	dataBytes=116 720
+	dataBytes=43 152
 	lockBytes=1 680
-	lruMixedSize=18
-	nBINDeltasFetchMiss=3
-	nBINsFetch=429
-	nBINsFetchMiss=18
-	nBINsFetchMissRatio=0.08571429
-	nBinDeltaBlindOps=1
-	nCachedBINs=18
-	nCachedUpperINs=18
-	nEvictionRuns=340
-	nFullBINsMiss=3
-	nINCompactKey=2
-	nINNoTarget=14
-	nINSparseTarget=20
-	nLNsFetch=107
-	nLNsFetchMiss=69
+	lruMixedSize=7
+	nBINsFetch=91
+	nCachedBINs=7
+	nCachedUpperINs=7
+	nINNoTarget=4
+	nINSparseTarget=8
+	nLNsFetch=11
 Cleaning
-	activeLogSize=142 312
-	availableLogSize=1 073 599 512
-	maxPredictedUtilization=19
-	maxUtilization=19
-	minPredictedUtilization=19
-	minUtilization=19
-	nCleanerDisksReads=1
-	nCleanerEntriesRead=743
-	totalLogSize=142 312
+	activeLogSize=1 526
+	availableLogSize=1 073 740 298
+	maxPredictedUtilization=59
+	maxUtilization=59
+	minPredictedUtilization=59
+	minUtilization=59
+	totalLogSize=1 526
 Checkpoints
-	lastCheckpointEnd=0x0/0x22bb1
-	lastCheckpointId=9
-	lastCheckpointInterval=131 502
-	lastCheckpointStart=0x0/0x201ae
+	lastCheckpointEnd=0x0/0x5c4
+	lastCheckpointId=1
+	lastCheckpointInterval=798
+	lastCheckpointStart=0x0/0x31e
 	nCheckpoints=1
-	nDeltaINFlush=1
-	nFullBINFlush=12
-	nFullINFlush=25
+	nFullBINFlush=2
+	nFullINFlush=4
 Environment
-	environmentCreationTime=1 621 705 196 302
+	environmentCreationTime=1 621 855 703 558
 Locks
 	nOwners=15
 	nReadLocks=15
-	nRequests=121
+	nRequests=90
 	nTotalLocks=15
 Op
-	priPosition=8
-	priSearch=4
-	priSearchFail=6
+	priInsert=12
+	priSearchFail=18
 	priUpdate=1
 Eraser
 	eraserCycleEnd=
 	eraserCycleStart=
 
-2021-05-22 17:40:18.089 UTC INFO [kvstore] rg1-rn1 (17:39:55.947 UTC -> 17:40:00.001 UTC)
-BinaryProtocol
-	bytesReadPerSecond=0
-	bytesWrittenPerSecond=0
-	messagesReadPerSecond=0
-	messagesWrittenPerSecond=0
-
-2021-05-22 17:40:18.090 UTC INFO [kvstore] rg1-rn1 (17:39:55.947 UTC -> 17:40:00.001 UTC)
-Replication State: MASTER
-2021-05-22 17:40:18.090 UTC INFO [kvstore] rg1-rn1 (17:39:55.947 UTC -> 17:40:00.001 UTC)
-Memory
-	freeMemory=157917608
-	maxMemory=257425408
-	totalMemory=257425408
-	pauseCount=616
-	pause95th=6
-	pause99th=14
-	pauseMax=37
-GC PS Scavenge
-	count=4
-	time=36000000
-GC PS MarkSweep
-	count=2
-	time=55000000
-
-2021-05-22 17:40:18.277 UTC INFO [kvstore] rg1-rn1 (17:39:55.947 UTC -> 17:40:00.001 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":1.294630945382239,"dialogDropThroughput":0.0,"dialogFinishThroughput":1.2945565321833874,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":2,"min":4000000,"max":110000000,"avg":57000000,"95th":4000000,"99th":4000000},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":2,"min":2,"max":2,"avg":2,"95th":2,"99th":2},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.41436432038118864,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.4098512670244532,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":2,"min":2100000,"max":12000000,"avg":7050000,"95th":2100000,"99th":2100000},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":2,"min":2,"max":2,"avg":2,"95th":2,"99th":2},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]}}}
-2021-05-22 17:40:18.278 UTC INFO [kvstore] rg1-rn1 (17:39:55.947 UTC -> 17:40:00.001 UTC)
-Requests
-	activeRequests=0
-	totalRequests=1
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:40:38.029 UTC INFO [kvstore] rg1-rn1 (17:40:00.001 UTC -> 17:40:20.000 UTC)
-I/O
-	bufferBytes=11 262 352
-	endOfLog=0x0/0x23ae3
-	fSync95Ms=66
-	fSync99Ms=66
-	fSyncAvgMs=66
-	fSyncMaxMs=66
-	nFeederWriteBytes=37
-	nFeederWrites=1
-	nGroupCommitRequests=1
-	nLogBuffers=16
-	nLogFSyncs=1
-	nOpenFiles=1
-	nSequentialWriteBytes=37
-	nSequentialWrites=1
-Cache
-	adminBytes=589
-	cacheTotalBytes=11 381 350
-	cacheUtilization=6
-	dataBytes=116 720
-	lockBytes=1 680
-	lruMixedSize=18
-	nCachedBINs=18
-	nCachedUpperINs=18
-	nINCompactKey=2
-	nINNoTarget=14
-	nINSparseTarget=20
-Cleaning
-	activeLogSize=146 184
-	availableLogSize=1 073 595 640
-	maxPredictedUtilization=18
-	maxUtilization=18
-	minPredictedUtilization=18
-	minUtilization=18
-	totalLogSize=146 184
-Checkpoints
-	lastCheckpointEnd=0x0/0x22bb1
-	lastCheckpointId=9
-	lastCheckpointInterval=131 502
-	lastCheckpointStart=0x0/0x201ae
-Environment
-	environmentCreationTime=1 621 705 196 302
-Locks
-	nOwners=15
-	nReadLocks=15
-	nTotalLocks=15
-Op
-	priSearchFail=1
-Eraser
-	eraserCycleEnd=
-	eraserCycleStart=
-
-2021-05-22 17:40:38.030 UTC INFO [kvstore] rg1-rn1 (17:40:00.001 UTC -> 17:40:20.000 UTC)
+2021-05-24 11:28:44.529 UTC INFO [kvstore] rg1-rn1 (11:28:23.388 UTC -> 11:28:40.020 UTC)
 FeederTxns
-	lastCommitTimestamp=1 621 705 201 888
-	lastCommitVLSN=1 042
-	localTxnAvgNs=1 137 700
+	lastCommitTimestamp=1 621 855 708 644
+	lastCommitVLSN=50
+	localTxnAvgNs=7 369 380
+	vlsnRate=839
 BinaryProtocol
 	bytesReadPerSecond=0
 	bytesWrittenPerSecond=0
@@ -1145,27 +83,27 @@ BinaryProtocol
 VLSNIndex
 	nBucketsCreated=1
 
-2021-05-22 17:40:38.030 UTC INFO [kvstore] rg1-rn1 (17:40:00.001 UTC -> 17:40:20.000 UTC)
+2021-05-24 11:28:44.529 UTC INFO [kvstore] rg1-rn1 (11:28:23.388 UTC -> 11:28:40.020 UTC)
 Replication State: MASTER
-2021-05-22 17:40:38.030 UTC INFO [kvstore] rg1-rn1 (17:40:00.001 UTC -> 17:40:20.000 UTC)
+2021-05-24 11:28:44.529 UTC INFO [kvstore] rg1-rn1 (11:28:23.388 UTC -> 11:28:40.020 UTC)
 Memory
-	freeMemory=197753304
+	freeMemory=174711896
 	maxMemory=257425408
 	totalMemory=257425408
-	pauseCount=2384
-	pause95th=3
-	pause99th=8
-	pauseMax=130
+	pauseCount=2408
+	pause95th=6
+	pause99th=20
+	pauseMax=250
 GC PS Scavenge
-	count=1
-	time=6000000
-	95th=5
-	99th=5
-	max=5
+	count=3
+	time=30000000
+GC PS MarkSweep
+	count=2
+	time=56000000
 
-2021-05-22 17:40:38.032 UTC INFO [kvstore] rg1-rn1 (17:40:00.001 UTC -> 17:40:20.000 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:40:38.032 UTC INFO [kvstore] rg1-rn1 (17:40:00.001 UTC -> 17:40:20.000 UTC)
+2021-05-24 11:28:44.711 UTC INFO [kvstore] rg1-rn1 (11:28:23.388 UTC -> 11:28:40.020 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.12176118445578699,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.12176111773978636,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":2,"min":3200000,"max":19000000,"avg":11100000,"95th":3200000,"99th":3200000},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":2,"min":2,"max":2,"avg":2,"95th":2,"99th":2},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.08766819614647255,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.08764368212125546,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":2,"min":1800000,"max":6700000,"avg":4250000,"95th":1800000,"99th":1800000},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":2,"min":2,"max":2,"avg":2,"95th":2,"99th":2},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54179":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54160":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54171":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1024,"eventPerfRecords":[]}}}
+2021-05-24 11:28:44.713 UTC INFO [kvstore] rg1-rn1 (11:28:23.388 UTC -> 11:28:40.020 UTC)
 Requests
 	activeRequests=0
 	totalRequests=2
@@ -1174,303 +112,125 @@ Requests
 	asyncRequestQueueTimeAvgMicros=0
 	asyncRequestQueueTime95thMicros=0
 	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:40:58.032 UTC INFO [kvstore] rg1-rn1 (17:40:20.000 UTC -> 17:40:40.001 UTC)
+2021-05-24 11:29:04.499 UTC INFO [kvstore] rg1-rn1 (11:28:40.020 UTC -> 11:29:00.003 UTC)
 I/O
 	bufferBytes=11 262 352
-	endOfLog=0x0/0x24740
-	fSync95Ms=64
-	fSync99Ms=64
-	fSyncAvgMs=64
-	fSyncMaxMs=64
-	nFeederWriteBytes=37
-	nFeederWrites=1
-	nGroupCommitRequests=1
-	nLogBuffers=16
-	nLogFSyncs=1
-	nMiscWriteBytes=3 128
-	nMiscWrites=54
-	nOpenFiles=1
-	nSequentialWriteBytes=3 165
-	nSequentialWrites=2
-Cache
-	adminBytes=589
-	cacheTotalBytes=11 381 350
-	cacheUtilization=6
-	dataBytes=116 720
-	lockBytes=1 680
-	lruMixedSize=18
-	nBINsFetch=31
-	nCachedBINs=18
-	nCachedUpperINs=18
-	nINCompactKey=2
-	nINNoTarget=14
-	nINSparseTarget=20
-Cleaning
-	activeLogSize=146 184
-	availableLogSize=1 073 595 640
-	maxPredictedUtilization=18
-	maxUtilization=18
-	minPredictedUtilization=18
-	minUtilization=18
-	totalLogSize=146 184
-Checkpoints
-	lastCheckpointEnd=0x0/0x22bb1
-	lastCheckpointId=9
-	lastCheckpointInterval=131 502
-	lastCheckpointStart=0x0/0x201ae
-Environment
-	environmentCreationTime=1 621 705 196 302
-Locks
-	nOwners=15
-	nReadLocks=15
-	nRequests=81
-	nTotalLocks=15
-Op
-	priDelete=27
-	priSearch=27
-Eraser
-	eraserCycleEnd=
-	eraserCycleStart=
-
-2021-05-22 17:40:58.032 UTC INFO [kvstore] rg1-rn1 (17:40:20.000 UTC -> 17:40:40.001 UTC)
-FeederTxns
-	lastCommitTimestamp=1 621 705 228 980
-	lastCommitVLSN=1 097
-	localTxnAvgNs=603 425
-	vlsnRate=1 014
-BinaryProtocol
-	bytesReadPerSecond=0
-	bytesWrittenPerSecond=0
-	messagesReadPerSecond=0
-	messagesWrittenPerSecond=0
-
-2021-05-22 17:40:58.033 UTC INFO [kvstore] rg1-rn1 (17:40:20.000 UTC -> 17:40:40.001 UTC)
-Replication State: MASTER
-2021-05-22 17:40:58.033 UTC INFO [kvstore] rg1-rn1 (17:40:20.000 UTC -> 17:40:40.001 UTC)
-Memory
-	freeMemory=193846584
-	maxMemory=257425408
-	totalMemory=257425408
-	pauseCount=2597
-	pause95th=2
-	pause99th=2
-	pauseMax=11
-
-2021-05-22 17:40:58.034 UTC INFO [kvstore] rg1-rn1 (17:40:20.000 UTC -> 17:40:40.001 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:40:58.034 UTC INFO [kvstore] rg1-rn1 (17:40:20.000 UTC -> 17:40:40.001 UTC)
-Requests
-	activeRequests=0
-	totalRequests=31
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:41:18.024 UTC INFO [kvstore] rg1-rn1 (17:40:40.001 UTC -> 17:41:00.002 UTC)
-I/O
-	bufferBytes=11 262 352
-	endOfLog=0x0/0x25229
+	endOfLog=0x0/0x63da
 	fSync95Ms=5
 	fSync99Ms=5
 	fSyncAvgMs=5
 	fSyncMaxMs=5
-	nCacheMiss=10
+	nFeederWriteBytes=33
+	nFeederWrites=1
+	nGroupCommitRequests=1
 	nLogBuffers=16
 	nLogFSyncs=1
-	nMiscReadBytes=1 315
-	nMiscReads=10
-	nMiscWriteBytes=2 796
-	nMiscWrites=54
-	nNotResident=10
-	nOpenFiles=1
-	nSequentialReadBytes=1 315
-	nSequentialReads=10
+	nMiscWriteBytes=3 194
+	nMiscWrites=66
+	nSequentialWriteBytes=3 227
+	nSequentialWrites=2
 Cache
 	adminBytes=589
-	cacheTotalBytes=11 381 350
+	cacheTotalBytes=11 340 102
 	cacheUtilization=6
-	dataBytes=116 720
+	dataBytes=75 472
 	lockBytes=1 680
-	lruMixedSize=18
-	nBINsFetch=89
-	nCachedBINs=18
-	nCachedUpperINs=18
-	nINCompactKey=2
-	nINNoTarget=14
-	nINSparseTarget=20
-	nLNsFetch=10
-	nLNsFetchMiss=10
+	lruMixedSize=13
+	nBINsFetch=42
+	nCachedBINs=13
+	nCachedUpperINs=13
+	nINNoTarget=10
+	nINSparseTarget=14
 Cleaning
-	activeLogSize=149 349
-	availableLogSize=1 073 592 475
-	maxPredictedUtilization=18
-	maxUtilization=18
-	minPredictedUtilization=18
-	minUtilization=18
-	totalLogSize=149 349
+	activeLogSize=22 368
+	availableLogSize=1 073 719 456
+	maxPredictedUtilization=79
+	maxUtilization=79
+	minPredictedUtilization=79
+	minUtilization=79
+	totalLogSize=22 368
 Checkpoints
-	lastCheckpointEnd=0x0/0x22bb1
-	lastCheckpointId=9
-	lastCheckpointInterval=131 502
-	lastCheckpointStart=0x0/0x201ae
+	lastCheckpointEnd=0x0/0x5c4
+	lastCheckpointId=1
+	lastCheckpointInterval=798
+	lastCheckpointStart=0x0/0x31e
 Environment
-	environmentCreationTime=1 621 705 196 302
+	environmentCreationTime=1 621 855 703 558
 Locks
 	nOwners=15
 	nReadLocks=15
-	nRequests=37
+	nRequests=48
 	nTotalLocks=15
 Op
 	priInsert=27
-	priPosition=90
-	priSearch=40
-	priSearchFail=12
+	priSearch=21
+	priSearchFail=21
 Eraser
 	eraserCycleEnd=
 	eraserCycleStart=
 
-2021-05-22 17:41:18.029 UTC INFO [kvstore] rg1-rn1 (17:40:40.001 UTC -> 17:41:00.002 UTC)
-FeederManager
-	nTxnAuthNoWait=20
-	nTxnAuthSucceed=20
+2021-05-24 11:29:04.500 UTC INFO [kvstore] rg1-rn1 (11:28:40.020 UTC -> 11:29:00.003 UTC)
 FeederTxns
-	lastCommitTimestamp=1 621 705 259 845
-	lastCommitVLSN=1 151
-	localTxnAvgNs=435 351
+	lastCommitTimestamp=1 621 855 733 831
+	lastCommitVLSN=105
+	localTxnAvgNs=639 107
+	vlsnRate=831
 BinaryProtocol
 	bytesReadPerSecond=0
 	bytesWrittenPerSecond=0
 	messagesReadPerSecond=0
 	messagesWrittenPerSecond=0
 
-2021-05-22 17:41:18.029 UTC INFO [kvstore] rg1-rn1 (17:40:40.001 UTC -> 17:41:00.002 UTC)
+2021-05-24 11:29:04.500 UTC INFO [kvstore] rg1-rn1 (11:28:40.020 UTC -> 11:29:00.003 UTC)
 Replication State: MASTER
-2021-05-22 17:41:18.029 UTC INFO [kvstore] rg1-rn1 (17:40:40.001 UTC -> 17:41:00.002 UTC)
+2021-05-24 11:29:04.500 UTC INFO [kvstore] rg1-rn1 (11:28:40.020 UTC -> 11:29:00.003 UTC)
 Memory
-	freeMemory=182871376
+	freeMemory=212149448
 	maxMemory=257425408
 	totalMemory=257425408
-	pauseCount=2635
-	pause95th=2
-	pause99th=2
-	pauseMax=11
+	pauseCount=2870
+	pause95th=4
+	pause99th=7
+	pauseMax=89
+GC PS Scavenge
+	count=1
+	time=10000000
+	95th=12
+	99th=12
+	max=12
+GC PS MarkSweep
+	count=1
+	time=76000000
+	95th=76
+	99th=76
+	max=76
 
-2021-05-22 17:41:18.031 UTC INFO [kvstore] rg1-rn1 (17:40:40.001 UTC -> 17:41:00.002 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:41:18.031 UTC INFO [kvstore] rg1-rn1 (17:40:40.001 UTC -> 17:41:00.002 UTC)
+2021-05-24 11:29:04.503 UTC INFO [kvstore] rg1-rn1 (11:28:40.020 UTC -> 11:29:00.003 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54179":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54160":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54171":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-24 11:29:04.505 UTC INFO [kvstore] rg1-rn1 (11:28:40.020 UTC -> 11:29:00.003 UTC)
 Requests
 	activeRequests=0
-	totalRequests=53
+	totalRequests=72
 	avgAsyncQueuedRequests=0
 	maxAsyncQueuedRequests=0
 	asyncRequestQueueTimeAvgMicros=0
 	asyncRequestQueueTime95thMicros=0
 	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:41:38.030 UTC INFO [kvstore] rg1-rn1 (17:41:00.002 UTC -> 17:41:20.001 UTC)
-I/O
-	bufferBytes=11 262 352
-	endOfLog=0x0/0x25251
-	fSync95Ms=5
-	fSync99Ms=5
-	fSyncAvgMs=5
-	fSyncMaxMs=5
-	nFeederWriteBytes=37
-	nFeederWrites=1
-	nGroupCommitRequests=1
-	nLogBuffers=16
-	nLogFSyncs=1
-	nOpenFiles=1
-	nSequentialWriteBytes=2 833
-	nSequentialWrites=2
-Cache
-	adminBytes=589
-	cacheTotalBytes=11 381 350
-	cacheUtilization=6
-	dataBytes=116 720
-	lockBytes=1 680
-	lruMixedSize=18
-	nBINsFetch=12
-	nCachedBINs=18
-	nCachedUpperINs=18
-	nINCompactKey=2
-	nINNoTarget=14
-	nINSparseTarget=20
-Cleaning
-	activeLogSize=152 182
-	availableLogSize=1 073 589 642
-	maxPredictedUtilization=17
-	maxUtilization=17
-	minPredictedUtilization=17
-	minUtilization=17
-	totalLogSize=152 182
-Checkpoints
-	lastCheckpointEnd=0x0/0x22bb1
-	lastCheckpointId=9
-	lastCheckpointInterval=131 502
-	lastCheckpointStart=0x0/0x201ae
-Environment
-	environmentCreationTime=1 621 705 196 302
-Locks
-	nOwners=15
-	nReadLocks=15
-	nRequests=12
-	nTotalLocks=15
-Op
-	priSearch=12
-Eraser
-	eraserCycleEnd=
-	eraserCycleStart=
-
-2021-05-22 17:41:38.030 UTC INFO [kvstore] rg1-rn1 (17:41:00.002 UTC -> 17:41:20.001 UTC)
-FeederTxns
-	lastCommitTimestamp=1 621 705 263 000
-	lastCommitVLSN=1 152
-	localTxnAvgNs=390 500
-BinaryProtocol
-	bytesReadPerSecond=0
-	bytesWrittenPerSecond=0
-	messagesReadPerSecond=0
-	messagesWrittenPerSecond=0
-
-2021-05-22 17:41:38.030 UTC INFO [kvstore] rg1-rn1 (17:41:00.002 UTC -> 17:41:20.001 UTC)
+2021-05-24 11:29:24.459 UTC INFO [kvstore] rg1-rn1 (11:29:00.003 UTC -> 11:29:20.002 UTC)
 Replication State: MASTER
-2021-05-22 17:41:38.030 UTC INFO [kvstore] rg1-rn1 (17:41:00.002 UTC -> 17:41:20.001 UTC)
+2021-05-24 11:29:24.459 UTC INFO [kvstore] rg1-rn1 (11:29:00.003 UTC -> 11:29:20.002 UTC)
 Memory
-	freeMemory=179351744
+	freeMemory=207212880
 	maxMemory=257425408
 	totalMemory=257425408
-	pauseCount=2724
-	pause95th=2
-	pause99th=2
-	pauseMax=5
+	pauseCount=2928
+	pause95th=4
+	pause99th=13
+	pauseMax=86
 
-2021-05-22 17:41:38.031 UTC INFO [kvstore] rg1-rn1 (17:41:00.002 UTC -> 17:41:20.001 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:41:38.031 UTC INFO [kvstore] rg1-rn1 (17:41:00.002 UTC -> 17:41:20.001 UTC)
-Requests
-	activeRequests=0
-	totalRequests=14
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:41:57.999 UTC INFO [kvstore] rg1-rn1 (17:41:20.001 UTC -> 17:41:40.002 UTC)
-Replication State: MASTER
-2021-05-22 17:41:57.999 UTC INFO [kvstore] rg1-rn1 (17:41:20.001 UTC -> 17:41:40.002 UTC)
-Memory
-	freeMemory=176560048
-	maxMemory=257425408
-	totalMemory=257425408
-	pauseCount=2812
-	pause95th=2
-	pause99th=2
-	pauseMax=13
-
-2021-05-22 17:41:58.000 UTC INFO [kvstore] rg1-rn1 (17:41:20.001 UTC -> 17:41:40.002 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:41:58.000 UTC INFO [kvstore] rg1-rn1 (17:41:20.001 UTC -> 17:41:40.002 UTC)
+2021-05-24 11:29:24.461 UTC INFO [kvstore] rg1-rn1 (11:29:00.003 UTC -> 11:29:20.002 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54179":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54160":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54171":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-24 11:29:24.461 UTC INFO [kvstore] rg1-rn1 (11:29:00.003 UTC -> 11:29:20.002 UTC)
 Requests
 	activeRequests=0
 	totalRequests=4
@@ -1479,411 +239,124 @@ Requests
 	asyncRequestQueueTimeAvgMicros=0
 	asyncRequestQueueTime95thMicros=0
 	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:42:18.003 UTC INFO [kvstore] rg1-rn1 (17:41:40.002 UTC -> 17:42:00.001 UTC)
-Replication State: MASTER
-2021-05-22 17:42:18.004 UTC INFO [kvstore] rg1-rn1 (17:41:40.002 UTC -> 17:42:00.001 UTC)
-Memory
-	freeMemory=172946112
-	maxMemory=257425408
-	totalMemory=257425408
-	pauseCount=2834
-	pause95th=2
-	pause99th=2
-	pauseMax=16
-
-2021-05-22 17:42:18.004 UTC INFO [kvstore] rg1-rn1 (17:41:40.002 UTC -> 17:42:00.001 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:42:18.004 UTC INFO [kvstore] rg1-rn1 (17:41:40.002 UTC -> 17:42:00.001 UTC)
-Requests
-	activeRequests=0
-	totalRequests=14
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:42:38.011 UTC INFO [kvstore] rg1-rn1 (17:42:00.001 UTC -> 17:42:20.003 UTC)
+2021-05-24 11:29:44.568 UTC INFO [kvstore] rg1-rn1 (11:29:20.002 UTC -> 11:29:40.001 UTC)
 I/O
 	bufferBytes=11 262 352
-	endOfLog=0x0/0x252ea
-	fSync95Ms=6
-	fSync99Ms=6
-	fSyncAvgMs=6
-	fSyncMaxMs=6
-	nFeederWriteBytes=37
+	endOfLog=0x0/0x9f40
+	fSync95Ms=1
+	fSync99Ms=1
+	fSyncAvgMs=1
+	fSyncMaxMs=1
+	nFSyncRequests=1
+	nFSyncs=1
+	nFeederWriteBytes=35
 	nFeederWrites=1
-	nGroupCommitRequests=1
+	nGroupCommitRequests=2
 	nLogBuffers=16
 	nLogFSyncs=1
-	nMiscWriteBytes=116
-	nMiscWrites=2
-	nOpenFiles=1
-	nSequentialWriteBytes=153
-	nSequentialWrites=1
+	nMiscWriteBytes=15 173
+	nMiscWrites=250
+	nSequentialWriteBytes=15 208
+	nSequentialWrites=2
 Cache
 	adminBytes=589
-	cacheTotalBytes=11 381 350
+	cacheTotalBytes=11 366 270
 	cacheUtilization=6
-	dataBytes=116 720
+	dataBytes=101 640
 	lockBytes=1 680
-	lruMixedSize=18
-	nBINsFetch=14
-	nCachedBINs=18
-	nCachedUpperINs=18
-	nINCompactKey=2
+	lruMixedSize=17
+	nBINsFetch=183
+	nCachedBINs=17
+	nCachedUpperINs=17
 	nINNoTarget=14
-	nINSparseTarget=20
+	nINSparseTarget=18
+	nLNsFetch=5
 Cleaning
-	activeLogSize=152 335
-	availableLogSize=1 073 589 489
-	maxPredictedUtilization=17
-	maxUtilization=17
-	minPredictedUtilization=17
-	minUtilization=17
-	totalLogSize=152 335
+	activeLogSize=25 595
+	availableLogSize=1 073 716 229
+	maxPredictedUtilization=72
+	maxUtilization=72
+	minPredictedUtilization=72
+	minUtilization=72
+	totalLogSize=25 595
 Checkpoints
-	lastCheckpointEnd=0x0/0x22bb1
-	lastCheckpointId=9
-	lastCheckpointInterval=131 502
-	lastCheckpointStart=0x0/0x201ae
+	lastCheckpointEnd=0x0/0x5c4
+	lastCheckpointId=1
+	lastCheckpointInterval=798
+	lastCheckpointStart=0x0/0x31e
 Environment
-	environmentCreationTime=1 621 705 196 302
+	environmentCreationTime=1 621 855 703 558
 Locks
 	nOwners=15
 	nReadLocks=15
-	nRequests=15
+	nRequests=145
 	nTotalLocks=15
 Op
-	priInsertFail=1
-	priSearch=13
-	priUpdate=1
+	priInsert=110
+	priPosition=181
+	priSearch=26
+	priSearchFail=24
+	priUpdate=10
 Eraser
 	eraserCycleEnd=
 	eraserCycleStart=
 
-2021-05-22 17:42:38.012 UTC INFO [kvstore] rg1-rn1 (17:42:00.001 UTC -> 17:42:20.003 UTC)
+2021-05-24 11:29:44.569 UTC INFO [kvstore] rg1-rn1 (11:29:20.002 UTC -> 11:29:40.001 UTC)
 FeederManager
 	nTxnAuthNoWait=20
 	nTxnAuthSucceed=20
 FeederTxns
-	lastCommitTimestamp=1 621 705 326 044
-	lastCommitVLSN=1 155
-	localTxnAvgNs=978 150
-	vlsnRate=20
+	lastCommitTimestamp=1 621 855 767 892
+	lastCommitVLSN=348
+	localTxnAvgNs=362 586
+	vlsnRate=3 542
 BinaryProtocol
 	bytesReadPerSecond=0
 	bytesWrittenPerSecond=0
 	messagesReadPerSecond=0
 	messagesWrittenPerSecond=0
 
-2021-05-22 17:42:38.012 UTC INFO [kvstore] rg1-rn1 (17:42:00.001 UTC -> 17:42:20.003 UTC)
+2021-05-24 11:29:44.569 UTC INFO [kvstore] rg1-rn1 (11:29:20.002 UTC -> 11:29:40.001 UTC)
 Replication State: MASTER
-2021-05-22 17:42:38.013 UTC INFO [kvstore] rg1-rn1 (17:42:00.001 UTC -> 17:42:20.003 UTC)
+2021-05-24 11:29:44.570 UTC INFO [kvstore] rg1-rn1 (11:29:20.002 UTC -> 11:29:40.001 UTC)
 Memory
-	freeMemory=170262480
+	freeMemory=195843472
 	maxMemory=257425408
 	totalMemory=257425408
-	pauseCount=2825
+	pauseCount=2888
 	pause95th=2
-	pause99th=2
-	pauseMax=7
+	pause99th=6
+	pauseMax=23
 
-2021-05-22 17:42:38.014 UTC INFO [kvstore] rg1-rn1 (17:42:00.001 UTC -> 17:42:20.003 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:42:38.015 UTC INFO [kvstore] rg1-rn1 (17:42:00.001 UTC -> 17:42:20.003 UTC)
+2021-05-24 11:29:44.574 UTC INFO [kvstore] rg1-rn1 (11:29:20.002 UTC -> 11:29:40.001 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54179":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54160":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54171":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-24 11:29:44.575 UTC INFO [kvstore] rg1-rn1 (11:29:20.002 UTC -> 11:29:40.001 UTC)
 Requests
 	activeRequests=0
-	totalRequests=15
+	totalRequests=133
 	avgAsyncQueuedRequests=0
 	maxAsyncQueuedRequests=0
 	asyncRequestQueueTimeAvgMicros=0
 	asyncRequestQueueTime95thMicros=0
 	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:42:58.019 UTC INFO [kvstore] rg1-rn1 (17:42:20.003 UTC -> 17:42:40.001 UTC)
-I/O
-	bufferBytes=11 262 352
-	endOfLog=0x0/0x25f49
-	fSync95Ms=2
-	fSync99Ms=2
-	fSyncAvgMs=2
-	fSyncMaxMs=2
-	nFeederWriteBytes=37
-	nFeederWrites=1
-	nGroupCommitRequests=1
-	nLogBuffers=16
-	nLogFSyncs=1
-	nMiscWriteBytes=3 130
-	nMiscWrites=54
-	nOpenFiles=1
-	nSequentialWriteBytes=3 167
-	nSequentialWrites=2
-Cache
-	adminBytes=589
-	cacheTotalBytes=11 381 350
-	cacheUtilization=6
-	dataBytes=116 720
-	lockBytes=1 680
-	lruMixedSize=18
-	nBINsFetch=31
-	nCachedBINs=18
-	nCachedUpperINs=18
-	nINCompactKey=2
-	nINNoTarget=14
-	nINSparseTarget=20
-Cleaning
-	activeLogSize=152 335
-	availableLogSize=1 073 589 489
-	maxPredictedUtilization=17
-	maxUtilization=17
-	minPredictedUtilization=17
-	minUtilization=17
-	totalLogSize=152 335
-Checkpoints
-	lastCheckpointEnd=0x0/0x22bb1
-	lastCheckpointId=9
-	lastCheckpointInterval=131 502
-	lastCheckpointStart=0x0/0x201ae
-Environment
-	environmentCreationTime=1 621 705 196 302
-Locks
-	nOwners=15
-	nReadLocks=15
-	nRequests=81
-	nTotalLocks=15
-Op
-	priDelete=27
-	priSearch=27
-Eraser
-	eraserCycleEnd=
-	eraserCycleStart=
-
-2021-05-22 17:42:58.019 UTC INFO [kvstore] rg1-rn1 (17:42:20.003 UTC -> 17:42:40.001 UTC)
-FeederTxns
-	lastCommitTimestamp=1 621 705 357 063
-	lastCommitVLSN=1 210
-	localTxnAvgNs=420 589
-	vlsnRate=847
-BinaryProtocol
-	bytesReadPerSecond=0
-	bytesWrittenPerSecond=0
-	messagesReadPerSecond=0
-	messagesWrittenPerSecond=0
-
-2021-05-22 17:42:58.019 UTC INFO [kvstore] rg1-rn1 (17:42:20.003 UTC -> 17:42:40.001 UTC)
+2021-05-24 11:30:04.461 UTC INFO [kvstore] rg1-rn1 (11:29:40.001 UTC -> 11:30:00.002 UTC)
 Replication State: MASTER
-2021-05-22 17:42:58.019 UTC INFO [kvstore] rg1-rn1 (17:42:20.003 UTC -> 17:42:40.001 UTC)
+2021-05-24 11:30:04.461 UTC INFO [kvstore] rg1-rn1 (11:29:40.001 UTC -> 11:30:00.002 UTC)
 Memory
-	freeMemory=166974392
+	freeMemory=193061464
 	maxMemory=257425408
 	totalMemory=257425408
-	pauseCount=2832
+	pauseCount=2878
 	pause95th=2
-	pause99th=2
-	pauseMax=11
+	pause99th=8
+	pauseMax=94
 
-2021-05-22 17:42:58.020 UTC INFO [kvstore] rg1-rn1 (17:42:20.003 UTC -> 17:42:40.001 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:42:58.020 UTC INFO [kvstore] rg1-rn1 (17:42:20.003 UTC -> 17:42:40.001 UTC)
-Requests
-	activeRequests=0
-	totalRequests=31
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:43:18.016 UTC INFO [kvstore] rg1-rn1 (17:42:40.001 UTC -> 17:43:00.002 UTC)
-I/O
-	bufferBytes=11 262 352
-	endOfLog=0x0/0x26a5a
-	fSync95Ms=7
-	fSync99Ms=7
-	fSyncAvgMs=7
-	fSyncMaxMs=7
-	nCacheMiss=10
-	nFeederWriteBytes=37
-	nFeederWrites=1
-	nGroupCommitRequests=1
-	nLogBuffers=16
-	nLogFSyncs=1
-	nMiscReadBytes=1 315
-	nMiscReads=10
-	nMiscWriteBytes=2 796
-	nMiscWrites=54
-	nNotResident=10
-	nOpenFiles=1
-	nSequentialReadBytes=1 315
-	nSequentialReads=10
-	nSequentialWriteBytes=2 833
-	nSequentialWrites=2
-Cache
-	adminBytes=589
-	cacheTotalBytes=11 381 350
-	cacheUtilization=6
-	dataBytes=116 720
-	lockBytes=1 680
-	lruMixedSize=18
-	nBINsFetch=89
-	nCachedBINs=18
-	nCachedUpperINs=18
-	nINCompactKey=2
-	nINNoTarget=14
-	nINSparseTarget=20
-	nLNsFetch=10
-	nLNsFetchMiss=10
-Cleaning
-	activeLogSize=152 335
-	availableLogSize=1 073 589 489
-	maxPredictedUtilization=17
-	maxUtilization=17
-	minPredictedUtilization=17
-	minUtilization=17
-	totalLogSize=152 335
-Checkpoints
-	lastCheckpointEnd=0x0/0x22bb1
-	lastCheckpointId=9
-	lastCheckpointInterval=131 502
-	lastCheckpointStart=0x0/0x201ae
-Environment
-	environmentCreationTime=1 621 705 196 302
-Locks
-	nOwners=15
-	nReadLocks=15
-	nRequests=37
-	nTotalLocks=15
-Op
-	priInsert=27
-	priPosition=90
-	priSearch=40
-	priSearchFail=12
-Eraser
-	eraserCycleEnd=
-	eraserCycleStart=
-
-2021-05-22 17:43:18.016 UTC INFO [kvstore] rg1-rn1 (17:42:40.001 UTC -> 17:43:00.002 UTC)
-FeederManager
-	nTxnAuthNoWait=20
-	nTxnAuthSucceed=20
-FeederTxns
-	lastCommitTimestamp=1 621 705 377 074
-	lastCommitVLSN=1 265
-	localTxnAvgNs=463 425
-BinaryProtocol
-	bytesReadPerSecond=0
-	bytesWrittenPerSecond=0
-	messagesReadPerSecond=0
-	messagesWrittenPerSecond=0
-
-2021-05-22 17:43:18.016 UTC INFO [kvstore] rg1-rn1 (17:42:40.001 UTC -> 17:43:00.002 UTC)
-Replication State: MASTER
-2021-05-22 17:43:18.016 UTC INFO [kvstore] rg1-rn1 (17:42:40.001 UTC -> 17:43:00.002 UTC)
-Memory
-	freeMemory=161681968
-	maxMemory=257425408
-	totalMemory=257425408
-	pauseCount=2820
-	pause95th=2
-	pause99th=2
-	pauseMax=8
-
-2021-05-22 17:43:18.017 UTC INFO [kvstore] rg1-rn1 (17:42:40.001 UTC -> 17:43:00.002 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:43:18.017 UTC INFO [kvstore] rg1-rn1 (17:42:40.001 UTC -> 17:43:00.002 UTC)
-Requests
-	activeRequests=0
-	totalRequests=51
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:43:38.008 UTC INFO [kvstore] rg1-rn1 (17:43:00.002 UTC -> 17:43:20.000 UTC)
-Replication State: MASTER
-2021-05-22 17:43:38.008 UTC INFO [kvstore] rg1-rn1 (17:43:00.002 UTC -> 17:43:20.000 UTC)
-Memory
-	freeMemory=158649888
-	maxMemory=257425408
-	totalMemory=257425408
-	pauseCount=2777
-	pause95th=2
-	pause99th=2
-	pauseMax=7
-
-2021-05-22 17:43:38.009 UTC INFO [kvstore] rg1-rn1 (17:43:00.002 UTC -> 17:43:20.000 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:43:38.009 UTC INFO [kvstore] rg1-rn1 (17:43:00.002 UTC -> 17:43:20.000 UTC)
-Requests
-	activeRequests=0
-	totalRequests=9
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:43:58.021 UTC INFO [kvstore] rg1-rn1 (17:43:20.000 UTC -> 17:43:40.001 UTC)
-Replication State: MASTER
-2021-05-22 17:43:58.021 UTC INFO [kvstore] rg1-rn1 (17:43:20.000 UTC -> 17:43:40.001 UTC)
-Memory
-	freeMemory=156784328
-	maxMemory=257425408
-	totalMemory=257425408
-	pauseCount=2718
-	pause95th=2
-	pause99th=2
-	pauseMax=4
-
-2021-05-22 17:43:58.022 UTC INFO [kvstore] rg1-rn1 (17:43:20.000 UTC -> 17:43:40.001 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:43:58.022 UTC INFO [kvstore] rg1-rn1 (17:43:20.000 UTC -> 17:43:40.001 UTC)
+2021-05-24 11:30:04.463 UTC INFO [kvstore] rg1-rn1 (11:29:40.001 UTC -> 11:30:00.002 UTC)
+{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54179":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54160":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:54171":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
+2021-05-24 11:30:04.463 UTC INFO [kvstore] rg1-rn1 (11:29:40.001 UTC -> 11:30:00.002 UTC)
 Requests
 	activeRequests=0
 	totalRequests=4
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:44:17.997 UTC INFO [kvstore] rg1-rn1 (17:43:40.001 UTC -> 17:44:00.002 UTC)
-Replication State: MASTER
-2021-05-22 17:44:17.997 UTC INFO [kvstore] rg1-rn1 (17:43:40.001 UTC -> 17:44:00.002 UTC)
-Memory
-	freeMemory=152779128
-	maxMemory=257425408
-	totalMemory=257425408
-	pauseCount=2898
-	pause95th=2
-	pause99th=2
-	pauseMax=8
-
-2021-05-22 17:44:17.998 UTC INFO [kvstore] rg1-rn1 (17:43:40.001 UTC -> 17:44:00.002 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:44:17.998 UTC INFO [kvstore] rg1-rn1 (17:43:40.001 UTC -> 17:44:00.002 UTC)
-Requests
-	activeRequests=0
-	totalRequests=26
-	avgAsyncQueuedRequests=0
-	maxAsyncQueuedRequests=0
-	asyncRequestQueueTimeAvgMicros=0
-	asyncRequestQueueTime95thMicros=0
-	asyncRequestQueueTime99thMicros=0
-2021-05-22 17:44:37.998 UTC INFO [kvstore] rg1-rn1 (17:44:00.002 UTC -> 17:44:20.001 UTC)
-Replication State: MASTER
-2021-05-22 17:44:37.998 UTC INFO [kvstore] rg1-rn1 (17:44:00.002 UTC -> 17:44:20.001 UTC)
-Memory
-	freeMemory=150962376
-	maxMemory=257425408
-	totalMemory=257425408
-	pauseCount=2796
-	pause95th=2
-	pause99th=2
-	pauseMax=3
-
-2021-05-22 17:44:37.998 UTC INFO [kvstore] rg1-rn1 (17:44:00.002 UTC -> 17:44:20.001 UTC)
-{"creatorEndpointMetrics":{"getRegistry:DESKTOP-P7OHHRP(DESKTOP-P7OHHRP:5000)":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}},"responderEndpointMetrics":{"0:0:0:0:0:0:0:0:5000":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52928":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52936":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]},"0:0:0:0:0:0:0:0:52922":{"dialogStartThroughput":0.0,"dialogDropThroughput":0.0,"dialogFinishThroughput":0.0,"dialogAbortThroughput":0.0,"finishedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"abortedDialogLatencyNanos":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"dialogConcurrency":{"count":0,"min":0,"max":0,"avg":0,"95th":0,"99th":0},"eventLatencyNanos":[],"eventRecordSampleRate":1,"eventPerfRecords":[]}}}
-2021-05-22 17:44:37.998 UTC INFO [kvstore] rg1-rn1 (17:44:00.002 UTC -> 17:44:20.001 UTC)
-Requests
-	activeRequests=0
-	totalRequests=3
 	avgAsyncQueuedRequests=0
 	maxAsyncQueuedRequests=0
 	asyncRequestQueueTimeAvgMicros=0

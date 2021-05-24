@@ -50,7 +50,7 @@
     <property name="userExternalAuth" value="NONE" type="AUTHMETHODS"/>
   </component>
   <component name="mountPoints" type="bootstrapParams" validate="false">
-    <property name="C:\Users\Karol Skorek\Desktop\studia\psr\cz2\psr.pracadomowa1\.\kvroot\kvstore\sn1" value="1 GB" type="SIZE"/>
+    <property name="C:\Users\Karol Skorek\Desktop\studia\psr\cz2\lab1\psr.pracadomowa1\.\kvroot\kvstore\sn1" value="1 GB" type="SIZE"/>
   </component>
   <component name="rg1-rn1" type="repNodeParams" validate="true">
     <property name="activeThreshold" value="2147483647" type="INT"/>
@@ -97,7 +97,7 @@
     <property name="rnMonitorSOBacklog" value="1024" type="INT"/>
     <property name="rnMonitorSOConnectTimeout" value="10 SECONDS" type="DURATION"/>
     <property name="rnMonitorSOReadTimeout" value="10 SECONDS" type="DURATION"/>
-    <property name="rnMountPoint" value="C:\Users\Karol Skorek\Desktop\studia\psr\cz2\psr.pracadomowa1\.\kvroot\kvstore\sn1" type="STRING"/>
+    <property name="rnMountPoint" value="C:\Users\Karol Skorek\Desktop\studia\psr\cz2\lab1\psr.pracadomowa1\.\kvroot\kvstore\sn1" type="STRING"/>
     <property name="rnMountPointSize" value="1073741824" type="SIZE"/>
     <property name="rnNRConfigRetainLogFiles" value="false" type="BOOLEAN"/>
     <property name="rnNodeLimitPercent" value="85" type="INT"/>

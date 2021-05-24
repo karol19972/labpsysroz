@@ -3,7 +3,7 @@
   <component name="adminMountPoints" type="bootstrapParams" validate="false">
   </component>
   <component name="mountPoints" type="bootstrapParams" validate="false">
-    <property name="C:\Users\Karol Skorek\Desktop\studia\psr\cz2\psr.pracadomowa1\.\kvroot\kvstore\sn1" value="1 GB" type="SIZE"/>
+    <property name="C:\Users\Karol Skorek\Desktop\studia\psr\cz2\lab1\psr.pracadomowa1\.\kvroot\kvstore\sn1" value="1 GB" type="SIZE"/>
   </component>
   <component name="params" type="bootstrapParams" validate="true">
     <property name="adminWebPort" value="-1" type="INT"/>
