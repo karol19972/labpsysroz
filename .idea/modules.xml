@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/lab3p.iml" filepath="$PROJECT_DIR$/.idea/lab3p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/psr.pracadomowa1/psr.pracadomowa1.iml" filepath="$PROJECT_DIR$/psr.pracadomowa1/psr.pracadomowa1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/psr_lab1_cz2/psr_lab1_cz2.iml" filepath="$PROJECT_DIR$/psr_lab1_cz2/psr_lab1_cz2.iml" />
+    </modules>
+  </component>
+</project>
